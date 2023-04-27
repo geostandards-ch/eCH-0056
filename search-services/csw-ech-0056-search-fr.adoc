@@ -1,0 +1,20 @@
+=== Service de recherche basé sur Catalogue Service (CSW)
+
+[NOTE]
+====
+Consulter la référence suivante:
+https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-discovery-services-0
+====
+
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples
+
+[NOTE]
+====
+Modifier le titre
+====

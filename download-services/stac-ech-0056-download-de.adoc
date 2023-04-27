@@ -1,0 +1,8 @@
+=== Downloaddienst auf Basis STAC und STAC-API Spezifikation
+==== Einleitung
+==== Umfang
+==== Konformität
+==== Grundlegende Prinzipien
+==== Ressourcen 
+==== Empfehlungen 
+==== Beispiele

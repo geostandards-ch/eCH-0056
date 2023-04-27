@@ -1,0 +1,8 @@
+=== Positionierungsdienst
+==== Einleitung
+==== Umfang
+==== Konformität
+==== Grundlegende Prinzipien
+==== Ressourcen 
+==== Anforderungsklassen 
+==== Beispiel

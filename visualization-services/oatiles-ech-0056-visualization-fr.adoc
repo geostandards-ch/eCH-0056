@@ -1,0 +1,13 @@
+=== Service de visualisation basé sur OGC API Tiles
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples
+
+[NOTE]
+====
+Eventuellement remplacer le titre par service de représentation.
+====

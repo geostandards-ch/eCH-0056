@@ -1,7 +1,0 @@
-=== Transformationsdienst
-==== Einleitung
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel

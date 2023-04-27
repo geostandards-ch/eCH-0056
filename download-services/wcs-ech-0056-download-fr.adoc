@@ -1,0 +1,16 @@
+=== Service de téléchargement sur la base du Web Coverage Service (WCS) 
+
+[NOTE]
+====
+Consulter la ressrouce suivante:
+https://inspire.ec.europa.eu/id/document/tg/download-wcs
+====
+
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples
+

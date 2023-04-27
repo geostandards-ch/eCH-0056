@@ -1,0 +1,9 @@
+=== Downloaddienst auf Basis Web Coverage Service (WCS)
+==== Einleitung
+==== Umfang
+==== Konformität
+==== Grundlegende Prinzipien
+==== Ressourcen 
+==== Empfehlungen 
+==== Beispiele
+

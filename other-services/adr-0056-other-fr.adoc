@@ -1,0 +1,14 @@
+=== Service de recherche basé sur OGC API Features
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples
+
+[NOTE]
+====
+Peut-être également considérer WFS
+====
+

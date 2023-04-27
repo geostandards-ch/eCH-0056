@@ -1,0 +1,36 @@
+[.appendix nonumber]
+
+== Annexe A – Références bibliographiques
+
+[width="100%",cols="7%,93%"]
+|===
+|[1a]| Assemblée fédérale de la Confédération suisse, 2007 +
+Loi fédérale du 5 octobre 2007 sur la géoinformation (loi sur la géoinformation, LGéo) +
+https://www.fedlex.admin.ch/eli/cc/2008/388/fr[https://www.fedlex.admin.ch/eli/cc/2008/388/fr]
+|[2a]| Office fédéral de topographie (swisstopo), 2008 +
+Ordonnance du 26 mai 2008 de l'Office fédéral de topographie sur la géoinformation (OGéo-swisstopo), +
+https://www.fedlex.admin.ch/eli/cc/2008/390/fr[https://www.fedlex.admin.ch/eli/cc/2008/390/fr]
+|[3a]| CGC - BPUK, 2020 +
+Strategie Geoinformation Schweiz und Aktionsplan +
+https://www.geo.admin.ch/fr/strategie-et-mise-en-oeuvre[https://www.geo.admin.ch/fr/strategie-et-mise-en-oeuvre/]
+|[4a]| Conseil fédéral suisse, 2008 +
+Ordonnance du 21 mai 2008 sur la géoinformation (OGéo),
+https://www.fedlex.admin.ch/eli/cc/2008/389/fr[https://www.fedlex.admin.ch/eli/cc/2008/389/fr]
+|[5a]| eCH, 2012 +
+eCH-0150 Change und Release Management von eCH-Standards V1.0 +
+https://www.ech.ch/fr/ech/ech-0150/1.0[https://www.ech.ch/fr/ech/ech-0150/1.0]
+|[6a]| Internet Engineering Task Force (IETF) - Network Working Group, 1997. +
+RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels +
+http://www.ietf.org/rfc/rfc2119.txt[http://www.ietf.org/rfc/rfc2119.txt]
+|[7a]| IOGP Geomatics Committee - Geodesy Subcommittee +
+EPSG Geodetic Parameter Dataset +
+https://epsg.org[https://epsg.org]
+|[8a]| Comission européenne, 2010 +
+RÈGLEMENT (UE) No 1088/2010 DE LA COMMISSION du 23 novembre 2010 modifiant le règlement (CE) no 976/2009 en ce qui concerne les services de téléchargement et les services de transformation +
+https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32010R1088&from=EN[https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32010R1088&from=EN]
+|===
+
+[NOTE]
+====
+Ces références pourraient être gérées différemment (bibliographie latex)
+====

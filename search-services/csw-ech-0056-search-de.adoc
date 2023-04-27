@@ -1,0 +1,8 @@
+=== Suchdienst auf Basis von Catalogue Service (CSW)
+==== Einleitung
+==== Umfang
+==== Konformität
+==== Grundlegende Prinzipien
+==== Ressourcen 
+==== Anforderungsklassen 
+==== Beispiel

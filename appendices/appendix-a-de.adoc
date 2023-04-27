@@ -1,0 +1,37 @@
+[.appendix nonumber]
+
+== Anhang A – Referenzen und Bibliographie
+
+[width="100%",cols="7%,93%"]
+|===
+|[1a]| Bundesversammlung der Schweizerischen Eidgenossenschaft, 2007 +
+Bundesgesetz vom 5. Oktober 2007 über Geoinformation (GeoIG) +
+https://www.fedlex.admin.ch/eli/cc/2008/388/de[https://www.fedlex.admin.ch/eli/cc/2008/388/de]
+|[2a]|Bundesamt für Landestopografie - swisstopo, 2008 +
+Verordnung vom 26. Mai 2008 des Bundesamtes für Landestopografie über Geoinformation (GeoIV-swisstopo) +
+https://www.fedlex.admin.ch/eli/cc/2008/390/de[https://www.fedlex.admin.ch/eli/cc/2008/390/de]
+|[3a]| GKG - BPUK, 2020 +
+Strategie Geoinformation Schweiz und Aktionsplan +
+https://www.geo.admin.ch/de/ueber-geo-admin/leistungsauftrag/strategie-und-umsetzung.html[https://www.geo.admin.ch/de/ueber-geo-admin/leistungsauftrag/strategie-und-umsetzung.html]
+|[4a]| Schweizerischer Bundesrat, 2008 +
+Verordnung vom 21. Mai 2008 über Geoinformation (GeoIV) +
+https://www.fedlex.admin.ch/eli/cc/2008/389/de[https://www.fedlex.admin.ch/eli/cc/2008/389/de]
+|[5a]| eCH, 2012 +
+eCH-0150 Change und Release Management von eCH-Standards V1.0 +
+https://www.ech.ch/de/ech/ech-0150/1.0[https://www.ech.ch/de/ech/ech-0150/1.0]
+|[6a]| Internet Engineering Task Force (IETF) - Network Working Group, 1997. +
+RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels +
+http://www.ietf.org/rfc/rfc2119.txt[http://www.ietf.org/rfc/rfc2119.txt]
+|[7a]| IOGP Geomatics Committee - Geodesy Subcommittee +
+EPSG Geodetic Parameter Dataset +
+https://epsg.org[https://epsg.org]
+|[8a]| Europäische Kommission, 2010 +
+VERORDNUNG (EU) Nr. 1088/2010 DER KOMMISSION vom 23. November 2010 zur Änderung der Verordnung (EG) Nr. 976 2009 hinsichtlich Downloaddiensten und Transformationsdiensten +
+https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32010R1088&from=EN[https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32010R1088&from=EN]
+|===
+
+[NOTE]
+====
+Diese Verweise könnten anders gehandhabt werden (Latex-Bibliografie)
+====
+

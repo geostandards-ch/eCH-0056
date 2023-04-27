@@ -1,0 +1,15 @@
+=== Service de téléchargement basé sur les spécifications STAC et STAC-API
+
+[NOTE]
+====
+Consulter la référence suivante
+https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-download-services
+====
+
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples

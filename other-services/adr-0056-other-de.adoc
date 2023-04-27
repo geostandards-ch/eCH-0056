@@ -1,0 +1,14 @@
+=== Adressdienst auf Basis von OGC API Features
+==== Einleitung
+==== Umfang
+==== Konformität
+==== Grundlegende Prinzipien
+==== Ressourcen 
+==== Anforderungsklassen 
+==== Beispiel
+
+[NOTE]
+====
+Vielleicht auch WFS in Betracht ziehen
+====
+

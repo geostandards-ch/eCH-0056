@@ -1,0 +1,13 @@
+=== Service de visualisation basé sur Web Map Service (WMS)
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples
+
+[NOTE]
+====
+Eventuellement remplacer le titre par service de représentation.
+====

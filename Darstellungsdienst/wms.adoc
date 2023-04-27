@@ -1,7 +1,0 @@
-=== Web Map Service (WMS)
-==== Einleitung
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel

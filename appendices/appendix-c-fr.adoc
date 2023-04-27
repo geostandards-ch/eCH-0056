@@ -1,0 +1,83 @@
+[.appendix nonumber]
+[.text-justify]
+
+== Annexe C – Abréviations et glossaire
+
+Seules sont répertoriées ici des notions qui sont utilisées dans le texte ou dans le cadre de la définition d’autres notions et nécessitent une explication. Un glossaire en ligne exhaustif comprenant les abréviations relatives à XML et à Internet est disponible sous http://dret.net/glossary/. Un glossaire portant sur l’orientation objet et les géodonnées est disponible sous https://www.interlis.ch[https://www.interlis.ch] -> INTERLIS 2 -> Glossaire.
+
+[width="100%",cols="15%,85%"]
+|===
+| ASCII                 | American Standard Code for Information Interchange
+| CH1903                | Système de référence de l'ancienne mensuration nationale 1903
+| CH1903+               | Système de référence de la nouvelle mensuration nationale 1995
+| CRS                   | Coordinate Reference System
+| CSW                   | Catalogue Services for the Web
+| EPSG                  | European Petroleum Survey Group
+| ETRS89                | Système de référence terrestre européen de 1989
+| EVRS                  | European Vertical Reference System
+| GeoRSS                | Geographically Encoded Objects for RSS feeds
+| GeoTIFF               | Geo Tagged Image File Format
+| GML                   | Geography Markup Language
+| GNSS                  | Global Navigation Satellite Systems
+| HTML                  | Hypertext Markup Language
+| HTTP                  | Hypertext Transfer Protocol
+| HTTPS                 | Hypertext Transfer Protocol Secure
+| IETF                  | Internet Engineering Task Force
+| IGS                   | International GNSS Service
+| INDG                  | Infrastructure nationale de donnéees géoographiques
+| INSPIRE               | Infrastructure for Spatial Information in the European Community
+| INTERLIS-GML          | Format de transfer GML pour INTERLIS 2
+| INTERLIS-XTF          | INTERLIS 2 format de transfer
+| ISO                   | International Organization for Standardization
+| ISO/TC211             | ISO, comité technique 211
+| JPEG                  | Joint Photographic Experts Group
+| KVP                   | Key-Value-Pair, paire clé/valeur.
+| LAEA                  | Lambert Azimuthal Equal Area
+| LCC                   | Lambert Conformal Conic
+| LGéo                  | Loi sur la géoinformation
+| MGDM                  | Modèles de géoodonnéees minimaux
+| MIME                  | Multipurpose Internet Mail Extensions
+| MN03                  | Mensuration nationale 1903 («ancienne mensuration nationale»)
+| MN95                  | Mensuration nationale 1995 («nouvelle mensuration nationale»)
+| NF02                  | Nivellement fédéral 1902
+| NTRIP                 | Standard for Networked Transport of RTCM via Internet Protocol
+| NTv2                  | National Transformation Version 2
+| OASIS                 | Organization for the Advancement of Structured Information Stand- ards
+| OGC                   | Open Geospatial Consortium (anciennement Open GIS Consortium OpenGIS)
+| OGéo                  | Ordonnance sur la géoinformation
+| OGP                   | International Association of Oil & Gas Producers (anciennement European Petroleum Survey Group EPSG)
+| OWS                   | OGC Web Service (anciennement OpenGIS Web Service)
+| PDF                   | Portable Document Format
+| PHP                   | PHP: Hypertext Preprocessor
+| PNG                   | Portable Network Graphics
+| RAN95                 | Réseau altimétrique national 1995
+| REST                  | Representational State Transfer
+| RFC                   | Request for Comments
+| RINEX                 | Receiver Independent Exchange Format
+| RSS                   | Really Simple Syndication
+| RTCM                  | Radio Technical Commission for Maritime Services
+| SAGA.ch               | Normes et architectures pour les applications de cyberadministration en
+Suisse
+| SE                    | Symbology Encoding
+| SLD                   | Styled Layer Descriptor
+| SNV                   | Association suisse de normalisation
+| SOA                   | Architecture orientée services
+| SOAP                  | Simple Object Access Protocol
+| SWE                   | Sensor Web Enablement
+| Swiss Government PKI  | Infrastructure à clé publique de l'Office fédéral de l'informatique et de la télécommunication OFIT
+| swisstopo             | Office fédéral de topographie swisstopo
+| UCS                   | Universal Character Set
+| URI                   | Uniform Resource Identifier
+| URL                   | Uniform Resource Locator
+| UTF-8                 | 8-Bit UCS Transformation Format
+| UTM                   | Universal Transverse Mercator
+| VRS                   | Virtual Reference Station
+| WCS                   | Web Coverage Service
+| WFS                   | Web Feature Service
+| WGS84                 | World Geodetic System 1984
+| WMS                   | Web Map Service
+| WMTS                  | Web Map Tile Service
+| WWW                   | World Wide Web
+| XHTML                 | Extensible HyperText Markup Language
+| XML                   | Extensible Markup Language
+|===

@@ -1,0 +1,8 @@
+=== Service de téléchargement sur la base de OGC SensorThings API
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples

@@ -1,7 +1,0 @@
-=== OGC API Tiles
-==== Einleitung
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel

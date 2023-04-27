@@ -1,0 +1,15 @@
+=== Service de transformation basé sur Web Processing Service (WPS)
+
+[NOTE]
+====
+Consulter la référence suivante:
+https://inspire.ec.europa.eu/documents/technical-guidance-inspire-schema-transformation-network-service
+====
+
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples

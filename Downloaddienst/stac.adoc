@@ -1,1 +1,0 @@
-=== Downloaddienst auf Basis STAC und STAC-API Spezifikation

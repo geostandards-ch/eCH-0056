@@ -1,0 +1,8 @@
+[.appendix nonumber]
+
+== Anhang B – Mitarbeit und Überprüfung
+
+[NOTE]
+====
+Später auszufüllen.
+====

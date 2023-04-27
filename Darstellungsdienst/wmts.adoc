@@ -1,7 +1,0 @@
-=== Web Map Tile Service (WMTS)
-==== Einleitung
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel

@@ -1,0 +1,15 @@
+=== Service de téléchargement sur la base du Web Feature Service
+
+[NOTE]
+====
+Consulter la référence suivante:
+https://inspire.ec.europa.eu/id/document/tg/download-sos
+====
+
+==== Introduction
+==== Portée
+==== Conformité
+==== Principes de base
+==== Ressources 
+==== Recommandations 
+==== Exemples

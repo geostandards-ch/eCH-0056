@@ -1,0 +1,8 @@
+[.appendix nonumber]
+
+== Annexe B – Collaboration et vérification
+
+[NOTE]
+====
+A compléter plus tard.
+====
