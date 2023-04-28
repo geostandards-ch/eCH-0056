@@ -289,10 +289,11 @@ Ces références pourraient être gérées différemment (bibliographie latex) e
 * Métadonnées
 * << Classe d'exigences "eCH-CRS", eCH-CRS>>
 * Qualité
+* Collection & Collections: questions de nomenclature ex ch.strata etc à mettre en relation avec https://docs.ogc.org/DRAFTS/20-024.html#rc-collections-section[OGC API - Common - Part 2: Geospatial Data]
 
 [NOTE]
 ====
-Eventuellement créer un document séparer sur la base de OWS & OGC API Common
+Eventuellement créer un document séparé sur la base de OWS & OGC API Common
 ====
 
 ==== Classes d'exigences 

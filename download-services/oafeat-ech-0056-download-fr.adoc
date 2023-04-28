@@ -78,7 +78,7 @@ A voir si nécessaire.
 |===
 |Classe d'exigences
 |https://ech.ch/fr/id/spec/eCH-oafeat-download/1.0/req/bulk-download
-|Typ d'objectif |Web API
+|Type d'objectif |Web API
 |===
 
 Cette classe d'exigences met en oeuvre la recommandation de https://www.w3.org/TR/dwbp/#BulkAccess[DWBP] visant à fournir un lien de https://www.w3.org/TR/dwbp/#BulkAccess[téléchargement] de l'intégralité du jeu de donnéees. Elle permet donc de fournir des jeux de données qui répondent à la définition de https://opendefinition.org/od/2.1[l'Open Data].
@@ -99,17 +99,39 @@ Cette classe d'exigences met en oeuvre la recommandation de https://www.w3.org/T
 2. Si le jeu de données correspond à un modèle minimal, la réponse de l'opération `/collections/{collectionId}` comprend au moins un lien `rel` avec le paramètre `type: text/html` permettant d'obtenir le modèle `*.ili` associé ou les données au format `*.xtf`.
 |===
 
-==== Classe d'exigences "eCH-OAFeat-CRS"
+==== Classe d'exigences "eCH-OA-CRS"
 
 [width="100%",cols="50%,50%",options="header",]
 |===
 |Classe d'exigences
-|https://ech.ch/fr/id/spec/eCH-oafeat-download/1.0/req/CRS
-|Typ d'objectif |Web API
+|https://ech.ch/fr/id/spec/eCH-0056-OA/1.0/req/CRS
+|Type d'objectif |Web API
 |Dépendances
 |https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[OGC API - Features - Part 2: Coordinate Reference Systems by Reference] + 
 https://ech.ch/fr/id/spec/OAComm/1.0/req/CRS 
 |===
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Exigence* |*/rec/eCH-crs/default-crs*
+|A | Chaque collection d'éléments de l'API DOIT supporter le système de référence suisse CH1903+ ("EPSG:2056", cadre de référence MN95).
+|===
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Recommendation* |*/rec/eCH-crs/recognised-crs*
+|A | Pour chaque collection d'éléments de l'API, au moins un des systèmes de coordonnées de référence (CRS) énumérés ci-dessous DEVRAIT être inclus dans la liste des systèmes de référence de coordonnées pris en charge.
+|===
+
+===== Liste des CRS supportés:
+
+* http://www.opengis.net/def/crs/EPSG/0/2056
+* http://www.opengis.net/def/crs/EPSG/0/4326
+* http://www.opengis.net/def/crs/EPSG/0/3857
+* http://www.opengis.net/def/crs/EPSG/0/4258
+* http://www.opengis.net/def/crs/EPSG/0/3035
+* http://www.opengis.net/def/crs/EPSG/0/3034
+* http://www.opengis.net/def/crs/EPSG/0/3044
 
 ==== Exemples
 
