@@ -2,8 +2,10 @@
 
 [NOTE]
 ====
-Consulter la référence suivante
-https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-download-services
+Consulter les références suivantes:
+
+* https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-download-services
+* https://stacspec.org/en/tutorials/intro-to-stac
 ====
 
 ==== Introduction

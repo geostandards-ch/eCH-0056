@@ -6,3 +6,8 @@
 ==== Ressources 
 ==== Recommandations 
 ==== Exemples
+
+[NOTE]
+====
+A compléter par la HEIG-VD
+====

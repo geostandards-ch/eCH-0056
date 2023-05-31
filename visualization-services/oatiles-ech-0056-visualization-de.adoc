@@ -1,8 +1,7 @@
-=== Darstellungsdienst auf Basis von OGC API Tiles 
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel
+==== Darstellungsdienst auf Basis von OGC API Tiles
+
+[NOTE]
+====
+Von der HEIG-VD auszufüllen
+====
+

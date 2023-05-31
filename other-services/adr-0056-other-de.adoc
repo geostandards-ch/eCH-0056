@@ -10,5 +10,5 @@
 [NOTE]
 ====
 Vielleicht auch WFS in Betracht ziehen
+Von der HEIG-VD auszufüllen
 ====
-

@@ -4,6 +4,7 @@
 ====
 Consulter la référence suivante:
 https://inspire.ec.europa.eu/documents/technical-guidance-inspire-schema-transformation-network-service
+A compléter par la HEIG-VD
 ====
 
 ==== Introduction
