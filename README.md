@@ -1,7 +1,7 @@
 # eCH-0056
 
 Repository allowing the management and versioning of the document 
-eCH-0056: "Geoservices application profile
+eCH-0056: "Geoservices application profile"
 
 ## Current version
 
