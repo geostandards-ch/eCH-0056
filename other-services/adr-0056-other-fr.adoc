@@ -10,5 +10,6 @@
 [NOTE]
 ====
 Peut-être également considérer WFS
+A compléter par la HEIG-VD
 ====
 

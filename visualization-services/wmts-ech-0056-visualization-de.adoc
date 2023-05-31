@@ -1,8 +1,19 @@
-=== Darstellungsdienst auf Basis von Web Map Tile Service (WMTS)
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel
+==== Darstellungsdienst auf Basis von Web Map Tile Service (WMTS)
+
+[width="100%",cols="26%,74%",]
+|===
+|*Kurz-Beschreibung* | Die WMTS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdienst. Ein WMTS baut auf einem Kachelmodell (Tiles) auf. Der WMTS liefert vorprozessierte Bildkacheln in festen Zoomstufen aus. Dadurch wird die Benutzung eines WMTS sehr performant.
+|*Aktuelle Version*  | 1.0.0, OpenGIS Web Map Tile Service Implementation Standard, April 2010
+[3]
+|===
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|WMTS-01 |Die Umsetzung eines WMTS *MUSS* dem OpenGIS WMTS Implementation Standard Version 1.0.0 [3] entsprechen.
+|WMTS-02 |Die Umsetzung eines WMTS *MUSS* die Bildformate JPEG oder PNG unterstützen.
+|WMTS-03 |Falls sinnvollfootnote:[S. WMS-04], *MUSS* die Umsetzung eines WMTS für Vektordaten die GetFeatureInfo-Anfrage unterstützen.
+|WMTS-04 |Falls sinnvollfootnote:[S. WMS-05], *MUSS* die Umsetzung eines WMTS für Rasterdaten die GetFeatureInfo-Anfrage unterstützen.
+|WMTS-05 |Falls sinnvollfootnote:[S. WMS-06], *MUSS* die Umsetzung eines WMTS die GetLegendGraphics-Anfrage unterstützen.
+|WMTS-06 |Die GetCapabilities-Response eines WMTS *MUSS* für jeden Layer das «Metadata»-Element, das auf maschinenlesbare Datenmetadaten verweist.
+|WMS-07 |Bei der RESTful-Implementierung des WMTS *SOLLTE* die Reihenfolge Tilematrix/Column/Row eingehalten werden.
+|===

@@ -1,9 +1,21 @@
-=== Downloaddienst auf Basis Web Coverage Service (WCS)
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Empfehlungen 
-==== Beispiele
+==== Download-Dienst auf Basis von Web Coverage Service (WCS)
+
+[width="100%",cols="26%,74%",]
+|===
+| *Kurz-Beschreibung* | Die WCS-Spezifikation definiert eine Schnittstelle für einen Downloaddienst. Sie definiert den Zugriff auf «gerasterte Daten» (engl. Coverages). Der Service übermittelt die «Rohdaten» inklusive detaillierter Beschreibung und zugehöriger Georeferenzierung. Die übertragenen Daten können für weitere Analysen verwendet werden.
+| *Aktuelle Version* |
+
+2.0.1, OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core, Juni 2018 [12]
+
+1.0.0, Interface Standard – CRS Extension, März 2014 [24]
+|===
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|WCS-01 | Die Umsetzung eines WCS *MUSS* dem OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core [12] entsprechen.
+|WCS-02 | Die Umsetzung eines WCS *MUSS* im «BoundingBox»-Element des «CoverageSummary» der GetCapabilities-Antwort eine Ausdehnung im Ursprungskoordinatensystem beschreiben.
+|WCS-03 | Die GetCapabilities-Antwort eines WCS *MUSS* für jede Coverage das «Metadata»-Element mit dem Attribut «link» enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
+|WCS-04 | Die Umsetzung eines WCS *SOLLTE* dem OGC Web Coverage Service Interface Standard - CRS Extension entsprechen.
+|WCS-05 |Der Geodienst *SOLLTE* Rasterdaten verlustfrei im Format GeoTiff anbieten.
+|===
 

@@ -6,3 +6,8 @@
 ==== Ressourcen 
 ==== Anforderungsklassen 
 ==== Beispiel
+
+[NOTE]
+====
+Von der HEIG-VD auszufüllen
+====

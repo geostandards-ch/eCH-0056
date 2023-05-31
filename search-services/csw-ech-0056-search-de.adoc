@@ -1,8 +1,16 @@
-=== Suchdienst auf Basis von Catalogue Service (CSW)
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel
+==== Suchdienst auf Basis von Catalogue Service (CSW)
+
+[width="100%",cols="26%,74%",]
+|===
+| *Kurzbeschreibung* | Die OpenGIS Catalogue Service definiert die Schnittstelle für geografische Katalog-Dienste. Katalog-Dienste dienen zur Publikation und zum Auffinden von Metadaten, d.h. von deskriptiven Daten über Geodaten, Geodienste und andere verwandte Elemente.
+| *Aktuelle Version* |
+
+3.0, OGC Catalogue Services 3.0 - General Model, Juni 2016 [13]
+
+3.0, OGC Catalogue Services 3.0 Specification - HTTP Protocol Binding, Juni 2016 [14]
+|===
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|CS-01 | Die Umsetzung eines Suchdienstes *MUSS* dem OGC Catalogue Services 3.0 - General Model [13] und der OGC® Catalogue Services 3.0 Specification [14] entsprechen.
+|===

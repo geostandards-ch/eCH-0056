@@ -342,10 +342,18 @@ A éventuellement remplacer par "Service de représentation"
 
 == Service de téléchargement
 
-include::./download-services/stac-ech-0056-download-fr.adoc[]
-include::./download-services/wfs-ech-0056-download-fr.adoc[]
-include::./download-services/oafeat-ech-0056-download-fr.adoc[]
-include::./download-services/wcs-ech-0056-download-fr.adoc[]
+Par service de téléchargement, la norme eCH-0056 entend un service web ou une API permettant de télécharger des copies de séries de géodonnées complètes ou de parties de celles-ci (service de téléchargement prédéfini) et, si cela est réalisable, d'y accéder directement (service de téléchargement à accès direct).
+
+Les classes de conformité spécifiques aux standards de l'OGC et de STAC sont définies dans les annexes normatives suivantes:
+
+* https://www.ech.ch/fr/ech/ech-0056/oafeat[Service de téléchargement basée sur OGC API Features]
+* https://www.ech.ch/fr/ech/ech-0056/stac[Service de téléchargement basée sur STAC]
+
+
+// include::./download-services/stac-ech-0056-download-fr.adoc[]
+// include::./download-services/wfs-ech-0056-download-fr.adoc[]
+// include::./download-services/oafeat-ech-0056-download-fr.adoc[]
+// include::./download-services/wcs-ech-0056-download-fr.adoc[]
 
 == Service de recherche
 

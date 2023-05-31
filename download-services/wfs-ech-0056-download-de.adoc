@@ -1,8 +1,18 @@
-=== Downloaddienst auf Basis Web Feature Service
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Empfehlungen 
-==== Beispiele
+==== Download-Dienst auf Basis Web Feature Service (WFS)
+
+[width="100%",cols="26%,74%",]
+|===
+| *Kurz-Beschreibung* | Anstatt geografische Informationen auf Dateiebene auszutauschen, bietet
+der WFS einen direkten, feingranularen Zugriff auf geografische
+Informationen auf der Ebene von Merkmalen und Merkmalseigenschaften.
+| *Aktuelle Version* | 2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 [9]
+|===
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|WFS-01 |Die Umsetzung eines WFS *MUSS* der OpenGIS WFS Web Feature Service 2.0 Interface Standard - With Corrigendum [9] entsprechen.
+|WFS-02 |Die Umsetzung eines WFS *MUSS* der Konformitätsklasse «Basic WFS» entsprechen.
+|WFS-03 |Die Umsetzung eines WFS *MUSS* pro Feature Type das «MetadataURL»- Element enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
+|WFS-04 |Die Umsetzung eines WFS *MUSS* die Ursprungsprojektion des Feature Types im Element «DefaultCRS» beschreiben.
+|WFS-05 |GeoJSON *SOLLTE* angeboten werden.
+|===

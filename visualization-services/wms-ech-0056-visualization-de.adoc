@@ -1,8 +1,21 @@
-=== Darstellungsdienst auf Basis von Web Map Service (WMS)
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel
+==== Darstellungsdienst auf Basis von Web Map Service (WMS)
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|*Kurz-Beschreibung* | Die WMS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdienst. Als Produkt einer Anfrage erhält der Benutzer ein Bild, das die angefragten Informationen in Form einer Rasterkarte darstellt. Die Abfrage weiterer Informationen (sog. Feature Information) ist ebenfalls definiert.
+|===
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|WMS-01 | Die Umsetzung eines WMS *MUSS* der OpenGIS WMS Implementation Specification Version 1.3.0 [2] entsprechen.
+|WMS-02 |Die Umsetzung eines WMS *MUSS* die Bildformate JPEG und PNG unterstützen.
+|WMS-03 |Ein WMS *MUSS* den Parameter transparent=true unterstützen.
+|WMS-04 |Falls sinnvollfootnote:[Bei einigen Vektordaten (z.B.......) liefert die GetFeatureInfo-Anfrage keine nützlichen Informationen.], *MUSS* die Umsetzung eines WMS für Vektordaten die GetFeatureInfo-Anfrage unterstützen.
+|WMS-05 |Falls sinnvoll[multiblock footnote omitted], *MUSS* die Umsetzung eines WMS für Rasterdaten die GetFeatureInfo-Anfrage unterstützen.
+|WMS-06 |Falls sinnvollfootnote:[z.B. bei Luftbildern macht eine Legende nicht wirklich Sinn], *MUSS* die Umsetzung eines WMS die GetLegendGraphics-Anfrage unterstützen.
+|WMS-07 |Die GetCapabilities-Antwort eines WMS *MUSS* für jeden Layer das «MetadataURL»-Element enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
+|WMS-08 |Die GetCapabilities-Antwort eines WMS *MUSS* für jeden Layer das «Attribution»-Element enthalten.
+|WMS-09 |Die GetCapabilities-Antwort eines WMS *SOLLTE* für jeden Layer das «DataURL»-Element enthalten, das auf Daten verweist.
+|WMS-10 |Die Umsetzung eines WMS *SOLLTE* benutzerdefinierte Darstellungen mittels Styled Layer Descriptor (SLD) [22] und Symbology Encoding (SE) [23] unterstützen.
+|WMS-11 |Der WMS *SOLLTE* einen dpi-Request-Parameter unterstützen.
+|===
