@@ -2,7 +2,16 @@
 
 == Annexe B – Collaboration et vérification
 
+<Il s'agit ici d'énumérer toutes les personnes qui ont contribué à la version
+ont collaboré à cette version du document.>
+
+[width="100%",cols="24%,76%",]
+|===
+|<N. N.> |<Organisation/Entreprise>
+|<N. N.> |<Organisation/Entreprise>
+|===
+
 [NOTE]
 ====
-A compléter plus tard.
+À remplir ultérieurement.
 ====

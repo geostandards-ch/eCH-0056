@@ -2,14 +2,27 @@
 [.text-justify]
 // Document title
 = eCH-0056 Profil d'application de géoservices
-// Table of contents
-:toc: left
-:toc-title: Table des matières
-:toclevels: 5
-:sectnums:
 
-// Figures
-:figure-caption: Figure
+[width="100%",cols="29%,71%",]
+|===
+|*Titre* |Profil d'application de géoservices
+|*Code* |eCH-0056
+|*Type* |Standard
+|*Stade* |
+|*Version* |x.x.x
+|*Statut* |En cours d'élaboration
+|*Date de validation* |AAA-MM-JJ
+|*Date de publication* |AAA-MM-JJ
+|*Remplace* |eCH-0056 3.0
+|*Conditions requises* |eCH-0056 3.0
+|*Annexes* |<Annexes>
+|*Langues* |Allemand (original), Français (traduction)
+|*Auteurs* | 
+|*Autres participants*|
+|*Editeur / distributeur*| Association eCH, Mainaustrasse 30, case postale, 8034 Zurich +
+T 044 388 74 64, F 044 388 71 80 + 
+http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
+|===
 
 [.section nonumber]
 == Résumé
@@ -24,17 +37,41 @@ Les bases, les objectifs et la délimitation du profil d'application sont abord�
 Revoir les références aux chapitres et introduire des liens
 ====
 
+// Table des matières
+:toc: left
+:toc-title: Table des matières
+:toclevels: 5
+:sectnums:
+
 [.section nonumber]
 == Remarque
 
 Seule la forme masculine est utilisée dans le présent document pour désigner les personnes, afin d'en faciliter la lecture et l'intelligibilité. Cette formulation inclut bien évidemment les femmes qui occupent les fonctions citées.
 
 == Introduction
+=== Statut
+
+En cours : l'utilisation n'est autorisée qu'au sein du groupe spécialisé ou du comité d'experts.
+
+// Projet : le document a été approuvé pour consultation publique par les référents compétents du comité d'experts et publié en conséquence.
+
+// Proposition : le document est soumis à l'approbation du comité d'experts, mais n'est pas encore valable sur le plan normatif. 
+
+// Approuvé : Le document a été approuvé par le comité d'experts. Il a une valeur normative pour le domaine d'application défini dans le champ de validité fixé.
+
+// Remplacé : le document a été remplacé par une nouvelle version plus actuelle. Son utilisation est toujours possible, mais il est recommandé d'utiliser la version la plus récente.
+
+// Abrogé : Le document a été retiré par eCH. Il ne doit plus être utilisé.
+
+// Suspendu : Le document a été retiré par eCH. Il ne peut pas être utilisé. Il n'a pas atteint le stade "Approuvé".
+
 === Situation initiale et motivation
 
 L'établissement de géoservices web (appelés géoservices dans la suite) crée des conditions propices aussi bien à un recours simplifié aux géoinformations par un cercle d'utilisateurs sans cesse élargi qu'à l'ouverture de nouveaux champs d'application. 
 En Suisse, la Stratégie suisse pour l'information géographique et le plan d'action 2022+ [3a] ont jeté les bases de la mise en place d'une infrastructure nationale de données géographiques (INDG).
-La loi sur la géoinformation (LGéo) [1a], entrée en vigueur le 1er juillet 2008, ainsi que l'ordonnance sur la géoinformation (OGéo) [4a], qui repose sur cette loi, servent aujourd'hui de base légale à l'INDG
+
+La loi sur la géoinformation (LGéo) [1a], entrée en vigueur le 1er juillet 2008, ainsi que l'ordonnance sur la géoinformation (OGéo) [4a], qui repose sur cette loi, servent aujourd'hui de base légale à l'INDG.
+
 L'intégration de géoservices est visée dans le cadre du développement de l'INDG. Des exemples possibles d'une telle interconnexion ou réunion de géoservices proposés par des fournisseurs différents sont présentés sur la figure 1.
 
 [NOTE]
@@ -47,24 +84,16 @@ Revoir les reférences (bibliographie + figure) et insérer des hyperliens
 .accès en réseau aux géodonnées au moyen de géoservices (modifié d'après [28])
 image::images/geoservices_fr.jpg[align="center"]
 
-[NOTE]
-====
-Modifier la figure
-====
-
 Des défis d'ordre technique en plus de ceux de nature organisationnelle sont à relever dans le cadre de la mise en oeuvre de l'interconnexion et de l'intégration de géoservices. La normalisation (par exemple ISO/TC 211) et la standardisation (par exemple Open Geospatial Consortium, OGC) servent à aplanir les problèmes rencontrés ici.
 
 === Interconnexion des géoservices, importance de l'harmonisation des données
 
 L'objectif principal est l'interconnexion aussi fluide que possible des géoservices au sein d'un réseau hétérogène et réparti. Selon les exigences à satisfaire, cette interconnexion peut aller de la simple visualisation jusqu'à la diffusion des données dans le respect de modèles de données harmonisés, en passant par des requêtes d'informations unifiées. L'accent est mis sur l'harmonisation des modèles de données dans le cadre de la mise en oeuvre de la LGéo [1a] et des ordonnances correspondantes [2a][4a]. L'harmonisation des modèles de données et des données concerne les champs d'action "Promouvoir l'écosystème de la géoinformation" et "Relier les géodonnées" conformément au plan d'action de la stratégie suisse pour l'information géographique.
 
-Différents problèmes rendent aujourd'hui difficile sinon impossible l'interconnexion de géo-
-services proposés par des fournisseurs différents:
+Différents problèmes rendent aujourd'hui difficile sinon impossible l'interconnexion de géoservices proposés par des fournisseurs différents:
 
-* une prise en charge incomplète des normes et des standards par les composants logiciels
-mis en oeuvre;
-* le serveur et le client ne prennent pas en charge la même version de la norme ou du
-standard;
+* une prise en charge incomplète des normes et des standards par les composants logiciels mis en oeuvre;
+* le serveur et le client ne prennent pas en charge la même version de la norme ou du standard;
 * un serveur ne prend pas en charge un système de projection demandé par le client;
 * des couches qui pourraient être combinées transversalement entre géoservices sont visibles dans des plages d'échelles incompatibles;
 * les géoservices font l'objet d'une description insuffisante voire inexistante;
@@ -121,7 +150,9 @@ pour les géoservices de base en vertu de l'article 7 OGéo-swisstopo [2a].
 image::images/legal_aspects_fr.jpg[align="center"]
 
 La compétence de swisstopo à définir eCH-0056 comme une norme contraignante repose sur les articles 34 à 36 OGéo [4a] (cf. à ce sujet la figure 2).
+
 Lorsqu'un service compétent (selon l'annexe 1 OGéo [4a]) propose et/ou diffuse un ou plusieurs jeux de géodonnées de base dans un géoservice, ce dernier doit respecter la norme eCH-0056, donc se conformer à toutes les prescriptions contraignantes qu'elle contient. Il importe peu, dans ce cadre, que le géoservice développé par le service compétent concerné propose exclusivement des jeux de géodonnées de base qui lui sont attribués conformément à l'annexe 1 OGéo [4a] ou que son offre soit étendue à des jeux de géodonnées de base relevant d'autres services compétents.
+
 Ces conditions ne s'appliquent pas aux tiers (notamment aux acteurs du secteur privé). Toutefois, lorsque les obligations incombant à un service compétent sont déléguées à des tiers en vertu d'accords passés ou de décisions prises, ces derniers sont soumis à leur tour aux dispositions législatives en vigueur et doivent structurer les géoservices correspondants conformément à la norme eCH-0056.
 Il convient d'observer, de manière générale, que l'obligation légale de respect de la norme ne concerne que les directives, c.-à-d. les prescriptions obligatoires. Les recommandations doivent être respectées dans la mesure du possible, mais aucune obligation légale ne l'impose.
 
@@ -146,37 +177,21 @@ Les normes établies doivent être prises en compte de manière générale. En f
 Revoir la référence et insérer un lien
 ====
 
-=== Nouvelles tendances en matière de géostandards
-
-La recherche, l'accès et l'utilisation de données géographiques diffusées par des infrastructures de données géographiques (IDG) basées sur les OGC Web Service Standards (WMS, WFS, WCS, WPS, etc.) présentent certains inconvénients : Ces ne sont en principe pas adaptés à l'indexation de leur contenu par les moteurs de recherche (les données sont introuvables sur le web) et sont difficiles à utiliser pour les utilisateurs non spécialisés.
-Fort de ce constat, l'Open Geospatial Consortium s'est associé au W3C, pour produire le document https://www.w3.org/TR/sdw-bp[«Spatial Data on the Web Best Practices»] Ce document donne des conseils sur les meilleures pratiques liées à la publication de données spatiales sur le Web et à l'utilisation des technologies Web dans le domaine de la localisation. Ces recommandations sont destinées aux praticiens, y compris les développeurs Web et les experts géospatiaux, et sont compilées sur la base de preuves d'application dans le monde réel. Ces bonnes pratiques suggèrent un changement d'orientation significatif par rapport aux infrastructures de données spatiales traditionnelles en adoptant une approche basée sur les normes générales du Web. La localisation étant souvent le facteur commun à plusieurs ensembles de données, les données spatiales constituent un complément particulièrement utile au Web de données.
-Sur la base de cette expérience, l'Open Geospatial Consortium a commencé à développer une nouvelle famille de normes : les https://ogcapi.ogc.org[OGC API]. Ces nouveaux standards doivent permettre à chacun de fournir et d'utiliser facilement des données géographiques sur le web et d'intégrer ces données avec tout autre type d'information. Ces normes définissent des API centrées sur les ressources, qui tirent profit des techniques modernes de développement web.
-Les API de l'OGC sont conçues pour que N'IMPORTE QUI puisse facilement fournir et utiliser des données géospatiales sur le web, et intégrer ces données à n'importe quel autre type d'information. Ces normes s'appuient sur l'héritage des normes de services Web de l'OGC (WMS, WFS, WCS, WPS, etc.), mais définissent des API centrées sur les ressources qui tirent parti des pratiques modernes de développement Web.
-A la différence des OGC Web Service Standards, les API de l'OGC se base sur une API Rest et non plus sur le protocole SOAP. Elles privilégient l'encoding JSON au XML qui lui est moins verbeux et plus facilement compréhensible. Elles sont, de plus, assorties d'une documentation basée sur la spécification OpenAPI pour favoriser leur découverte et intégration, de même que d'un rendu HTML et de endpoints en JSON-LD pour favoriser leur indexation dans les moteurs de recherche.
-Ces normes sont également conçues comme des "Building Blocks" pouvant être utilisés pour assembler de nouvelles API pour l'accès au contenu géospatial sur le web. Les modules sont définis non seulement par les exigences des normes spécifiées dans le programme de normes de l'OGC, mais aussi par le prototypage et l'essai d'interopérabilité dans le cadre du programme de solutions collaboratives et d'innovation de l'OGC.
-Les données géospatiales optimisées pour le cloud sont de plus en plus populaires alors que les entreprises transfèrent leurs charges de travail vers le cloud computing. Plutôt que de simplement héberger les données existantes dans le nuage, de nombreuses organisations conçoivent désormais des solutions de stockage de données géospatiales spécifiquement pour les environnements cloud. Cela leur permet de bénéficier des avantages en termes d'évolutivité et de performances qu'offre le cloud computing. Avec l'augmentation de la disponibilité des flux de données en temps réel provenant de sources telles que l'imagerie satellite et les capteurs IoT, de nombreuses organisations cherchent des moyens de traiter rapidement et efficacement ces données dans le cloud. L'informatique sans serveur offre la possibilité d'exécuter du code sans avoir besoin de gérer et de provisionner des serveurs, ce qui est particulièrement utile pour le traitement des données géospatiales. Cela permet aux organisations d'ajuster facilement leur puissance de traitement en fonction de la demande. Enfin, l'IA et le ML sont de plus en plus utilisés pour analyser les données géospatiales dans le cloud, notamment pour la détection d'objets, la classification et la modélisation prédictive.
-Ces nouvelles pratiquent orientent donc la création de nouveaux standards de géodonnées tels que COG, STAC, Zarr, COPC, GeoParquet et Flatgeobuff émergent, et le présent document émet des recommandations à leur sujet.
-
 === Structure du profil d'application
 
-Les éléments principaux du contenu du profil d'application sont les suivants:
-Chapitre 3 Introduction: introduction et explications (partie informative).
-Chapitre 6 Directives et recommandations: directives (normes) et recommandations.
-Les directives et les recommandations sont traitées au sein d'un paragraphe séparé pour
-chaque spécification de géoservice, en respectant une structure homogène comprenant les
-éléments suivants:
+Les principales composantes du contenu du profil d'application sont :
 
-* une description succincte
-* la version actuelle: celle dont le niveau de document est le plus élevé est considérée
-comme telle, c'est donc la version finale dans le meilleur des cas; ainsi, le statut du do-
-cument de même que l'organisation compétente pour son attribution sont indiqués en plus
-du numéro de version effectif; la date de publication est aussi précisée;
-* les directives: elles sont numérotées par norme/standard (par exemple «WMS-02») et dé-
-finissent des prescriptions à respecter obligatoirement (terminologie: cf. chapitre 4);
-* les recommandations: elles sont numérotées en continu par spécification, à la suite des
-directives (par exemple «WMS-08»); leur respect n'est pas impératif (cf. chapitre 4).
-Au sein des directives, le profil d'application indique la version d'un standard de service Web
-OGC devant être prise en charge.
+* Chapitre 1 Introduction : Introduction informative et explications.
+* Chapitre 2 Directives et recommandations : Directives et recommandations normatives.
+
+Les directives et les recommandations sont traitées dans un chapitre distinct pour chaque spécification de géoservices, selon une structure uniforme. Celle-ci comprend les éléments suivants :
+
+* Brève description
+* Version actuelle : est considérée comme version actuelle celle qui a le niveau de document le plus élevé, dans le meilleur des cas la version finale. Ainsi, outre le numéro de version proprement dit, le statut du document et l'organisation responsable qui le détermine sont également indiqués. La date de publication est également indiquée.
+* Directives : elles sont numérotées par norme (p. ex. "WMS-01"). Les directives définissent des exigences obligatoires (voir chapitre 4).
+* Recommandations : La numérotation se poursuit par spécification pour les recommandations (p. ex. "WMS-10"). Les recommandations sont des spécifications non obligatoires (cf. chapitre 4).
+
+Le profil d'application définit dans les directives quelle version d'une norme doit être prise en charge.
 
 [NOTE]  
 ====
@@ -187,173 +202,71 @@ Revoir les références
 
 Le présent document est périodiquement mis à jour, une distinction étant toutefois établie entre des révisions d'une certaine ampleur (exemple: modification d'une directive, introduction de nouveaux standards) et des changements ou des compléments de moindre portée.
 Les périodicités suivantes sont définies pour la mise à jour:
-Révisions d'une certaine ampleur > 2 ans
-Modifications de moindre portée < 2 ans
+
+* Révisions d'une certaine ampleur > 2 ans
+* Modifications de moindre portée < 2 ans
+
 Les demandes de modification (ou Change-Requests) peuvent être directement adressées au centre opérationnel e-geo.ch (info@e-geo.ch). 
 
-[NOTE]
-====
-A modifier
-====
+=== Conformité
 
-== Références normatives
+Afin d'éviter toute confusion dans la terminologie, nous définissons ici les expressions utilisées dans les directives et les recommandations.
 
-[width="100%",cols="7%,93%"]
+[width="100%",cols="19%,81%",options="header",]
 |===
-|[1]| Unité de pilotage informatique de la Confédération UPIC, 2016. +
-R016 - SOA Policies +
-https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html]
-|[2]| Open Geospatial Consortium (OGC), 2006 +
-OpenGIS Web Map Server Implementation Specification 1.3.0 (OGC 06-042) +
-http://portal.opengeospatial.org/files/?artifact_id=14416[http://portal.opengeospatial.org/files/?artifact_id=14416]
-|[3]| Open Geospatial Consortium (OGC), 2010 +
-OpenGIS Web Map Tile Service Implementation Standard 1.0.0 (OGC 07-057r7) +
-http://portal.opengeospatial.org/files/?artifact_id=35326[http://portal.opengeospatial.org/files/?artifact_id=35326]
-|[4]| Open Geospatial Consortium (OGC), 2022 +
-OGC API - Tiles - Part 1: Core +
-https://docs.ogc.org/is/20-057/20-057.html[https://docs.ogc.org/is/20-057/20-057.html]
-|[5]| STAC Community, 2021 +
-The Spatial Temporal Asset Catalog Specification +
-https://github.com/radiantearth/stac-spec[https://github.com/radiantearth/stac-spec]
-|[6]| STAC Community, 2022 +
-The Spatial Temporal Asset Catalog API Specification +
-https://github.com/radiantearth/stac-api-spec[https://github.com/radiantearth/stac-api-spec]
-|[7]| eCH, 2016 +
-eCH-0031 Géoinformation: INTERLIS 2 - Manuel de référence, version 2.0 +
-https://www.ech.ch/fr/ech/ech-0031/2.0[https://www.ech.ch/fr/ech/ech-0031/2.0]
-|[8]| eCH, 2016 +
-eCH-0118 Géoinformation: Règles de codification GML pour INTERLIS, version 2.0 +
-https://www.ech.ch/de/ech/ech-0118/2.0[https://www.ech.ch/de/ech/ech-0118/2.0]
-|[9]| Open Geospatial Consortium (OGC), 2014 +
-OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum (OGC 09-025r2) +
-http://docs.opengeospatial.org/is/09-025r2/09-025r2.html[http://docs.opengeospatial.org/is/09-025r2/09-025r2.html]
-|[10]| Open Geospatial Consortium (OGC), 2022 +
-OGC API - Features - Part 1: Core corrigendum (OGC 17-069r4) +
-https://docs.opengeospatial.org/is/17-069r4/17-069r4.html[https://docs.opengeospatial.org/is/17-069r4/17-069r4.html]
-|[11]| Open Geospatial Consortium (OGC), 2022 +
-OGC API - Features - Part 2: Coordinate Reference Systems by Reference corrigendum (OGC 18-058r1) +
-https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[https://docs.opengeospatial.org/is/18-058r1/18-058r1.html]
-|[12]| Open Geospatial Consortium (OGC), 2018 +
-OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core (OGC 17-089r1) +
-http://docs.opengeospatial.org/is/17-089r1/17-089r1.html[http://docs.opengeospatial.org/is/17-089r1/17-089r1.html]
-|[13]| Open Geospatial Consortium (OGC), 2016 +
-OGC Catalogue Services 3.0 - General Model (OGC 12-168r6) +
-https://docs.opengeospatial.org/is/12-168r6/12-168r6.html[https://docs.opengeospatial.org/is/12-168r6/12-168r6.html]
-|[14]| Open Geospatial Consortium (OGC), 2016 +
-OGC Catalogue Services 3.0 Specification - HTTP Protocol Binding (OGC 12-176r7) +
-https://docs.opengeospatial.org/is/12-176r7/12-176r7.html[https://docs.opengeospatial.org/is/12-176r7/12-176r7.html]
-|[15]| eCH, 2017 +
-eCH-0014 SAGA.ch +
-https://www.ech.ch/fr/ech/ech-0014/8.0[https://www.ech.ch/de/ech/ech-0014/8.0]
-|[16]| ISO/TC 154, 2019 +
-ISO 8601-1:2019. Date and time - Representations for information interchange - Part 1: Basic rules +
-https://www.iso.org/standard/70907.html[https://www.iso.org/standard/70907.html]
-|[17]| ISO/TC 171, 2005 +
-ISO 19005-1:2005. Document management -- Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1) +
-https://www.iso.org/standard/38920.html[https://www.iso.org/standard/38920.html]
-|[18]| Internet Engineering Task Force (IETF), 2022 +
-HTTP Semantics - RFC 9110 +
-https://www.rfc-editor.org/info/rfc9110[https://www.rfc-editor.org/info/rfc9110]
-|[19]| Internet Engineering Task Force (IETF), 2009 +
-Tags for Identifying Languages - RFC 5646 +
-https://www.rfc-editor.org/info/rfc5646[https://www.rfc-editor.org/info/rfc5646]
-|[20]| Internet Engineering Task Force (IETF), 2009 +
-Web Linking - RFC 8288 +
-https://www.rfc-editor.org/info/rfc8288[https://www.rfc-editor.org/info/rfc8288]
-|[21]| Open Geospatial Consortium (OGC), 2019 +
-OGC Two Dimensional Tile Matrix Set +
-https://docs.opengeospatial.org/is/17-083r2/17-083r2.html[https://docs.opengeospatial.org/is/17-083r2/17-083r2.html]
-|[22]| Open Geospatial Consortium (OGC), 2007 +
-OpenGIS Styled Layer Descriptor Profile of the Web Map Service +
-Implementation Specification 1.1.0 (OGC 05-078r4), +
-https://portal.opengeospatial.org/files/?artifact_id=22364[https://portal.opengeospatial.org/files/?artifact_id=22364]
-|[23]| Open Geospatial Consortium (OGC), 2006 +
-Symbology Encoding Implementation Specification 1.1.0 (OGC 05-077r4), +
-http://portal.opengeospatial.org/files/?artifact_id=16700[http://portal.opengeospatial.org/files/?artifact_id=16700]
-|[24]| Open Geospatial Consortium (OGC), 2019 +
-OGC GeoTIFF standard (OGC 05-077r4), +
-https://docs.opengeospatial.org/is/19-008r4/19-008r4.html[https://docs.opengeospatial.org/is/19-008r4/19-008r4.html]
+|Directive| Une directive est une disposition qu’il est impératif de respecter pour se conformer au profil d’application. La mise en œuvre des directives permet notamment de respecter les règles de droit énoncées à l’article 7 OGéo-swisstopo [2a].
+
+Les directives sont signalées au chapitre 2 par le mot-clé "*DOIT*", un cadre plus foncé et un fond gris.
+
+|Recommandation| Une recommandation est une prescription non obligatoire. Elle devrait être respectée dans la mesure du possible afin d'améliorer l'interopérabilité, mais n'a aucun effet sur la conformité au profil d'application.
+
+Les recommandations sont signalées au chapitre 2 par le mot-clé "*DEVRAIT*" et un cadre plus clair.
 |===
 
-[NOTE]
-====
-Ces références pourraient être gérées différemment (bibliographie latex) et dans chacune des sections de manière individuelle.
-====
+La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Les expressions sont écrites en caractères gras et en MAJUSCULES.
 
-== Classes d'exigences
-
-* Réponse à des requêtes HTTP(S)
-* Indication de la date et de l'heure 
-* Sécurité
-* Langue
-* Métadonnées
-* << Classe d'exigences "eCH-CRS", eCH-CRS>>
-* Qualité
-* Collection & Collections: questions de nomenclature ex ch.strata etc à mettre en relation avec https://docs.ogc.org/DRAFTS/20-024.html#rc-collections-section[OGC API - Common - Part 2: Geospatial Data]
-
-[NOTE]
-====
-Eventuellement créer un document séparé sur la base de OWS & OGC API Common
-====
-
-==== Classes d'exigences 
-==== Classe d'exigences "eCH-CRS"
-
-[width="100%",cols="50%,50%",options="header",]
+[width="100%",cols="19%,81%",options="header",]
 |===
-|Classe d'exigences
-|https://ech.ch/fr/id/spec/OAComm/1.0/req/CRS
-|Typ d'objectif |Web API
+|*DOIT* |Cette expression signifie que la directive doit être remplie dans tous les cas.
+|Cette expression signifie qu'il peut y avoir de bonnes raisons de ne pas appliquer cette directive. Cependant, il faut comprendre toutes les implications et les évaluer soigneusement avant de choisir une autre voie.
 |===
 
-[width="100%",cols="50%,50%",options="header",]
-|===
-|*Exigence* |*/rec/eCH-crs/default-crs*
-|A | Un géoservice DOIT supporter le système de référence suisse CH1903+ ("EPSG:2056", cadre de référence MN95).
-|===
+== Directives et recommandations
+=== Règles générales
+==== Réponse à une requête HTTP(S)
+==== Indication de la date et de l'heure
+==== Sécurité
+==== Langue
+==== Métadonnées
+==== Systèmes de coordonnées
+==== Qualité
+==== Matrice de tuiles suisse CH1903+
 
-[width="100%",cols="50%,50%",options="header",]
-|===
-|*Recommendation* |*/rec/eCH-crs/recognised-crs*
-|A | Pour chaque collection d'éléments de l'API ou webservices, au moins un des systèmes de coordonnées de référence (CRS) énumérés ci-dessous DEVRAIT être inclus dans la liste des systèmes de référence de coordonnées pris en charge.
-|===
+== Service de représentation
 
-===== Liste des CRS supportés:
+Un service de représentation est un service Internet qui permet d'afficher, d'agrandir, de réduire et de déplacer des jeux de géodonnées représentables, de superposer des données et de naviguer dans les géodonnées (art. 2 OGéo [4a]).
 
-* http://www.opengis.net/def/crs/EPSG/0/2056
-* http://www.opengis.net/def/crs/EPSG/0/4326
-* http://www.opengis.net/def/crs/EPSG/0/3857
-* http://www.opengis.net/def/crs/EPSG/0/4258
-* http://www.opengis.net/def/crs/EPSG/0/3035
-* http://www.opengis.net/def/crs/EPSG/0/3034
-* http://www.opengis.net/def/crs/EPSG/0/3044
-
-== Service de visualisation
+Dans le cadre de eCH-0056, on entend concrètement par service de représentation un service selon OpenGIS Web Map Server Implementation Specification [2] (WMS) ou OpenGIS Web Map Tile Service Implementation Standard [3] (WMTS) ou OGC API - Tiles - Part 1 : Core [4].
 
 include::./visualization-services/wms-ech-0056-visualization-fr.adoc[]
 include::./visualization-services/wmts-ech-0056-visualization-fr.adoc[]
 include::./visualization-services/oatiles-ech-0056-visualization-fr.adoc[]
-include::./visualization-services/2dtms-ech-0056-visualization-fr.adoc[]
-
-[NOTE]
-====
-A éventuellement remplacer par "Service de représentation"
-====
+// include::./visualization-services/2dtms-ech-0056-visualization-fr.adoc[]
 
 == Service de téléchargement
 
-Par service de téléchargement, la norme eCH-0056 entend un service web ou une API permettant de télécharger des copies de séries de géodonnées complètes ou de parties de celles-ci (service de téléchargement prédéfini) et, si cela est réalisable, d'y accéder directement (service de téléchargement à accès direct).
+Un service de téléchargement est un service Internet qui permet de télécharger des copies de séries de géodonnées complètes ou de parties de celles-ci (*service de téléchargement prédéfini*) et, si cela est réalisable, d'y accéder directement (*service de téléchargement en accès direct*) (art. 2 OGéo [4a]).
 
-Les classes de conformité spécifiques aux standards de l'OGC et de STAC sont définies dans les annexes normatives suivantes:
+Dans le cadre d'eCH-0056, on entend par service de téléchargement les services suivants :
 
-* https://www.ech.ch/fr/ech/ech-0056/oafeat[Service de téléchargement basée sur OGC API Features]
-* https://www.ech.ch/fr/ech/ech-0056/stac[Service de téléchargement basée sur STAC]
+* un service *prédéfini*, *basé sur des fichiers* pour les données raster et vectorielles sur la base de la spécification STAC [5] et éventuellement de la spécification STAC-API [6]. Dans le sens d'un complément spécifique au pays, le format de transfert exigé pour la mise à disposition conforme au modèle de géodonnées vectorielles est INTERLIS-XTF selon la norme eCH-0031 version 2.0 [7] ou INTERLIS-GML selon la norme eCH-0118 version 2.0 [8].
+* Un *service de téléchargement à accès direct* selon OpenGIS Web Feature Service Interface Standard (WFS) [9] ou selon OGC API - Features - Part 1 : Core [10] et OGC API - Features - Part 2 : Coordinate Reference Systems by Reference [11].
+* Ainsi que pour les données raster un service selon OGC Web Coverage Service Interface Standard (WCS) [12].
 
-
-// include::./download-services/stac-ech-0056-download-fr.adoc[]
-// include::./download-services/wfs-ech-0056-download-fr.adoc[]
-// include::./download-services/oafeat-ech-0056-download-fr.adoc[]
-// include::./download-services/wcs-ech-0056-download-fr.adoc[]
+include::./download-services/stac-ech-0056-download-fr.adoc[]
+include::./download-services/wfs-ech-0056-download-fr.adoc[]
+include::./download-services/oafeat-ech-0056-download-fr.adoc[]
+include::./download-services/wcs-ech-0056-download-fr.adoc[]
 
 == Service de recherche
 
@@ -370,20 +283,56 @@ include::./other-services/oaproc-0056-other-fr.adoc[]
 == Exclusion de responsabilité - droits de tiers
 
 Les normes élaborées par l'Association *eCH* et mises gratuitement à la disposition des utilisateurs, ou celles qu'*eCH* référence, ont seulement valeur de recommandations. L'Association *eCH* ne peut en aucun cas être tenue pour responsable des décisions ou mesures prises par un utilisateur sur la base des documents qu'elle met à disposition. L'utilisateur est tenu d'étudier attentivement les documents avant de les mettre en application et au besoin de procéder aux consultations appropriées. Les normes *eCH* ne remplacent en aucun cas les consultations techniques, organisationnelles ou juridiques appropriées dans un cas concret.
+
 Les documents, procédures, méthodes, produits, normes et standards référencés dans les normes *eCH* peuvent le cas échéant être protégés par des dispositions légales sur les marques, les droits d'auteur ou les brevets. L'obtention des autorisations nécessaires auprès des personnes ou organisations détentrices des droits relève de la seule responsabilité de l'utilisateur.
 Bien que l'Association *eCH* mette tout en oeuvre pour assurer la qualité des normes qu'elle publie, elle ne peut fournir aucune assurance ou garantie quant à l'absence d'erreur, l'actualité, l'exhaustivité et l'exactitude des documents et informations mis à disposition. La teneur des normes *eCH* peut être modifiée à tout moment sans préavis.
+
 Toute responsabilité relative à des dommages que l'utilisateur pourrait subir par suite de l'utilisation des normes *eCH* est exclue dans les limites des réglementations applicables.
 
 == Droits d'auteur
 
 Tout auteur de normes *eCH* reste détenteur de la propriété intellectuelle qui leur est associée. Il s'engage toutefois à mettre, pour autant que cela soit possible, cette propriété intellectuelle ou les droits qu'il détient sur une propriété intellectuelle de tiers gratuitement à la disposition des groupes spécialisés concernés et de l'Association *eCH*, pour une utilisation et un développement ultérieurs sans restriction dans le cadre des buts poursuivis par l'association.
 Les normes élaborées par les groupes spécialisés peuvent être utilisées, diffusées et développées gratuitement et sans restriction par l'Association *eCH*, pour autant que les auteurs concernés soient cités.
+
 Les normes *eCH* sont intégralement documentées et libres de toute restriction relevant du
 droit des brevets et/ou des licences. La documentation afférente peut être obtenue gratuitement.
 Les présentes dispositions s'appliquent exclusivement aux normes élaborées par *eCH* et ne s'étendent pas aux normes ou produits de tiers auxquels il est fait référence dans les normes *eCH*. Les normes contiennent les informations correspondantes relatives aux droits de tiers.
 
+// Annexe A – Références normatives & bibliographie
+
 include::./appendices/appendix-a-fr.adoc[]
+
+// Annexe B – Collaboration et vérification
+
 include::./appendices/appendix-b-fr.adoc[]
+
+// Annexe C – Abréviations &  glossaire
+
 include::./appendices/appendix-c-fr.adoc[]
+
+// Annexe D – Modifications par rapport à la version précédente
+
 include::./appendices/appendix-d-fr.adoc[]
-include::./appendices/appendix-e-fr.adoc[]
+
+// Annexe E – Liste des figures
+
+[NOTE]
+====
+Ajouter les liens suivants :
+
+* Figure 1 : Accès en réseau à des géodonnées au moyen de géoservices.
+* Figure 2 : Bases juridiques du caractère obligatoire de eCH-0056
+====
+
+// Annexe F – Liste des tableaux
+
+[NOTE]
+====
+Ajouter le lien suivant :
+
+* Tableau 2 Modifications par rapport à la version précédente
+====
+
+// Annexe G – Nouvelles tendances en matière de géostandards
+
+include::./appendices/appendix-g-fr.adoc[]

@@ -2,6 +2,15 @@
 
 == Anhang B – Mitarbeit und Überprüfung
 
+<Hier sind alle Mitarbeiterinnen und Mitarbeiter aufzuführen, die an
+dieser Version des Dokuments mitgearbeitet haben.>
+
+[width="100%",cols="24%,76%",]
+|===
+|<N. N.> |<Organisation/Firma>
+|<N. N.> |<Organisation/Firma>
+|===
+
 [NOTE]
 ====
 Später auszufüllen.

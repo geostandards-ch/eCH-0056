@@ -17,24 +17,13 @@
 |*Voraussetzungen* |eCH-0056 3.0
 |*Beilagen* |<Beilage>
 |*Sprachen* |Deutsch (Original), Französisch (Übersetzung)
-|*Autoren* a|
+|*Autoren*  |
 <Fachgruppe>
 <Autoren>
-|*Herausgeber / Vertrieb* a|
-Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich
-T 044 388 74 64, F 044 388 71 80
-http://www.ech.ch[www.ech.ch] /
-mailto:info@ech.ch[[.underline]#info@ech.ch#]
+|*Herausgeber / Vertrieb*| Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich +
+T 044 388 74 64, F 044 388 71 80 +
+http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
 |===
-
-// Table of contents
-:toc: left
-:toc-title: Inhaltsverzeichnis
-:toclevels: 5
-:sectnums:
-
-// Figures
-:figure-caption: Abbildung
 
 [.section nonumber]
 == Zusammenfassung
@@ -51,6 +40,12 @@ Grundlagen, Zielsetzungen und Abgrenzung des Anwendungsprofils werden in Kapitel
 ====
 Kapitelverweise überarbeiten und Links einführen
 ====
+
+// Table of contents
+:toc: left
+:toc-title: Inhaltsverzeichnis
+:toclevels: 5
+:sectnums:
 
 [.section nonumber]
 == Hinweis
@@ -82,13 +77,12 @@ Das Geoinformationsgesetz (GeoIG) [1a], das am 1. Juli 2008 in Kraft getreten is
 
 Im Rahmen der Entwicklung der NGDI wird die Integration von Geodiensten angestrebt. Mögliche Bei-spiele für eine solche Vernetzung bzw. Zusammenführung von Geodiensten unterschiedlicher Anbieter sind in Abbildung 1 gegeben.
  
-
 //Figure
 
 .Vernetzter Zugriff auf Geodaten mittels Geodiensten (modifiziert nach [28])
 image::images/geoservices_de.jpg[align="center"]
 
-Bei der Umsetzung der Vernetzung und Integration von Geodiensten stellen sich neben den organisa-torischen Herausforderungen auch Herausforderungen technischer Natur. Diesen Problemen wird mit Normung / Standardisierung (z.B. ISO/TC 211, Open Geospatial Consortium OGC) begegnet.
+Bei der Umsetzung der Vernetzung und Integration von Geodiensten stellen sich neben den organisatorischen Herausforderungen auch Herausforderungen technischer Natur. Diesen Problemen wird mit Normung / Standardisierung (z.B. ISO/TC 211, Open Geospatial Consortium OGC) begegnet.
 
 === Vernetzung von Geodiensten, Bedeutung der Datenharmonisierung
 
@@ -188,33 +182,6 @@ Die Richtlinien und Empfehlungen werden für jede Geodienst-Spezifikation in ein
 
 Das Anwendungsprofil legt in den Richtlinien fest, welche Version eines Standards unterstützt werden muss.
 
-
-
-=== Neue Trends bei den Geostandards
-
-Die Suche nach, der Zugriff auf und die Nutzung von Geodaten, die über Geodateninfrastrukturen (GDI) auf der Grundlage von OGC-Webdiensten (WMS, WFS, WCS, WPS usw.) verbreitet werden, hat einige Nachteile: OGC-Webdienste sind grundsätzlich nicht für die Indizierung ihrer Inhalte durch Suchmaschinen geeignet (die Daten sind im Web nicht auffindbar) und für nicht fachkundige Nutzer schwer zu nutzen.
-
-Aus diesem Grund hat sich das Open Geospatial Consortium mit dem W3C zusammengeschlossen, um das Dokument "Spatial Data on the Web Best Practices" zu erstellen. Dieses Dokument enthält Empfehlungen zu bewährten Verfahren im Zusammenhang mit der Veröffentlichung von Raumdaten im Web und der Nutzung von Webtechnologien im Bereich der Lokalisierung. Diese Empfehlungen richten sich an Praktiker, einschließlich Webentwickler und Geospatialexperten, und werden auf der Grundlage von Anwendungsbeweisen aus der realen Welt zusammengestellt. Diese bewährten Verfahren legen einen deutlichen Richtungswechsel von der herkömmlichen Raumdateninfrastruktur hin zu einem Ansatz nahe, der auf allgemeinen Webstandards basiert. Da der Standort häufig der gemeinsame Faktor mehrerer Datensätze ist, stellen räumliche Daten eine besonders nützliche Ergänzung zum Datenweb dar.
-Auf der Grundlage dieser Erfahrungen hat das Open Geospatial Consortium mit der Entwicklung einer neuen Familie von Standards begonnen. Diese neuen Standards sollen es jedem leicht machen, Geodaten im Internet bereitzustellen und zu nutzen und diese Daten mit jeder anderen Art von Informationen zu integrieren. Diese Standards definieren ressourcenzentrierte APIs, die die Vorteile moderner Webentwicklungstechniken nutzen.
-Die OGC-APIs sind so konzipiert, dass JEDER einfach Geodaten über das Web bereitstellen und nutzen sowie diese Daten in jede andere Art von Information integrieren kann. Diese Standards bauen auf dem Erbe der OGC-Webservice-Standards (WMS, WFS, WCS, WPS usw.) auf, definieren aber ressourcenorientierte APIs, die sich die modernen Praktiken der Webentwicklung zunutze machen.
-Im Gegensatz zu den OGC Web Service Standards basieren die OGC-APIs auf einer Rest-API und nicht mehr auf dem SOAP-Protokoll. Sie bevorzugen die JSON-Kodierung gegenüber der XML-Kodierung, die weniger wortreich und leichter verständlich ist. Die Dokumentation basiert auf der OpenAPI-Spezifikation, um das Auffinden und die Integration der Daten zu erleichtern, sowie auf HTML-Rendering und Endpunkten in JSON-LD, um die Indexierung durch Suchmaschinen zu erleichtern.
-Diese Standards sind auch als "Building Blocks" konzipiert, die verwendet werden können, um neue APIs für den Zugriff auf geospatiale Inhalte im Web zusammenzustellen. Die Bausteine werden nicht nur durch die Anforderungen der im OGC-Normenprogramm spezifizierten Standards definiert, sondern auch durch Prototyping und Interoperabilitätstests im Rahmen des OGC-Programms für kollaborative Lösungen und Innovation.
-
-Für die Cloud optimierte Geodaten werden immer beliebter, da Unternehmen ihre Arbeitslasten in das Cloud-Computing verlagern. Anstatt die vorhandenen Daten einfach in der Cloud zu hosten, entwickeln viele Organisationen nun Speicherlösungen für Geodaten speziell für Cloud-Umgebungen. Dadurch können sie von den Skalierbarkeits- und Leistungsvorteilen profitieren, die das Cloud-Computing bietet. Mit der zunehmenden Verfügbarkeit von Echtzeit-Datenströmen aus Quellen wie Satellitenbildern und IoT-Sensoren suchen viele Organisationen nach Möglichkeiten, diese Daten schnell und effizient in der Cloud zu verarbeiten. Serverless Computing bietet die Möglichkeit, Code auszuführen, ohne dass Server verwaltet und bereitgestellt werden müssen, was besonders bei der Verarbeitung von Geodaten von Vorteil ist. So können Organisationen ihre Rechenleistung leicht an die Nachfrage anpassen. Schließlich werden KI und ML zunehmend zur Analyse von Geodaten in der Cloud eingesetzt, insbesondere zur Objekterkennung, Klassifizierung und prädiktiven Modellierung.
-Diese neuen Praktiken lenken daher die Schaffung neuer Geodatenstandards wie COG, STAC, Zarr, COPC, GeoParquet und Flatgeobuff in die richtige Richtung, und dieses Dokument gibt Empfehlungen zu ihnen ab.
-
-=== Aufbau des Anwendungsprofils
-
-Die wesentlichen inhaltlichen Komponenten des Anwendungsprofils sind: 
-•	Kapitel 3 Einleitung: informative Einführung und Erläuterungen. 
-•	Kapital 6 Richtlinien und Empfehlungen: Normative Richtlinien und Empfehlungen. 
-Die Richtlinien und Empfehlungen werden für jede Geodienst-Spezifikation in einem eigenen Abschnitt nach einer einheitlichen Struktur abgehandelt. Diese umfasst die folgenden Elemente: 
-•	Kurz-Beschreibung 
-•	Aktuelle Version: Als aktuelle Version wird diejenige mit der höchsten Dokumentenstufe angesehen, im besten Fall die finale Version. Somit werden neben der eigentlichen Versionsnummer auch der Dokumenten-Status, sowie die zuständige Organisation, die diesen festlegt, angegeben. Ebenfalls aufgeführt ist das Erscheinungsdatum. 
-•	Richtlinien: Sind pro Standard nummeriert (z.B. «WMS-01»). Die Richtlinien definieren zwingende Vorgaben (vgl. Kapitel 4). 
-•	Empfehlungen: Die Nummerierung wird pro Spezifikation für die Empfehlungen fortgeführt (z.B. «WMS-10»). Empfehlungen sind nicht zwingende Vorgaben (vgl. Kapitel 4). 
-Das Anwendungsprofil legt in den Richtlinien fest, welche Version eines OGC WebserviceStandards unterstützt werden muss. 
-
 === Nachführung
 
 Die Nachführung dieses Dokumentes erfolgt periodisch, wobei zwischen grösseren Überarbeitungen (z.B. Änderung einer Richtlinie, Einführung neuer Standards) und kleinen Änderungen und Ergänzungen unterschieden wird. Folgende Nachführungsperioden sind festgelegt:
@@ -230,11 +197,11 @@ Um Unklarheiten in der Terminologie zu vermeiden, werden an dieser Stelle Ausdr�
 
 [width="100%",cols="19%,81%",options="header",]
 |===
-|Richtlinie a| Eine Richtlinie ist eine zwingende Vorgabe, welche eingehalten werden muss, um zum Anwendungsprofil konform zu sein. Insbesondere wird durch die Umsetzung der Richtlinien der Rechtsvorgabe im Zusammenhang mit Art.7 GeoIV-swisstopo [2a] entsprochen.
+|Richtlinie| Eine Richtlinie ist eine zwingende Vorgabe, welche eingehalten werden muss, um zum Anwendungsprofil konform zu sein. Insbesondere wird durch die Umsetzung der Richtlinien der Rechtsvorgabe im Zusammenhang mit Art.7 GeoIV-swisstopo [2a] entsprochen.
 
 Richtlinien sind in Kapitel 2 durch das Schlüsselwort «*MUSS*», einen dunkleren Rahmen und eine graue Hinterlegung ausgezeichnet.
 
-|Empfehlung a| Eine Empfehlung ist eine nicht zwingende Vorgabe. Sie sollte für eine verbesserte Interoperabilität, wenn möglich eingehalten werden, hat aber hinsichtlich der Konformität zum Anwendungsprofil keine Wirkung.
+|Empfehlung| Eine Empfehlung ist eine nicht zwingende Vorgabe. Sie sollte für eine verbesserte Interoperabilität, wenn möglich eingehalten werden, hat aber hinsichtlich der Konformität zum Anwendungsprofil keine Wirkung.
 
 Empfehlungen sind in Kapitel 6 durch das Schlüsselwort «*SOLLTE*» sowie einen helleren Rahmen ausgezeichnet.
 |===
@@ -256,8 +223,6 @@ erfüllt sein muss.
 |===
 |ALLG-01 |Ein Server *MUSS* ein Dokument zurücksenden, das mit dem angeforderten Medientyp übereinstimmt und die UTF-8-Zeichenkodierung einhält.
 |===
-
-==== Angabe von Datum und Zeit
 
 [width="100%",cols="19%,81%",options="header",]
 |===
@@ -354,100 +319,6 @@ Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgröss
 |QUAL-05 |Die Einhaltung der Qualitätsrichtlinien *MUSS* durch den Leistungserbringer nachgewiesen werden
 |===
 
-// == Normative Referenzen
-
-// [width="100%",cols="7%,93%"]
-// |===
-// |[1]| Informatiksteuerungsorgan Bund, 2016. +
-// R016 - SOA Policies +
-// https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html]
-// |[2]| Open Geospatial Consortium (OGC), 2006 +
-// OpenGIS Web Map Server Implementation Specification 1.3.0 (OGC 06-042) +
-// http://portal.opengeospatial.org/files/?artifact_id=14416[http://portal.opengeospatial.org/files/?artifact_id=14416]
-// |[3]| Open Geospatial Consortium (OGC), 2010 +
-// OpenGIS Web Map Tile Service Implementation Standard 1.0.0 (OGC 07-057r7) +
-// http://portal.opengeospatial.org/files/?artifact_id=35326[http://portal.opengeospatial.org/files/?artifact_id=35326]
-// |[4]| Open Geospatial Consortium (OGC), 2022 +
-// OGC API - Tiles - Part 1: Core +
-// https://docs.ogc.org/is/20-057/20-057.html[https://docs.ogc.org/is/20-057/20-057.html]
-// |[5]| STAC Community, 2021 +
-// The Spatial Temporal Asset Catalog Specification +
-// https://github.com/radiantearth/stac-spec[https://github.com/radiantearth/stac-spec]
-// |[6]| STAC Community, 2022 +
-// The Spatial Temporal Asset Catalog API Specification +
-// https://github.com/radiantearth/stac-api-spec[https://github.com/radiantearth/stac-api-spec]
-// |[7]| eCH, 2016 +
-// eCH-0031 Geoinformation: INTERLIS 2-Referenzhandbuch +
-// https://www.ech.ch/de/ech/ech-0031/2.0[https://www.ech.ch/de/ech/ech-0031/2.0]
-// |[8]| eCH, 2016 +
-// eCH-0118 Geoinformation: GML-Kodierungsregeln für INTERLIS +
-// https://www.ech.ch/de/ech/ech-0118/2.0[https://www.ech.ch/de/ech/ech-0118/2.0]
-// |[9]| Open Geospatial Consortium (OGC), 2014 +
-// OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum (OGC 09-025r2) +
-// http://docs.opengeospatial.org/is/09-025r2/09-025r2.html[http://docs.opengeospatial.org/is/09-025r2/09-025r2.html]
-// |[10]| Open Geospatial Consortium (OGC), 2022 +
-// OGC API - Features - Part 1: Core corrigendum (OGC 17-069r4) +
-// https://docs.opengeospatial.org/is/17-069r4/17-069r4.html[https://docs.opengeospatial.org/is/17-069r4/17-069r4.html]
-// |[11]| Open Geospatial Consortium (OGC), 2022 +
-// OGC API - Features - Part 2: Coordinate Reference Systems by Reference corrigendum (OGC 18-058r1) +
-// https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[https://docs.opengeospatial.org/is/18-058r1/18-058r1.html]
-// |[12]| Open Geospatial Consortium (OGC), 2018 +
-// OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core (OGC 17-089r1) +
-// http://docs.opengeospatial.org/is/17-089r1/17-089r1.html[http://docs.opengeospatial.org/is/17-089r1/17-089r1.html]
-// |[13]| Open Geospatial Consortium (OGC), 2016 +
-// OGC Catalogue Services 3.0 - General Model (OGC 12-168r6) +
-// https://docs.opengeospatial.org/is/12-168r6/12-168r6.html[https://docs.opengeospatial.org/is/12-168r6/12-168r6.html]
-// |[14]| Open Geospatial Consortium (OGC), 2016 +
-// OGC Catalogue Services 3.0 Specification - HTTP Protocol Binding (OGC 12-176r7) +
-// https://docs.opengeospatial.org/is/12-176r7/12-176r7.html[https://docs.opengeospatial.org/is/12-176r7/12-176r7.html]
-// |[15]| eCH, 2017 +
-// eCH-0014 SAGA.ch +
-// https://www.ech.ch/de/ech/ech-0014/8.0[https://www.ech.ch/de/ech/ech-0014/8.0]
-// |[16]| ISO/TC 154, 2019 +
-// ISO 8601-1:2019. Date and time - Representations for information interchange - Part 1: Basic rules +
-// https://www.iso.org/standard/70907.html[https://www.iso.org/standard/70907.html]
-// |[17]| ISO/TC 171, 2005 +
-// ISO 19005-1:2005. Document management -- Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1) +
-// https://www.iso.org/standard/38920.html[https://www.iso.org/standard/38920.html]
-// |[18]| Internet Engineering Task Force (IETF), 2022 +
-// HTTP Semantics - RFC 9110 +
-// https://www.rfc-editor.org/info/rfc9110[https://www.rfc-editor.org/info/rfc9110]
-// |[19]| Internet Engineering Task Force (IETF), 2009 +
-// Tags for Identifying Languages - RFC 5646 +
-// https://www.rfc-editor.org/info/rfc5646[https://www.rfc-editor.org/info/rfc5646]
-// |[20]| Internet Engineering Task Force (IETF), 2009 +
-// Web Linking - RFC 8288 +
-// https://www.rfc-editor.org/info/rfc8288[https://www.rfc-editor.org/info/rfc8288]
-// |[21]| Open Geospatial Consortium (OGC), 2019 +
-// OGC Two Dimensional Tile Matrix Set +
-// https://docs.opengeospatial.org/is/17-083r2/17-083r2.html[https://docs.opengeospatial.org/is/17-083r2/17-083r2.html]
-// |[22]| Open Geospatial Consortium (OGC), 2007 +
-// OpenGIS Styled Layer Descriptor Profile of the Web Map Service +
-// Implementation Specification 1.1.0 (OGC 05-078r4), +
-// https://portal.opengeospatial.org/files/?artifact_id=22364[https://portal.opengeospatial.org/files/?artifact_id=22364]
-// |[23]| Open Geospatial Consortium (OGC), 2006 +
-// Symbology Encoding Implementation Specification 1.1.0 (OGC 05-077r4), +
-// http://portal.opengeospatial.org/files/?artifact_id=16700[http://portal.opengeospatial.org/files/?artifact_id=16700]
-// |[24]| Open Geospatial Consortium (OGC), 2019 +
-// OGC GeoTIFF standard (OGC 05-077r4), +
-// https://docs.opengeospatial.org/is/19-008r4/19-008r4.html[https://docs.opengeospatial.org/is/19-008r4/19-008r4.html]
-// |===
-
-// [NOTE]
-// ====
-// Diese Verweise könnten anders gehandhabt werden (Literaturverzeichnis)
-// ====
-
-// == Anforderungsklassen
-
-// * Antwort auf HTTP(S)-Anfragen
-// * Angabe von Datum und Zeit 
-// * Sicherheit
-// * Sprache
-// * Metadaten
-// * Koordinatensysteme
-// * Qualität
-
 === Darstellungsdiente
 
 Ein Darstellungsdienst ist ein Internetdienst, mit dem darstellbare Geodatensätze angezeigt, vergrössert, verkleinert und verschoben, Daten überlagert angezeigt werden können und der ein Navigieren in den Geodaten ermöglicht (Art. 2 GeoIV [4a]).
@@ -506,281 +377,21 @@ Die von den Fachgruppen erarbeiteten Standards können unter Nennung der jeweili
 
 Diese Bestimmungen gelten ausschliesslich für die von *eCH* erarbeiteten Standards, nicht jedoch für Standards oder Produkte Dritter, auf welche in den *eCH*-Standards Bezug genommen wird. Die Standards enthalten die entsprechenden Hinweise auf die Rechte Dritter.
 
-== Anhang A – Referenzen & Bibliographie
+// Anhang A – Referenzen & Bibliographie
 
-Normative Referenzen
+include::./appendices/appendix-a-de.adoc[]
 
-[width="100%",cols="7%,93%",]
-|===
-|[1]|
+// Anhang B – Mitarbeit und Überprüfung
 
-Informatiksteuerungsorgan Bund, 2016.
+include::./appendices/appendix-b-de.adoc[]
 
-R016 – SOA Policies
+// Anhang C – Abkürzungen und Glossar
 
-https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html[[.underline]#https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html#]
+include::./appendices/appendix-c-de.adoc[]
 
-|[2]|
+// Anhang D – Änderungen gegenüber Vorversion
 
-Open Geospatial Consortium (OGC), 2006
-
-OpenGIS Web Map Server Implementation Specification 1.3.0 (OGC 06-042)
-
-http://portal.opengeospatial.org/files/?artifact_id=14416[[.underline]#http://portal.opengeospatial.org/files/?artifact_id=14416#]
-
-|[3]|
-
-Open Geospatial Consortium (OGC), 2010
-
-OpenGIS Web Map Tile Service Implementation Standard 1.0.0 (OGC 07-057r7)
-
-http://portal.opengeospatial.org/files/?artifact_id=35326[[.underline]#http://portal.opengeospatial.org/files/?artifact_id=35326#]
-
-|[4]|
-
-Open Geospatial Consortium (OGC), 2022
-
-OGC API - Tiles - Part 1: Core
-
-https://docs.ogc.org/is/20-057/20-057.html[[.underline]#https://docs.ogc.org/is/20-057/20-057.html#]
-
-|[5]|
-
-STAC Community, 2021
-
-The Spatial Temporal Asset Catalog Specification
-
-https://github.com/radiantearth/stac-spec/[[.underline]#https://github.com/radiantearth/stac-spec/#]
-
-|[6]|
-
-STAC Community, 2022
-
-The Spatial Temporal Asset Catalog API Specification
-
-https://github.com/radiantearth/stac-api-spec[[.underline]#https://github.com/radiantearth/stac-api-spec#]
-
-|[7]|
-
-eCH, 2016
-
-eCH-0031 Geoinformation: INTERLIS 2-Referenzhandbuch
-
-https://www.ech.ch/de/ech/ech-0031/2.0[[.underline]#https://www.ech.ch/de/ech/ech-0031/2.0#]
-
-|[8]|
-
-eCH, 2016
-
-eCH-0118 Geoinformation: GML-Kodierungsregeln für INTERLIS
-
-https://www.ech.ch/de/ech/ech-0118/2.0[[.underline]#https://www.ech.ch/de/ech/ech-0118/2.0#]
-
-|[9]|
-
-Open Geospatial Consortium (OGC), 2014
-
-OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum (OGC 09-025r2)
-
-http://docs.opengeospatial.org/is/09-025r2/09-025r2.html[[.underline]#http://docs.opengeospatial.org/is/09-025r2/09-025r2.html#]
-
-|[10]|
-
-Open Geospatial Consortium (OGC), 2022
-
-OGC API - Features - Part 1: Core corrigendum (OGC 17-069r4)
-
-https://docs.opengeospatial.org/is/17-069r4/17-069r4.html[[.underline]#https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#]
-
-|[11]|
-
-Open Geospatial Consortium (OGC), 2022
-
-OGC API - Features - Part 2: Coordinate Reference Systems by Reference corrigendum (OGC 18-058r1)
-
-https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[[.underline]#https://docs.opengeospatial.org/is/18-058r1/18-058r1.html#]
-
-|[12]|
-
-Open Geospatial Consortium (OGC), 2018
-
-OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core (OGC
-17-089r1)
-
-http://docs.opengeospatial.org/is/17-089r1/17-089r1.html[[.underline]#http://docs.opengeospatial.org/is/17-089r1/17-089r1.html#]
-
-|[13]|
-
-Open Geospatial Consortium (OGC), 2016
-
-OGC Catalogue Services 3.0 - General Model (OGC 12-168r6)
-
-https://docs.opengeospatial.org/is/12-168r6/12-168r6.html
-
-|[14]|
-
-Open Geospatial Consortium (OGC), 2016
-
-OGC® Catalogue Services 3.0 Specification - HTTP Protocol Binding (OGC 12-176r7)
-
-https://docs.opengeospatial.org/is/12-176r7/12-176r7.html
-
-|[15]|
-
-eCH, 2017
-
-eCH-0014 SAGA.ch
-
-https://www.ech.ch/de/ech/ech-0014/8.0[[.underline]#https://www.ech.ch/de/ech/ech-0014/8.0#]
-
-|[16]|
-
-ISO/TC 154, 2019
-
-ISO 8601-1:2019. Date and time — Representations for information interchange — Part 1: Basic rules
-
-https://www.iso.org/standard/70907.html[[.underline]#https://www.iso.org/standard/70907.html#]
-
-|[17]|
-
-ISO/TC 171, 2005
-
-ISO 19005-1:2005. Document management -- Electronic document file format for long-term preservation – Part 1: Use of PDF 1.4 (PDF/A-1)
-
-https://www.iso.org/standard/38920.html[[.underline]#https://www.iso.org/standard/38920.html#]
-
-|[18]|
-Internet Engineering Task Force (IETF), 2022
-
-HTTP Semantics - RFC 9110
-
-https://www.rfc-editor.org/info/rfc9110[[.underline]#https://www.rfc-editor.org/info/rfc9110#]
-|[19]|
-Internet Engineering Task Force (IETF), 2009
-
-Tags for Identifying Languages - RFC 5646
-
-https://www.rfc-editor.org/info/rfc5646[[.underline]#https://www.rfc-editor.org/info/rfc5646#]
-|[20]|
-Internet Engineering Task Force (IETF), 2009
-
-Web Linking - RFC 8288
-
-https://www.rfc-editor.org/info/rfc8288[[.underline]#https://www.rfc-editor.org/info/rfc8288#]
-|[21]|
-Open Geospatial Consortium (OGC), 2019
-
-OGC Two Dimensional Tile Matrix Set
-
-https://docs.opengeospatial.org/is/17-083r2/17-083r2.html[[.underline]#https://docs.opengeospatial.org/is/17-083r2/17-083r2.html#]
-|[22]|
-Open Geospatial Consortium (OGC), 2007
-
-OpenGIS Styled Layer Descriptor Profile of the Web Map Service Implementation Specification 1.1.0 (OGC 05-078r4),
-https://portal.opengeospatial.org/files/?artifact_id=22364
-|[23]|
-Open Geospatial Consortium (OGC), 2006
-
-Symbology Encoding Implementation Specification 1.1.0 (OGC 05-077r4), http://portal.opengeospatial.org/files/?artifact_id=16700
-|[24]|
-Open Geospatial Consortium (OGC), 2019
-
-OGC GeoTIFF standard (OGC 05-077r4),
-
-https://docs.opengeospatial.org/is/19-008r4/19-008r4.html
-|===
-
-Bibliographie
-
-[width="100%",cols="7%,93%",]
-|===
-|[1a]|
-Bundesversammlung der Schweizerischen Eidgenossenschaft, 2007
-
-Bundesgesetz vom 5. Oktober 2007 über Geoinformation (GeoIG)
-
-https://www.fedlex.admin.ch/eli/cc/2008/388/de[[.underline]#https://www.fedlex.admin.ch/eli/cc/2008/388/de#]
-|[2a]|
-Bundesamt für Landestopografie - swisstopo, 2008
-
-Verordnung vom 26. Mai 2008 des Bundesamtes für Landestopografie über Geoinformation (GeoIV-swisstopo)
-
-https://www.fedlex.admin.ch/eli/cc/2008/390/de[[.underline]#https://www.fedlex.admin.ch/eli/cc/2008/390/de#]
-|[3a]|
-GKG - BPUK, 2020
-
-Strategie Geoinformation Schweiz und Aktionsplan
-
-https://www.geo.admin.ch/de/ueber-geo-admin/leistungsauftrag/strategie-und-umsetzung.html[[.underline]#https://www.geo.admin.ch/de/ueber-geo-admin/leistungsauftrag/strategie-und-umsetzung.html#]
-|[4a]|
-Schweizerischer Bundesrat, 2008
-
-Verordnung vom 21. Mai 2008 über Geoinformation (GeoIV)
-
-https://www.fedlex.admin.ch/eli/cc/2008/389/de[[.underline]#https://www.fedlex.admin.ch/eli/cc/2008/389/de#]
-|[5a]|
-eCH, 2012
-
-eCH-0150 Change und Release Management von eCH-Standards V1.0
-
-https://www.ech.ch/de/ech/ech-0150/1.0[[.underline]#https://www.ech.ch/de/ech/ech-0150/1.0#]
-|[6a]|
-eCH, 2022
-
-eCH-0003 – Leitfaden zur Genehmigung von Anträgen
-
-https://www.ech.ch/de/ech/ech-0003/11.1.0[[.underline]#https://www.ech.ch/de/ech/ech-0003/11.1.0#]
-|[7a]|
-IOGP Geomatics Committee – Geodesy Subcommittee
-
-EPSG Geodetic Parameter Dataset
-
-https://epsg.org/
-|[8a]|
-Europäische Kommission, 2010
-
-VERORDNUNG (EU) Nr. 1088/2010 DER KOMMISSION vom 23. November 2010 zur
-Änderung der Verordnung (EG) Nr. 976/2009 hinsichtlich Downloaddiensten
-und Transformationsdiensten
-
-https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32010R1088&from=EN
-|===
-
-== Anhang B – Mitarbeit & Überprüfung
-
-<Hier sind alle Mitarbeiterinnen und Mitarbeiter aufzuführen, die an
-dieser Version des Dokuments mitgearbeitet haben.>
-
-[width="100%",cols="24%,76%",]
-|===
-|<N. N.> |<Organisation/Firma>
-|<N. N.> |<Organisation/Firma>
-|===
-
-== Anhang C – Abkürzungen und Glossar
-
-[width="100%",cols="24%,76%",]
-|===
-|<Abk.> |<Text>
-|<Abk.> |<Text>
-|===
-
-== Anhang D – Änderungen gegenüber Vorversion
-
-<Dies ist die erste Version.>
-
-<oder eine detaillierte Zusammenstellung der Änderungen gegenüber der
-Vorgängerversion>
-
-[width="100%",cols="13%,9%,64%,14%",options="header",]
-|===
-|*Kapitel* |*Seite* |*Anpassung* |*RFC Nr.*
-| | | |
-| | | |
-| | | |
-|===
-
-[#_Toc135733307 .anchor]####Tabelle 2 Änderungen gegenüber Vorversion
+include::./appendices/appendix-d-de.adoc[]
 
 == Anhang E – Abbildungsverzeichnis
 
@@ -794,7 +405,6 @@ Folgende Links hinzufügen:
 
 == Anhang F – Tabellenverzeichnis
 
-
 [NOTE]
 ====
 Folgenden Link hinzufügen:
@@ -802,24 +412,6 @@ Folgenden Link hinzufügen:
 * Tabelle 2 Änderungen gegenüber Vorversion
 ====
 
-== Anhang E – Neue Trends bei den Geostandards
+// Anhang G – Neue Trends bei den Geostandards
 
-Die Suche nach, der Zugriff auf und die Nutzung von Geodaten, die über Geodateninfrastrukturen (GDI) auf der Grundlage von OGC-Webdiensten (WMS, WFS, WCS, WPS usw.) verbreitet werden, hat einige Nachteile: OGC-Webdienste sind grundsätzlich nicht für die Indizierung ihrer Inhalte durch Suchmaschinen geeignet (die Daten sind im Web nicht auffindbar) und für nicht fachkundige Nutzer schwer zu nutzen.
-
-Aus diesem Grund hat das Open Geospatial Consortium in Zusammenarbeit mit dem W3C das Dokument "Spatial Data on the Web Best Practices" erstellt. Dieses Dokument enthält eine Reihe von Empfehlungen für die Veröffentlichung von Geodaten im Web. Diese Empfehlungen richten sich an Praktiker/innen, darunter Webentwickler/innen und Geoinformatikexpert/innen, und wurden auf der Grundlage von Erfahrungen aus der Praxis zusammengestellt. Die Best Practices legen einen deutlichen Richtungswechsel von der traditionellen Geodateninfrastruktur hin zu einem Ansatz nahe, der auf gemeinsamen Webstandards basiert.
-
-Auf der Grundlage dieser Erfahrungen hat das Open Geospatial Consortium mit der Entwicklung einer neuen Familie von Standards begonnen. Diese neuen Standards sollen es jedem leicht machen, Geodaten im Internet bereitzustellen, zu nutzen und diese Daten mit jeder anderen Art von Informationen zu integrieren. Diese Standards definieren ressourcenzentrierte APIs, die die Vorteile moderner Webentwicklungstechniken nutzen.
-
-Die OGC-APIs sind so konzipiert, dass jeder einfach Geodaten über das Web bereitstellen, nutzen sowie diese Daten in jede andere Art von Information integrieren kann. Diese Standards bauen auf dem Erbe der OGC-Webservice-Standards (WMS, WFS, WCS, WPS usw.) auf, definieren aber ressourcenorientierte APIs, die sich die modernen Praktiken der Webentwicklung zunutze machen.
-
-Im Gegensatz zu den OGC Web Service Standards basieren die OGC-APIs auf einer Rest-API und nicht mehr auf dem SOAP-Protokoll. Sie bevorzugen die JSON-Kodierung gegenüber der XML-Kodierung, die weniger wortreich und leichter verständlich ist. Die Dokumentation basiert auf der Open API-Spezifikation, um das Auffinden und die Integration der Daten zu erleichtern, sowie auf HTML-Rendering und Endpunkten in JSON-LD, um die Indexierung durch Suchmaschinen zu erleichtern.
-
-Die OGC-APIs sind formatunabhängig, d.h. sie schreiben keine bestimmte Kodierung oder ein bestimmtes Format für die Repräsentation von Ressourcen vor. Allerdings sind sowohl HTML als auch JSON gängige Kodierungen für Geodaten im Internet und werden daher dringend empfohlen.
-
-Cloud-native Geodatenformate sind eine neue Art, mit Geodaten zu arbeiten. Sie basieren auf einer Reihe neuer Standards (COG, STAC, Zarr, COPC, usw.), die sich auf den cloudbasierten Zugang konzentrieren.
-
-Sobald die Daten in den richtigen cloud-native Formaten vorliegen, ist es einfach, auf ein reichhaltiges Ökosystem von Plattformen und Tools zuzugreifen, ohne grosse Dateien herunterladen zu müssen. Dies erhöht auch die Anwendbarkeit von Cloud-Tools und vergrössert den Einfluss von Geodaten auf eine Lösung.
-
-Geodaten, die für die Cloud optimiert sind, werden immer beliebter, da Unternehmen ihre Arbeitslasten in die Cloud verlagern. Anstatt einfach nur bestehende Daten in der Cloud zu hosten, entwickeln viele Organisationen jetzt Speicherlösungen für Geodaten speziell für Cloud-Umgebungen. So können sie die Vorteile der Skalierbarkeit und Leistung nutzen, die Cloud Computing bietet. Angesichts der zunehmenden Verfügbarkeit von Echtzeitdatenströmen aus Quellen wie Satellitenbildern und IoT-Sensoren suchen viele Organisationen nach Möglichkeiten, diese Daten schnell und effizient in der Cloud zu verarbeiten. Serverloses Computing bietet die Möglichkeit, Code auszuführen, ohne Server verwalten und bereitstellen zu müssen, was besonders bei der Verarbeitung von Geodaten von Vorteil ist. So können Unternehmen ihre Rechenleistung leicht an den Bedarf anpassen. Schliesslich werden KI und ML zunehmend zur Analyse von Geodaten in der Cloud eingesetzt, insbesondere zur Objekterkennung, Klassifizierung und prädiktiven Modellierung.
-
-Diese neuen Praktiken lenken daher die Schaffung neuer Geostandards wie COG, STAC, Zarr, COPC, GeoParquet und Flatgeobuff in die richtige Richtung, und dieses Dokument enthält Empfehlungen dazu.
+include::./appendices/appendix-e-de.adoc[]

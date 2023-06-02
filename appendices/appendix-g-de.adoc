@@ -1,0 +1,23 @@
+[.appendix nonumber]
+== Anhang E – Neue Trends bei den Geostandards
+
+Die Suche nach, der Zugriff auf und die Nutzung von Geodaten, die über Geodateninfrastrukturen (GDI) auf der Grundlage von OGC-Webdiensten (WMS, WFS, WCS, WPS usw.) verbreitet werden, hat einige Nachteile: OGC-Webdienste sind grundsätzlich nicht für die Indizierung ihrer Inhalte durch Suchmaschinen geeignet (die Daten sind im Web nicht auffindbar) und für nicht fachkundige Nutzer schwer zu nutzen.
+
+Aus diesem Grund hat das Open Geospatial Consortium in Zusammenarbeit mit dem W3C das Dokument "Spatial Data on the Web Best Practices" erstellt. Dieses Dokument enthält eine Reihe von Empfehlungen für die Veröffentlichung von Geodaten im Web. Diese Empfehlungen richten sich an Praktiker/innen, darunter Webentwickler/innen und Geoinformatikexpert/innen, und wurden auf der Grundlage von Erfahrungen aus der Praxis zusammengestellt. Die Best Practices legen einen deutlichen Richtungswechsel von der traditionellen Geodateninfrastruktur hin zu einem Ansatz nahe, der auf gemeinsamen Webstandards basiert.
+
+Auf der Grundlage dieser Erfahrungen hat das Open Geospatial Consortium mit der Entwicklung einer neuen Familie von Standards begonnen. Diese neuen Standards sollen es jedem leicht machen, Geodaten im Internet bereitzustellen, zu nutzen und diese Daten mit jeder anderen Art von Informationen zu integrieren. Diese Standards definieren ressourcenzentrierte APIs, die die Vorteile moderner Webentwicklungstechniken nutzen.
+
+Die OGC-APIs sind so konzipiert, dass jeder einfach Geodaten über das Web bereitstellen, nutzen sowie diese Daten in jede andere Art von Information integrieren kann. Diese Standards bauen auf dem Erbe der OGC-Webservice-Standards (WMS, WFS, WCS, WPS usw.) auf, definieren aber ressourcenorientierte APIs, die sich die modernen Praktiken der Webentwicklung zunutze machen.
+
+Im Gegensatz zu den OGC Web Service Standards basieren die OGC-APIs auf einer Rest-API und nicht mehr auf dem SOAP-Protokoll. Sie bevorzugen die JSON-Kodierung gegenüber der XML-Kodierung, die weniger wortreich und leichter verständlich ist. Die Dokumentation basiert auf der Open API-Spezifikation, um das Auffinden und die Integration der Daten zu erleichtern, sowie auf HTML-Rendering und Endpunkten in JSON-LD, um die Indexierung durch Suchmaschinen zu erleichtern.
+
+Die OGC-APIs sind formatunabhängig, d.h. sie schreiben keine bestimmte Kodierung oder ein bestimmtes Format für die Repräsentation von Ressourcen vor. Allerdings sind sowohl HTML als auch JSON gängige Kodierungen für Geodaten im Internet und werden daher dringend empfohlen.
+
+Cloud-native Geodatenformate sind eine neue Art, mit Geodaten zu arbeiten. Sie basieren auf einer Reihe neuer Standards (COG, STAC, Zarr, COPC, usw.), die sich auf den cloudbasierten Zugang konzentrieren.
+
+Sobald die Daten in den richtigen cloud-native Formaten vorliegen, ist es einfach, auf ein reichhaltiges Ökosystem von Plattformen und Tools zuzugreifen, ohne grosse Dateien herunterladen zu müssen. Dies erhöht auch die Anwendbarkeit von Cloud-Tools und vergrössert den Einfluss von Geodaten auf eine Lösung.
+
+Geodaten, die für die Cloud optimiert sind, werden immer beliebter, da Unternehmen ihre Arbeitslasten in die Cloud verlagern. Anstatt einfach nur bestehende Daten in der Cloud zu hosten, entwickeln viele Organisationen jetzt Speicherlösungen für Geodaten speziell für Cloud-Umgebungen. So können sie die Vorteile der Skalierbarkeit und Leistung nutzen, die Cloud Computing bietet. Angesichts der zunehmenden Verfügbarkeit von Echtzeitdatenströmen aus Quellen wie Satellitenbildern und IoT-Sensoren suchen viele Organisationen nach Möglichkeiten, diese Daten schnell und effizient in der Cloud zu verarbeiten. Serverloses Computing bietet die Möglichkeit, Code auszuführen, ohne Server verwalten und bereitstellen zu müssen, was besonders bei der Verarbeitung von Geodaten von Vorteil ist. So können Unternehmen ihre Rechenleistung leicht an den Bedarf anpassen. Schliesslich werden KI und ML zunehmend zur Analyse von Geodaten in der Cloud eingesetzt, insbesondere zur Objekterkennung, Klassifizierung und prädiktiven Modellierung.
+
+Diese neuen Praktiken lenken daher die Schaffung neuer Geostandards wie COG, STAC, Zarr, COPC, GeoParquet und Flatgeobuff in die richtige Richtung, und dieses Dokument enthält Empfehlungen dazu.
+

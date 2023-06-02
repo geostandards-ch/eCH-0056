@@ -1,7 +1,22 @@
 [.appendix nonumber]
-== Annexe D – Modifications par rapport à la version 3.0
+== Annexe D - Modifications par rapport à la version précédente
+
+<Il s'agit de la première version>.
+
+<ou un récapitulatif détaillé des modifications par rapport à la version
+version précédente>
+
+[width="100%",cols="13%,9%,64%,14%",options="header",]
+|===
+|*Chapitre* |*Page* |*Adaptation* |*RFC No.*
+| | | |
+| | | |
+| | | |
+|===
+
+[#_Toc135733307 .anchor]####Tableau 2 Modifications par rapport à la version précédente
 
 [NOTE]
 ====
-A compléter plus tard.
+A remplir ultérieurement.
 ====
