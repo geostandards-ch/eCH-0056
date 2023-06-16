@@ -1,7 +1,0 @@
-[.appendix nonumber]
-== Anhang D – Änderungen gegenüber Version 3.0
-
-[NOTE]
-====
-Später auszufüllen.
-====

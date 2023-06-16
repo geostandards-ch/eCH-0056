@@ -1,8 +1,10 @@
-[.appendix nonumber]
+== Anhang B – Mitarbeit und Überprüfung{empty}footnote:[siehe https://github.com/MediaComem/eCH-0056/issues/21[#21]]
 
-== Anhang B – Mitarbeit und Überprüfung
+<Hier sind alle Mitarbeiterinnen und Mitarbeiter aufzuführen, die an
+dieser Version des Dokuments mitgearbeitet haben.>
 
-[NOTE]
-====
-Später auszufüllen.
-====
+[width="100%",cols="24%,76%",]
+|===
+|<N. N.> |<Organisation/Firma>
+|<N. N.> |<Organisation/Firma>
+|===

@@ -1,0 +1,34 @@
+extends: default
+# 2DO Déclarer l'usage de la police Arial
+header:
+  height: 1cm
+  recto:
+    right:
+      content: 'Page {page-number} sur {page-count}'
+    left:
+      content: image:logo-ech.png[width=2.5cm]
+      # Eventuellement intégrer le logo et le texte séparément; voir pour ajouter un espace avant le logo
+  verso:
+    right:
+      content: 'Page {page-number} sur {page-count}'
+    left:
+      content: image:logo-ech.png[width=2.5cm]
+      # Eventuellement intégrer le logo et le texte séparément; voir pour ajouter un espace avant le logo
+footer:
+  height: 0.8cm
+  recto:
+    right:
+      content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
+      inline_format: true
+      color: red
+    left:
+      # Trouver une solution pour afficher le contenu sur 2 lignes
+      content: 'Association eCH, ID – <Name> / x.x.x / In Arbeit / JJJJ-MM-TT'
+  verso:
+    right:
+      content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
+      inline_format: true
+      color: red
+    left:
+      # Trouver une solution pour afficher le contenu sur 2 lignes
+      content: 'Association eCH, ID – <Name> / x.x.x / In Arbeit / JJJJ-MM-TT'

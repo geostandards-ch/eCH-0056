@@ -1,4 +1,4 @@
-=== Adressdienst auf Basis von OGC API Features
+=== Adressdienst auf Basis von OpenGIS Web Feature Service{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/22[#22]]
 ==== Einleitung
 ==== Umfang
 ==== Konformität
@@ -6,9 +6,3 @@
 ==== Ressourcen 
 ==== Anforderungsklassen 
 ==== Beispiel
-
-[NOTE]
-====
-Vielleicht auch WFS in Betracht ziehen
-Von der HEIG-VD auszufüllen
-====

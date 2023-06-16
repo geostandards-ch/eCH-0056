@@ -1,7 +1,1 @@
-==== Darstellungsdienst auf Basis von OGC API Tiles
-
-[NOTE]
-====
-Von der HEIG-VD auszufüllen
-====
-
+==== Darstellungsdienst auf Basis von OGC API Tiles{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]

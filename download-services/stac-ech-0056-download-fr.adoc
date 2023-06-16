@@ -1,17 +1,31 @@
 === Service de téléchargement basé sur les spécifications STAC et STAC-API
-
-[NOTE]
-====
-Consulter les références suivantes:
-
-* https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-download-services
-* https://stacspec.org/en/tutorials/intro-to-stac
-====
-
 ==== Introduction
-==== Portée
-==== Conformité
-==== Principes de base
-==== Ressources 
-==== Recommandations 
-==== Exemples
+
+STAC (SpatioTemporal Asset Catalog) est une spécification permettant de cataloguer les données géographiques afin de faciliter leur traitement, leur indexation et leur découverte. STAC est un moyen standardisé de publier des données spatiales et temporelles. La publication de données géographiques avec STAC est aussi simple que de placer des fichiers statiques dans un dossier public sur Internet.
+
+Une API STAC est une version dynamique de STAC et définit en outre une interface de service RESTful pour la recherche.
+
+==== Classes d’exigences
+===== Classe d’exigences STAC
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/stac/req/stac
+|Type d’objectif |Web API
+|Dépendances |https://github.com/radiantearth/stac-spec/[SpatioTemporal Asset Catalog Specification, version 1.0.0]
+|===
+
+===== Classe d’exigences STAC{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/13[#13]]
+
+[width="100%",cols="29%,71%",options="header",]
+|===
+|*Exigence 1* |/req/stac
+|A (STAC-01) |La mise en œuvre d'un service de téléchargement prédéfini et basé sur des fichiers DOIT être conforme à la version 1.0.0 [5] de la STAC Specification.
+|B (STAC-02) |Le catalogue DOIT contenir un lien avec `rel=describedby` qui renvoie à des métadonnées de service lisibles par une machine.
+|C (STAC-03) |Chaque ensemble de données géographiques mis à disposition DOIT être décrit comme une collection.
+|D (STAC-04) |Chaque collection DOIT contenir un lien avec `rel=describedby`, qui renvoie à des métadonnées lisibles par machine selon le modèle GM03 version 2.1 [13].
+|E (STAC-05) |Pour l'échange de données vectorielles conforme au modèle, un lien vers des fichiers INTERLIS XTF [7] ou INTERLIS GML [8] DOIT être proposé.
+|F (STAC-06) |Pour les données raster bidimensionnelles, le format de données GeoTIFF{empty}footnote:[Un GeoTIFF optimisé pour le Cloud répond à cette directive] [24] DOIT être proposé.
+|G (STAC-07) |Des formats de géodonnées optimisés pour le cloud DOIVENT être proposés.
+|H (STAC-08) |La mise en œuvre d'un service de téléchargement prédéfini et basé sur des fichiers DEVRAIT être conforme à la version 1.0.0 de la STAC API Specification [6].
+|===
