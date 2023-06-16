@@ -1,7 +1,11 @@
-// Document settings
+// Dokument settings
 [.text-justify]
-// Document title
+// Dokument Titel
 = eCH-0056 - Anwendungsprofil Geodienste
+:toc: macro
+:toc-title: Inhaltsverzeichnis
+:table-caption: Tabelle
+:toclevels: 5
 
 [width="100%",cols="29%,71%",]
 |===
@@ -25,6 +29,9 @@ T 044 388 74 64, F 044 388 71 80 +
 http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
 |===
 
+// Seitenumbruch
+<<<
+
 [.section nonumber]
 == Zusammenfassung
 
@@ -41,16 +48,20 @@ Grundlagen, Zielsetzungen und Abgrenzung des Anwendungsprofils werden in Kapitel
 Kapitelverweise überarbeiten und Links einführen
 ====
 
-// Table of contents
-:toc: left
-:toc-title: Inhaltsverzeichnis
-:toclevels: 5
+// Seitenumbruch
+<<<
+
+// Inhaltverzeichnis
+toc::[]
 :sectnums:
 
 [.section nonumber]
 == Hinweis
 
 Aus Gründen der besseren Lesbarkeit und Verständlichkeit wird im vorliegenden Dokument bei der Bezeichnung von Personen ausschliesslich der maskulinen Form verwendet. Diese Formulierung schliesst Frauen in ihrer jeweiligen Funktion ausdrücklich mit ein.
+
+// Seitenumbruch
+<<<
 
 == Einleitung
 === Status
@@ -224,6 +235,8 @@ erfüllt sein muss.
 |ALLG-01 |Ein Server *MUSS* ein Dokument zurücksenden, das mit dem angeforderten Medientyp übereinstimmt und die UTF-8-Zeichenkodierung einhält.
 |===
 
+==== Angabe von Datum und Zeit
+
 [width="100%",cols="19%,81%",options="header",]
 |===
 |ALLG-02 a|
@@ -246,7 +259,7 @@ YYYY-MM-DDThh:mm:ss «2023-08-31T16:55:01»
 Eine Ausnahme bilden nur Datums- und Zeitangaben in Hinweisen, die ausschliesslich für Menschen lesbar sein müssen.
 |===
 
-=== Sicherheit
+=== Sicherheit{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/2[#2]]
 
 Diese Richtlinien und Empfehlungen garantieren keine Sicherheit. Ein System muss in diesem Zusammenhang als Ganzes betrachtet werden. Es sind deshalb nur Richtlinien und Empfehlungen definiert, welche Teilaspekt bezüglich Sicherheit profilieren.
 
@@ -269,14 +282,14 @@ Diese Richtlinien und Empfehlungen garantieren keine Sicherheit. Ein System muss
 |LANG-05 |Bei Link-Objekten *SOLLTE* das Attribut hreflang verwendet werden, um die Sprache der referenzierten Ressource anzugeben [24].
 |===
 
-=== Geometadaten
+=== Metadaten
 
 [width="100%",cols="19%,81%",options="header",]
 |===
 |META-01 |Ein Geodienst MUSS im nationalen Geometadatenkatalog beschrieben werden.
 |META-02 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst einen Link auf die Dienstmetadaten im nationalen Geometadatenkatalog angeben.
 |META-03 |Die vom Geodienst selbst bereitgestellte Dienstbeschreibung *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
-|META-04 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst für jeden Geodatenbestandfootnote:[z.B.: «Layer» beim WMS und WMTS, «Feature Type» beim WFS, «Coverage» beim WCS, «Collection» bei OGC APIs und STAC.] einen Link auf die Datenmetadaten angeben.
+|META-04 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst für jeden Geodatenbestand{empty}footnote:[z.B.: «Layer» beim WMS und WMTS, «Feature Type» beim WFS, «Coverage» beim WCS, «Collection» bei OGC APIs und STAC.] einen Link auf die Datenmetadaten angeben.
 |META-05 |Die Beschreibung der Geodatenbestände, die vom Geodienst selbst bereitgestellt wird, *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
 |META-06 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst Kontaktinformationen über den Dienstanbieter und über die Attribution der bereitgestellten Geodatenbestände angeben.
 |META-07 |Sofern ein bestimmter Standard es zulässt, *SOLLTE* ein Geodienst für jeden Geodatenbestand einen Link auf die Daten angeben.
@@ -297,7 +310,7 @@ In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspri
 |CRS-03 |Ein Geodienst *SOLLTE* die Koordinatenreferenzsysteme ETRS89 LAEA Europe («EPSG: 3035»), LCC Europe («EPSG: 3034») und UTM Zone 32N («EPSG: 3044») unterstützen.
 |===
 
-=== Schweizer CH1903+ Tile Matrix Set
+=== Schweizer CH1903+ Tile Matrix Set{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/7[#7]]{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
 
 [width="100%",cols="19%,81%",options="header",]
 |===
@@ -308,12 +321,12 @@ In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspri
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
 |===
 
-=== Qualität
+=== Qualität{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/3[#3]]
 
 [width="100%",cols="19%,81%",options="header",]
 |===
-|QUAL-01 |Die Geodienste werden rund um die Uhr betrieben. Der Geodienst *MUSS* Werktags 08:00-17:00 mit einer Verfügbarkeit von 99% gewährleistet seinfootnote:[Dies entspricht einer maximalen (unplanmässigen) Ausfallzeit von knapp 47 Stunden pro Jahr. Davon ausgenommen sind langfristig kommunizierte Wartungsfenster.]
-|QUAL-02 |Die initiale Antwortzeit auf eine Anfrage an einem Suchdienst *MUSS* unter 3 Sekunden liegenfootnote:[Die Antwortzeit wird direkt am extern ansprechbaren Endpunkt des Dienstes gemessen, um unbeeinflussbare Verzögerungen im Netzwerk auszuschliessen.]
+|QUAL-01 |Die Geodienste werden rund um die Uhr betrieben. Der Geodienst *MUSS* Werktags 08:00-17:00 mit einer Verfügbarkeit von 99% gewährleistet sein{empty}footnote:[Dies entspricht einer maximalen (unplanmässigen) Ausfallzeit von knapp 47 Stunden pro Jahr. Davon ausgenommen sind langfristig kommunizierte Wartungsfenster.]
+|QUAL-02 |Die initiale Antwortzeit auf eine Anfrage an einem Suchdienst *MUSS* unter 3 Sekunden liegen{empty}footnote:[Die Antwortzeit wird direkt am extern ansprechbaren Endpunkt des Dienstes gemessen, um unbeeinflussbare Verzögerungen im Netzwerk auszuschliessen.]
 |QUAL-03 |Die initiale Antwortzeit auf eine Anfrage (z.B. GetMap) an einem Darstellungsdienst *MUSS* für 470 KB (800x600 Pixel mit 8Bit Farbtiefe) unter 5 Sekunden liegen
 |QUAL-04 |Die initiale Antwortzeit auf eine Download-Anfrage an einem Downloaddienst *MUSS* unter 30 Sekunden liegen. Anschliessend MUSS der kontinuierliche (_sustained_) Durchsatz bis zur Komplementierung der Auslieferung über >0.5MB/Sekunde (oder 500 Objekte/Sekunde) liegen
 |QUAL-05 |Die Einhaltung der Qualitätsrichtlinien *MUSS* durch den Leistungserbringer nachgewiesen werden
@@ -351,7 +364,6 @@ include::./search-services/csw-ech-0056-search-de.adoc[]
 
 == Andere Dienste
 
-include::./other-services/pos-0056-other-de.adoc[]
 include::./other-services/mas-0056-other-de.adoc[]
 include::./other-services/adr-0056-other-de.adoc[]
 include::./other-services/wps-0056-other-de.adoc[]
@@ -379,39 +391,49 @@ Diese Bestimmungen gelten ausschliesslich für die von *eCH* erarbeiteten Standa
 
 // Anhang A – Referenzen & Bibliographie
 
+[.appendix nonumber]
+
 include::./appendices/appendix-a-de.adoc[]
 
 // Anhang B – Mitarbeit und Überprüfung
+
+[.appendix nonumber]
 
 include::./appendices/appendix-b-de.adoc[]
 
 // Anhang C – Abkürzungen und Glossar
 
+[.appendix nonumber]
+
 include::./appendices/appendix-c-de.adoc[]
 
-// Anhang D – Änderungen gegenüber Vorversion
+== Anhang D – Änderungen gegenüber Vorversion{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/18[#18]]
 
-include::./appendices/appendix-d-de.adoc[]
+<Dies ist die erste Version.>
+
+<oder eine detaillierte Zusammenstellung der Änderungen gegenüber der
+Vorgängerversion>
+
+.Änderungen gegenüber Vorversion
+[width="100%",cols="13%,9%,64%,14%",options="header",]
+|===
+|*Kapitel* |*Seite* |*Anpassung* |*RFC Nr.*
+| | | |
+| | | |
+| | | |
+|===
 
 == Anhang E – Abbildungsverzeichnis
 
-[NOTE]
-====
-Folgende Links hinzufügen:
-
 * Abbildung 1: Vernetzter Zugriff auf Geodaten mittels Geodiensten
 * Abbildung 2: Rechtsgrundlagen der Verbindlichkeit von eCH-0056
-====
 
-== Anhang F – Tabellenverzeichnis
+== Anhang F – Tabellenverzeichnis{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/19[#19]]
 
-[NOTE]
-====
-Folgenden Link hinzufügen:
-
-* Tabelle 2 Änderungen gegenüber Vorversion
-====
+* Tabelle 1: Änderungen gegenüber Vorversion
 
 // Anhang G – Neue Trends bei den Geostandards
 
-include::./appendices/appendix-e-de.adoc[]
+[.appendix nonumber]
+
+include::./appendices/appendix-g-de.adoc[]

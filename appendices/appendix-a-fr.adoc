@@ -1,6 +1,4 @@
-[.appendix nonumber]
-
-== Annexe A – Références normatives et bibliographiques
+== Annexe A – Références normatives et bibliographiques{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/20[#20]]
 === Références normatives
 
 [width="100%",cols="7%,93%"]
@@ -114,8 +112,3 @@ https://epsg.org[https://epsg.org]
 RÈGLEMENT (UE) No 1088/2010 DE LA COMMISSION du 23 novembre 2010 modifiant le règlement (CE) no 976/2009 en ce qui concerne les services de téléchargement et les services de transformation +
 https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32010R1088&from=EN[https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32010R1088&from=EN]
 |===
-
-[NOTE]
-====
-Ces références pourraient être gérées différemment (bibliographie latex)
-====

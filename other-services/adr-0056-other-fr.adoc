@@ -1,15 +1,57 @@
-=== Service de recherche basé sur OGC API Features
+=== Service de recherche basé sur OpenGIS Web Feature Service{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/22[#22]]
 ==== Introduction
-==== Portée
-==== Conformité
-==== Principes de base
-==== Ressources 
-==== Recommandations 
-==== Exemples
 
-[NOTE]
-====
-Peut-être également considérer WFS
-A compléter par la HEIG-VD
-====
+Bien qu'il n'existe actuellement pas de standard international de Geocoding, les standards https://docs.ogc.org/is/09-025r2/09-025r2.html[OpenGIS Web Feature Service] et https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding] peuvent toutefois être utilisés dans ce but. 
 
+==== Classes d’exigences
+===== Classe d’exigences Simple WFS
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/adr/req/simple-wfs
+|Type d’objectif |Web API
+|Dépendances |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Simple WFS
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 1* |/req/adr/simple-wfs/getfeature
+|A | La mise en oeuvre d'un service d'adresses DOIT supporter l'opération GetFeature du standard OGC WFS 2.0.2.
+|===
+
+===== Classe d’exigences Basic WFS
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/adr/req/basic-wfs
+|Type d’objectif |Web API
+|Dépendances |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Basic WFS
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 2* |/req/adr/basic-wfs/getfeature/typename
+|A | La mise en oeuvre d'un service d'adresses DOIT supporter le paramètre `Typename` de l'opération `GetFeature` du standard OGC WFS 2.0.2.
+|B | La mise en oeuvre d'un service d'adresses DOIT supporter le paramètre `PropertyName` de l'opération `GetFeature` du standard OGC WFS 2.0.2.
+|===
+
+===== Classe d’exigences Filter Encoding
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/adr/req/filter-enconding/minimum-standard-filter
+|Type d’objectif |Web API
+|Dépendances |https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding 2.0 Encoding Standard] / Conformance Classes: Minimum Standard Filter & Spatial filter
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 3* |/req/adr/filter-enconding/minimum-standard-filter/propertyisequalto
+|A| La mise en oeuvre d'un service d'adresses DOIT supporter le paramètre `PropertyIsEqualTo` du standard OGC Filter Encoding 2.0.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 4* |/req/adr/filter-enconding/spatial-filter/dwithin
+|A| La mise en oeuvre d'un service d'adresses DOIT supporter le paramètre `DWithin` du standard OGC Filter Encoding 2.0.
+|===

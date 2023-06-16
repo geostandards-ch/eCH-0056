@@ -1,142 +1,30 @@
 === Service de téléchargement basé sur OGC API Features
 
-`Version: 1.0` `Date: 2023-04-24`
-
 ==== Introduction
 
-Ce document propose une approche technique pour la mise en oeuvre des exigences définies dans le document: "eCH-0056 Profil d'application de géoservices" sur la base des standards OGC suivants :
+OGC API - Features fournit des blocs de construction d'API pour créer, modifier et interroger des entités sur le Web. OGC API - Features se compose de plusieurs parties, chacune d'entre elles étant une norme distincte. La partie http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[`Core`] spécifie les capacités de base et se limite à l'extraction d'entités dont les géométries sont représentées dans le système de référence de coordonnées WGS 84 avec un ordre d'axe longitude/latitude. 
 
-* http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core].
-* https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[OGC API - Features - Part 2: Coordinate Reference Systems by Reference]
-
-Plusieurs solutions possibles pour la mise en oeuvre des services de téléchargement ont déjà été approuvées par le groupe d'experts eCH Géoinformation. Des documents d'orientation technique sont disponibles et couvrent les implémentations basées sur WFS 2.0, WCS et SOS.
-
-En plus des classes d'exigences définies ci-dessous, ce document hérite de toutes les recommandations formulées dans eCH-common.
-
-[NOTE]
-====
-Intégrer les liens vers les documents d'orientation technique dès que rédigés.
-====
-
-Bien que toutes ces approches utilisent le Web pour fournir un accès aux données géospatiales, la nouvelle famille de normes API de l'OGC vise à être plus conviviale pour les développeurs en exigeant moins de connaissances initiales sur la norme concernée. L'émergence rapide des API Web offre un moyen flexible et facilement compréhensible d'accéder aux données, comme le recommandent les meilleures pratiques du W3C Data on the Web - https://www.w3.org/TR/dwbp/#accessAPIs[DWBP Best Practice 23] et https://www.w3.org/TR/dwbp/#APIHttpVerbs[DWBP Best Practice 24].
-
-C'est pourquoi le présent document décrit une option supplémentaire pour la mise en œuvre des services de téléchargement eCH.
-
-Afin de faciliter l'utilisation de logiciels prêts à l'emploi mettant en œuvre la norme OGC API - Features (OAPIF) pour répondre aux exigences du présent document, les extensions spécifiques à eCH sont limitées au strict minimum. Lorsqu'il existe plusieurs options de mise en œuvre, le présent document décrit la manière spécifique d'appliquer l'OAFeat et les normes associées pour répondre aux exigences des règles de mise en œuvre d'eCH pour les services de téléchargement.
-
-===== OGC API - Features - un bref aperçu
-
-Les normes API de l'OGC définissent des parties d'API modulaires qui permettent d'activer les API Web de manière cohérente. Le site http://docs.opengeospatial.org/is/17-069r3/17-069r3.html#OpenAPI[OpenAPI specification] est utilisé pour définir les éléments constitutifs de l'API.
-
-OGC API - Features fournit des blocs de construction API pour créer, modifier et interroger des entités sur le Web. L'OGC API - Features se compose de plusieurs parties, chacune d'entre elles étant une norme distincte. La partie http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[``Core''] spécifie les capacités de base et se limite à l'extraction d'entités dont les géométries sont représentées dans le système de référence de coordonnées WGS 84 avec un ordre d'axe longitude/latitude. Des capacités supplémentaires répondant à des besoins plus avancés seront spécifiées dans des parties additionnelles. Une https://www.opengeospatial.org[feuille de route] est mise à disposition par l'OGC.
-
-Par défaut, chaque API mettant en œuvre cette norme donnera accès à un seul ensemble de données. Plutôt que de partager les données en tant qu'ensemble complet, les normes OGC API - Features offrent un accès direct et précis aux données au niveau de l'élément (objet). Les opérations de requêtes permettent aux clients d'extraire des caractéristiques du data store sous-jacent sur la base de critères de sélection simples, définis par le client.
-
-Pour plus de détails sur la norme, voir le site officiel de https://www.opengeospatial.org/standards/ogcapi-features[l'OGC API - Features].
-
-Pour une description des principales différences entre WFS 2.0 et OGC API - Features, voir https://github.com/opengeospatial/ogcapi-features/blob/master/guide/section_8_WFS_2_0_v_3_0.adoc[cette section dans le Guide sur OGC API - Features].
-
-==== Portée
-
-Le présent document propose une approche technique pour la mise en oeuvre des exigences définies dans le document: "eCH-0056 Profil d'application de géoservices" sur la base de la norme http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] récemment adoptée. L'approche décrite ici n'est pas juridiquement contraignante et montre l'une des nombreuses façons de mettre en œuvre les services de téléchargement eCH.
-
-[NOTE]
-====
-Répétition de la phrase de l'introduction.
-====
-
-==== Conformité
-
-La présente spécification définit les classes d'exigences suivantes:
-
-* << Classe d'exigences "OAFeat-eCH-bulk-download", OAFeat-eCH-bulk-download>>
-* << Classe d'exigences "OAFeat-eCH-CRS", OAFeat-eCH-CRS>>
-
-==== Ressources 
-
-.Vue d'ensemble des ressources de l'OGC API Features, des méthodes HTTP applicables et des liens vers la documentation de l'OGC.
-[cols="32,25,10,33",options="header"]
-!===
-|Resource |Path |HTTP method |Document de référence
-|Landing page |`/` |GET | https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#_api_landing_page[7.2 API landing page]
-|Conformance declaration |`/conformance` |GET | https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#_declaration_of_conformance_classes[7.4 Declaration of conformance classes]
-|Feature collections |`/collections` |GET | https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#_collections$$_$$[7.13 Feature collections]
-|Feature collection |`/collections/{collectionId}` |GET | https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#_collection$$_$$[7.14 Feature collection]
-|Features |`/collections/{collectionId}/items` |GET | https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#_items$$_$$[7.15 Features]
-|Feature |`/collections/{collectionId}/items/{featureId}` |GET | https://docs.opengeospatial.org/is/17-069r4/17-069r4.html#_feature$$_$$[7.16 Feature]
-!===
-
-[NOTE]
-====
-A voir si nécessaire.
-====
-
-==== Classes d'exigences 
-==== Classe d'exigences "OAFeat-eCH-bulk-download"
-
+==== Classes d'exigences
+===== Classe d'exigences{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/11[#11]]
 [width="100%",cols="50%,50%",options="header",]
 |===
 |Classe d'exigences
-|https://ech.ch/fr/id/spec/eCH-oafeat-download/1.0/req/bulk-download
+|https://ech.ch/fr/0056/main/oafeat/req/oafeat
 |Type d'objectif |Web API
+|Dépendances|https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] +
+https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 2: Coordinate Reference Systems by Reference]
 |===
 
-Cette classe d'exigences met en oeuvre la recommandation de https://www.w3.org/TR/dwbp/#BulkAccess[DWBP] visant à fournir un lien de https://www.w3.org/TR/dwbp/#BulkAccess[téléchargement] de l'intégralité du jeu de donnéees. Elle permet donc de fournir des jeux de données qui répondent à la définition de https://opendefinition.org/od/2.1[l'Open Data].
-
-[width="100%",cols="50%,50%",options="header",]
+[width="100%",cols="24%,76%",options="header",]
 |===
-|*Requirement* |*/req/pre-defined/enclosure*
-|A | Au moins une des conditions suivantes DOIT être remplie : +
-1. La réponse de l'opération `/collections` comprend au moins un lien `enclosure` permettant d'obtenir une copie (`bulk download`) du jeu de données (p.ex. STAC asset). + 
-2. La réponse de chaque opération `/collections/{collectionId}` comprend au moins un lien `enclosure` permettant d'obtenir une copie (`bulk download`) du jeu de données (p.ex. STAC asset). 
+|*Exigence 1* |/req/oafeat/links
+|A (OAFeat-02)|La landingpage DOIT contenir un lien `rel=describedby` qui renvoie à des métadonnées lisibles par une machine selon le modèle GM03 version 2.1 [13].
+|B (OAFeat-03)|Chaque collection DOIT contenir un lien avec `rel=describedby` qui renvoie à des métadonnées lisibles par machine selon le modèle GM03 version 2.1 [13]. + 
+Pour l'échange de données vectorielles conforme au modèle, une ressource INTERLIS XTF [7] ou INTERLIS GML [8], si disponible, DOIT être proposé.
 |===
 
-[width="100%",cols="50%,50%",options="header",]
+[width="100%",cols="24%,76%",options="header",]
 |===
-|*Requirement* |*/req/pre-defined/enclosure-type*
-|A | Au moins une des conditions suivantes DOIT être remplie : +
-1. Si le jeu de données correspond à un modèle minimal, la réponse de l'opération `/collections` comprend au moins un lien `rel` avec le paramètre `type: text/html` permettant d'obtenir le modèle `*.ili` associé ou les données au format `*.xtf`. +
-2. Si le jeu de données correspond à un modèle minimal, la réponse de l'opération `/collections/{collectionId}` comprend au moins un lien `rel` avec le paramètre `type: text/html` permettant d'obtenir le modèle `*.ili` associé ou les données au format `*.xtf`.
+|*Recommandation 1* |/rec/oafeat/links
+|A (OAFeat-04) | Chaque collection DEVRAIT doit contenir un lien avec rel=enclosure qui renvoie à un téléchargement en vrac du jeu de données (p. ex. un asset STAC). 
 |===
-
-==== Classe d'exigences "eCH-OA-CRS"
-
-[width="100%",cols="50%,50%",options="header",]
-|===
-|Classe d'exigences
-|https://ech.ch/fr/id/spec/eCH-0056-OA/1.0/req/CRS
-|Type d'objectif |Web API
-|Dépendances
-|https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[OGC API - Features - Part 2: Coordinate Reference Systems by Reference] + 
-https://ech.ch/fr/id/spec/OAComm/1.0/req/CRS 
-|===
-
-[width="100%",cols="50%,50%",options="header",]
-|===
-|*Exigence* |*/rec/eCH-crs/default-crs*
-|A | Chaque collection d'éléments de l'API DOIT supporter le système de référence suisse CH1903+ ("EPSG:2056", cadre de référence MN95).
-|===
-
-[width="100%",cols="50%,50%",options="header",]
-|===
-|*Recommendation* |*/rec/eCH-crs/recognised-crs*
-|A | Pour chaque collection d'éléments de l'API, au moins un des systèmes de coordonnées de référence (CRS) énumérés ci-dessous DEVRAIT être inclus dans la liste des systèmes de référence de coordonnées pris en charge.
-|===
-
-===== Liste des CRS supportés:
-
-* http://www.opengis.net/def/crs/EPSG/0/2056
-* http://www.opengis.net/def/crs/EPSG/0/4326
-* http://www.opengis.net/def/crs/EPSG/0/3857
-* http://www.opengis.net/def/crs/EPSG/0/4258
-* http://www.opengis.net/def/crs/EPSG/0/3035
-* http://www.opengis.net/def/crs/EPSG/0/3034
-* http://www.opengis.net/def/crs/EPSG/0/3044
-
-==== Exemples
-
-[NOTE]
-====
-Les exemples seront intégrés plus tard sitôt le handbook déployé.
-====
-

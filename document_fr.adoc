@@ -2,6 +2,12 @@
 [.text-justify]
 // Document title
 = eCH-0056 Profil d'application de géoservices
+:toc: macro
+:toc-title: Table des matières
+:table-caption: Tableau
+:toclevels: 5
+:pdf-theme: eCH
+:pdf-themesdir: {docdir}
 
 [width="100%",cols="29%,71%",]
 |===
@@ -24,6 +30,9 @@ T 044 388 74 64, F 044 388 71 80 +
 http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
 |===
 
+// Saut de page
+<<<
+
 [.section nonumber]
 == Résumé
 
@@ -32,15 +41,11 @@ Il est indispensable, pour assurer le bon fonctionnement des différents géoser
 
 Les bases, les objectifs et la délimitation du profil d'application sont abordés au chapitre 3. Les directives et les recommandations effectives qui concrétisent des spécifications de l'OGC (Open Geospatial Consortium) à une exception près (cf. cidessous), sont formulées au chapitre 6.
 
-[NOTE]
-====
-Revoir les références aux chapitres et introduire des liens
-====
+// Saut de page
+<<<
 
 // Table des matières
-:toc: left
-:toc-title: Table des matières
-:toclevels: 5
+toc::[]
 :sectnums:
 
 [.section nonumber]
@@ -48,22 +53,13 @@ Revoir les références aux chapitres et introduire des liens
 
 Seule la forme masculine est utilisée dans le présent document pour désigner les personnes, afin d'en faciliter la lecture et l'intelligibilité. Cette formulation inclut bien évidemment les femmes qui occupent les fonctions citées.
 
+// Saut de page
+<<<
+
 == Introduction
 === Statut
 
 En cours : l'utilisation n'est autorisée qu'au sein du groupe spécialisé ou du comité d'experts.
-
-// Projet : le document a été approuvé pour consultation publique par les référents compétents du comité d'experts et publié en conséquence.
-
-// Proposition : le document est soumis à l'approbation du comité d'experts, mais n'est pas encore valable sur le plan normatif. 
-
-// Approuvé : Le document a été approuvé par le comité d'experts. Il a une valeur normative pour le domaine d'application défini dans le champ de validité fixé.
-
-// Remplacé : le document a été remplacé par une nouvelle version plus actuelle. Son utilisation est toujours possible, mais il est recommandé d'utiliser la version la plus récente.
-
-// Abrogé : Le document a été retiré par eCH. Il ne doit plus être utilisé.
-
-// Suspendu : Le document a été retiré par eCH. Il ne peut pas être utilisé. Il n'a pas atteint le stade "Approuvé".
 
 === Situation initiale et motivation
 
@@ -73,11 +69,6 @@ En Suisse, la Stratégie suisse pour l'information géographique et le plan d'ac
 La loi sur la géoinformation (LGéo) [1a], entrée en vigueur le 1er juillet 2008, ainsi que l'ordonnance sur la géoinformation (OGéo) [4a], qui repose sur cette loi, servent aujourd'hui de base légale à l'INDG.
 
 L'intégration de géoservices est visée dans le cadre du développement de l'INDG. Des exemples possibles d'une telle interconnexion ou réunion de géoservices proposés par des fournisseurs différents sont présentés sur la figure 1.
-
-[NOTE]
-====
-Revoir les reférences (bibliographie + figure) et insérer des hyperliens
-====
 
 //Figure
 
@@ -115,11 +106,6 @@ Le profil d'application s'adresse aux fournisseurs et aux «intégrateurs» de g
 Les normes / standards et les spécifications que l'on estime pertinents au moment de la révision du présent document ont été pris en compte. Le profil d'application adopte une attitude conservatrice pour ce qui concerne les normes / standards et les spécifications existants.
 Ainsi, la version la plus récente n'est pas nécéssairement exigée, le choix se porte plutôt sur celle qui est la plus largement utilisée en pratique. 
 
-[NOTE]
-====
-Revoir la numération des chapitres et insérer des hyperliens
-====
-
 === Notions et définitions
 
 [width="100%",cols="35%,65%"]
@@ -156,11 +142,6 @@ Lorsqu'un service compétent (selon l'annexe 1 OGéo [4a]) propose et/ou diffuse
 Ces conditions ne s'appliquent pas aux tiers (notamment aux acteurs du secteur privé). Toutefois, lorsque les obligations incombant à un service compétent sont déléguées à des tiers en vertu d'accords passés ou de décisions prises, ces derniers sont soumis à leur tour aux dispositions législatives en vigueur et doivent structurer les géoservices correspondants conformément à la norme eCH-0056.
 Il convient d'observer, de manière générale, que l'obligation légale de respect de la norme ne concerne que les directives, c.-à-d. les prescriptions obligatoires. Les recommandations doivent être respectées dans la mesure du possible, mais aucune obligation légale ne l'impose.
 
-[NOTE]
-====
-Revoir les références et insérer des hyperliens
-====
-
 === Délimitation
 
 Dans le présent profil d'application, les géoservices de base sont standardisés en se fondant sur les normes et les standards référencés. Des exigences visant à garantir l'interopérabilité sont prises en compte en plus de celles spécifiques à notre pays.
@@ -171,11 +152,6 @@ L'implémentation des différents géoservices est régie par les spécification
 * les géoservices en tant que produits (exemples: modèles de prix, marketing, aspects ressortissant à l'exploitation).
 
 Les normes établies doivent être prises en compte de manière générale. En font notamment partie eCH-0014: SAGA.ch [15]. 
-
-[NOTE]
-====
-Revoir la référence et insérer un lien
-====
 
 === Structure du profil d'application
 
@@ -188,15 +164,10 @@ Les directives et les recommandations sont traitées dans un chapitre distinct p
 
 * Brève description
 * Version actuelle : est considérée comme version actuelle celle qui a le niveau de document le plus élevé, dans le meilleur des cas la version finale. Ainsi, outre le numéro de version proprement dit, le statut du document et l'organisation responsable qui le détermine sont également indiqués. La date de publication est également indiquée.
-* Directives : elles sont numérotées par norme (p. ex. "WMS-01"). Les directives définissent des exigences obligatoires (voir chapitre 4).
+* Directives : elles sont numérotées par norme (p. ex. `WMS-01`). Les directives définissent des exigences obligatoires (voir chapitre 4).
 * Recommandations : La numérotation se poursuit par spécification pour les recommandations (p. ex. "WMS-10"). Les recommandations sont des spécifications non obligatoires (cf. chapitre 4).
 
 Le profil d'application définit dans les directives quelle version d'une norme doit être prise en charge.
-
-[NOTE]  
-====
-Revoir les références
-====
 
 === Mise à jour
 
@@ -212,7 +183,7 @@ Les demandes de modification (ou Change-Requests) peuvent être directement adre
 
 Afin d'éviter toute confusion dans la terminologie, nous définissons ici les expressions utilisées dans les directives et les recommandations.
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="19%,81%"]
 |===
 |Directive| Une directive est une disposition qu’il est impératif de respecter pour se conformer au profil d’application. La mise en œuvre des directives permet notamment de respecter les règles de droit énoncées à l’article 7 OGéo-swisstopo [2a].
 
@@ -225,7 +196,7 @@ Les recommandations sont signalées au chapitre 2 par le mot-clé "*DEVRAIT*" et
 
 La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Les expressions sont écrites en caractères gras et en MAJUSCULES.
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="19%,81%"]
 |===
 |*DOIT* |Cette expression signifie que la directive doit être remplie dans tous les cas.
 |Cette expression signifie qu'il peut y avoir de bonnes raisons de ne pas appliquer cette directive. Cependant, il faut comprendre toutes les implications et les évaluer soigneusement avant de choisir une autre voie.
@@ -234,13 +205,165 @@ La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Le
 == Directives et recommandations
 === Règles générales
 ==== Réponse à une requête HTTP(S)
+
+[width="100%",cols="41%,59%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/http
+|Type d’objectif |Encoding
+|Dépendances |N/A
+|===
+
+[width="100%",cols="41%,59%",options="header",]
+|===
+|*Exigence 1* |/req/http/response
+|A| Un serveur DOIT renvoyer un document qui correspond au type de média demandé.
+|B| Un serveur DOIT renvoyer un document qui respecte l'encodage des caractères UTF-8.
+|===
+
 ==== Indication de la date et de l'heure
-==== Sécurité
+
+[width="100%",cols="41%,59%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/datetime
+|Type d’objectif |Encoding
+|Dépendances |ISO 8601-1:2019 Date et heure — Représentations pour l'échange d'information — Partie 1: Règles de base
+|===
+
+[width="100%",cols="41%,59%",options="header",]
+|===
+|*Exigence 1* |/req/datetime/format
+|A| L'indication de la date et de l'heure DOIT être conforme à la norme "ISO
+8601-1:2019" [10] : +
+Format Beispiel +
+YYYY «2023» +
+YYYY-MM                            «2023-08» +
+YYYY-MM-DD                     «2023-08-31» +
+YYYY-MM-DDThh               «2023-08-31T16» +
+YYYY-MM-DDThh:mm        «2023-08-31T16:55» +
+YYYY-MM-DDThh:mm:ss   «2023-08-31T16:55:01» +
+
+Seules les indications de date et d'heure figurant dans des mentions, qui doivent être lisibles exclusivement par des êtres humains, constituent une exception.
+|===
+
+==== Sécurité{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/2[#2]]
+
+Ces directives et ces recommandations ne garantissent aucune sécurité. Un système doit être considéré comme un tout dans ce contexte. Aussi, seules sont définies des directives et des recomandations qui précisent les conditions de nature à accroître la sécurité.
+
+[width="100%",cols="19%,81%",options="header",]
+|===
+|SECU-01 |S’il est fait appel à des cryptosystèmes asymétriques, des certificats DOIVENT être délivrés par la Swiss Government PKI ou par un organisme de certification accepté par le prestataire de service concerné.
+|SECU-02 |Si des fichiers PDF sont utilisés, c’est la version PDF/A-1 du format, conforme à la norme ISO 19005-1:2005 [17], qui DOIT être employée.
+|SECU-03 |Un transfert de données DOIT être effectué via HTTPS pour être sûr.
+|SECU-04 |L’authentification via nom d’utilisateur et mot de passe pour l’accès aux services DEVRAIT s’effectuer via HTTPS.
+|===
+
 ==== Langue
-==== Métadonnées
-==== Systèmes de coordonnées
-==== Qualité
-==== Matrice de tuiles suisse CH1903+
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/lang
+|Type d’objectif |Web API
+|Dépendances |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7[OGC API - Common - Part 1: Core (1.0.0) Core Requirements Class] 
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 1* |/req/string-i18n
+|A (LANG-01) |Sauf définition dans une norme spécifique, le mécanisme habituel de négociation de contenu HTTP [18] *DOIT* être utilisé pour la négociation de la langue.
+|B (LANG-02) |Les balises de langue DOIVENT être conformes à la norme"RFC 5646" [19].
+|C (LANG-03) |Les valeurs de chaîne contenant du texte linguistique DOIVENT correspondre à la langue renvoyée par le serveur.
+|D (LANG-04) |En plus de LANG-01, un serveur DOIT supporter un paramètre de requête `language`{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/5[#5]].
+|E (LANG-05) |Pour les objets de type liens, l'attribut `hreflang`{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/5[#5]] DOIT être utilisé pour indiquer la langue de la ressource référencée [24].
+|===
+
+==== Métadonnées{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/6]
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/metadata
+|Type d’objectif |Web API
+|Dépendances |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common - Part 1: Core (1.0.0) Core Requirements Class] 
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 1* |/req/metadata
+|A (META-01) |Un géoservice DOIT être décrit dans le catalogue national de géométadonnées.
+|B (META-02) |Si une norme spécifique l'autorise, un géoservice DOIT fournir un lien vers les métadonnées de service dans le catalogue national de géométadonnées.
+|C (META-03) |La description du service fournie par le géoservice lui-même DOIT correspondre à la description correspondante dans le catalogue national de géométadonnées.
+|D (META-04) |Si une norme spécifique le permet, un géoservice DOIT pour chaque ensemble de données géographiques{empty}footnote:[ex : "Layer" pour le WMS et le WMTS, "Feature Type" pour le WFS, "Coverage" pour le WCS, "Collection" pour les API OGC et STAC.] un lien vers les métadonnées de données.
+|E (META-05) |La description des collections de données géographiques fournie par le service géographique lui-même DOIT correspondre à la description correspondante dans le catalogue national de géométadonnées.
+|F (META-06) |Lorsqu'une norme particulière le permet, un service géographique DOIT fournir des informations de contact sur le fournisseur de services et sur l'attribution des séries de données géographiques fournies.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Recommandation 1* |/rec/metadata
+|A (META-07) | Si une norme particulière l'autorise, un service géographique DEVRAIT fournir un lien vers les données pour chaque set de données géographiques.
+|===
+
+Des directives et recommandations spécifiques concernant les géométadonnées suivent dans les sections consacrées aux différents géoservices.
+
+==== Systèmes de coordonnées{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/8[#8]]
+
+L'IOGP Geomatics Committee catalogue les systèmes de coordonnées dans le monde entier et attribue à chacun d'eux des numéros d'identification uniques (appelés "codes EPSG"). La base de données EPSG [7a] sert de norme pour le référencement des systèmes de référence de coordonnées et des transformations.
+
+En Suisse, le cadre de référence est CH1903+/MN95, qui correspond au code EPSG:2056.
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/crs
+|Type d’objectif |Web API
+|Dépendances |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+http://www.opengis.net/doc/IS/ogcapi-features-1/1.0[OGC API - Features - Part 1: Core 1.0] + 
+https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_reference_systems_by_reference[OGC API - Features - Part 2: Coordinate Reference Systems by Reference] 
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 1* |/req/crs
+|A (CRS-01) |Un géoservice DOIT supporter le système de référence suisse CH1903+ ("EPSG:2056", cadre de référence MN95).
+|B (CRS-02) |Un géoservice DOIT supporter le système de référence de coordonnées global WGS84 en coordonnées géographiques avec projection pseudo-plaque-carrée ("EPSG:4326") et projection pseudo-Mercator ("EPSG:3857") ainsi que le système de référence de coordonnées européen ETRS89 en coordonnées géographiques ("EPSG:4258").
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Recommandation 1* |/rec/crs
+|A (CRS-03) |Un géoservice DEVRAIT supporte les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
+|===
+
+==== Qualité{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/3[#3]]
+
+Ces directives ciblent le cas de figure bien particulier des géoservices de base et sont réduites au minimum.
+
+[width="100%",cols="19%,81%",options="header",]
+|===
+|QUAL-01 |Les géoservices fonctionnent 24 heures sur 24. Le géoservice DOIT être garanti les jours ouvrables de 08:00 à 17:00 avec une disponibilité de 99%{empty}footnote:[Cela correspond à une durée maximale de panne (non planifiée) de près de 47 heures par an. En sont exclues les fenêtres de maintenance communiquées à long terme].
+|QUAL-02 |Le temps de réponse initial à une requête adressée à un service de recherche DOIT être inférieur à 3 secondes{empty}footnote:[Le temps de réponse est mesuré directement au point final du service accessible de l'extérieur, afin d'exclure les retards non influençables dans le réseau].
+|QUAL-03 |Le temps de réponse initial à une requête (par ex. `GetMap`) à un service de consultation DOIT être inférieur à 5 secondes pour 470 Ko (800x600 pixels avec une profondeur de couleur de 8 bits).
+|QUAL-04 |Le temps de réponse initial à une requête de téléchargement sur un service de téléchargement DOIT être inférieur à 30 secondes. Ensuite, le débit continu (sustained) jusqu'à la complétion de la livraison *DOIT* être supérieur à > 0.5MB/seconde (ou 500 objets/seconde).
+|QUAL-05 |Le respect des directives de qualité DOIT être prouvé par le fournisseur de prestations.
+|===
+
+==== Matrice de tuiles suisse CH1903+{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/7[#7]]{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/tms
+|Type d’objectif |Web API
+|Dépendances | 
+https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata] 
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 1* |/rec/tms
+|A (TMS-01) | Les niveaux de zoom prédéfinis pour la mise en œuvre d'un service de tuiles 2D DOIVENT comprendre les valeurs suivantes pour le système de référence CH1903+ : +
+1 pixel correspond à 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 mètres. +
+Si elle n'est pas définie dans une norme spécifique, la taille des pixels est régie par la norme "OGC Two Dimensional Tile Matrix Set" [21].
+|===
 
 == Service de représentation
 
@@ -274,11 +397,9 @@ include::./search-services/csw-ech-0056-search-fr.adoc[]
 
 == Autres services
 
-include::./other-services/pos-0056-other-fr.adoc[]
-include::./other-services/mas-0056-other-fr.adoc[]
 include::./other-services/adr-0056-other-fr.adoc[]
-include::./other-services/wps-0056-other-fr.adoc[]
-include::./other-services/oaproc-0056-other-fr.adoc[]
+
+== Services de transformation{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/12[#12]]
 
 == Exclusion de responsabilité - droits de tiers
 
@@ -300,39 +421,50 @@ Les présentes dispositions s'appliquent exclusivement aux normes élaborées pa
 
 // Annexe A – Références normatives & bibliographie
 
+[.appendix nonumber]
+
 include::./appendices/appendix-a-fr.adoc[]
 
 // Annexe B – Collaboration et vérification
+
+[.appendix nonumber]
 
 include::./appendices/appendix-b-fr.adoc[]
 
 // Annexe C – Abréviations &  glossaire
 
+[.appendix nonumber]
+
 include::./appendices/appendix-c-fr.adoc[]
 
-// Annexe D – Modifications par rapport à la version précédente
+== Annexe D - Modifications par rapport à la version précédente{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/18[#18]]
 
-include::./appendices/appendix-d-fr.adoc[]
+<Il s'agit de la première version>.
 
-// Annexe E – Liste des figures
+<ou un récapitulatif détaillé des modifications par rapport à la version
+version précédente>
 
-[NOTE]
-====
-Ajouter les liens suivants :
+:table-modifications: 
+.Modifications par rapport à la version précédente
+[width="100%",cols="13%,9%,64%,14%",options="header",]
+|===
+|*Chapitre* |*Page* |*Adaptation* |*RFC No.*
+| | | |
+| | | |
+| | | |
+|===
+
+== Annexe E – Liste des figures
 
 * Figure 1 : Accès en réseau à des géodonnées au moyen de géoservices.
 * Figure 2 : Bases juridiques du caractère obligatoire de eCH-0056
-====
 
-// Annexe F – Liste des tableaux
+== Annexe F – Liste des tableaux{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/19[#19]]
 
-[NOTE]
-====
-Ajouter le lien suivant :
-
-* Tableau 2 Modifications par rapport à la version précédente
-====
+* Tableau 1: Modifications par rapport à la version précédente
 
 // Annexe G – Nouvelles tendances en matière de géostandards
+
+[.appendix nonumber]
 
 include::./appendices/appendix-g-fr.adoc[]

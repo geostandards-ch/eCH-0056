@@ -1,4 +1,3 @@
-[.appendix nonumber]
 == Annexe E – Nouvelles tendances en matière de géostandards
 
 La recherche, l'accès et l'utilisation de données géographiques diffusées par des infrastructures de données géographiques (IDG) basées sur les OGC Web Service Standards (WMS, WFS, WCS, WPS, etc.) présentent certains inconvénients : Ces ne sont en principe pas adaptés à l'indexation de leur contenu par les moteurs de recherche (les données sont introuvables sur le web) et sont difficiles à utiliser pour les utilisateurs non spécialisés.

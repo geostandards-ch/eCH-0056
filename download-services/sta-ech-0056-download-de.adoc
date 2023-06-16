@@ -1,8 +1,0 @@
-=== Downloaddienst auf Basis von OGC SensorThings API
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Empfehlungen 
-==== Beispiele

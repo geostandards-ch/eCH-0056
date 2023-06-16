@@ -17,7 +17,7 @@ v1.0.0-rc.2, STAC API Foundation Specifications, November 2022 [6]
 |STAC-03 |Jeder bereitgestellte Geodatenbestand *MUSS* als Collection beschrieben werden.
 |STAC-04 |Jede Collection *MUSS* einen Link mit rel=describedby enthalten, der auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
 |STAC-05 |Für den modellkonformen Austausch von Vektordaten *MUSS* INTERLIS XTF [7] oder INTERLIS GML [8] angeboten werden.
-|STAC-06 |Für zweidimensionale Rasterdaten *MUSS* das verlustfreie Datenformat GeoTIFFfootnote:[Ein Cloud-optimiertes GeoTIFF erfüllt diese Richtlinie] [24] angeboten werden.
+|STAC-06 |Für zweidimensionale Rasterdaten *MUSS* das verlustfreie Datenformat GeoTIFF{empty}footnote:[Ein Cloud-optimiertes GeoTIFF erfüllt diese Richtlinie] [24] angeboten werden.
 |STAC-07 |Es *SOLLTEN* Cloud-optimierte Geodatenformate angeboten werden.
 |STAC-08 |Die Umsetzung eines vordefinierten, dateibasierten Downloaddienstes *SOLLTE* der STAC API Specification Version 1.0.0 [6] entsprechen.
 |===

@@ -1,4 +1,4 @@
-=== Two Dimensional Tile Matrix Set and Tile Set Metadata
+=== Two Dimensional Tile Matrix Set and Tile Set Metadata{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
 
 (Schweizer CH1903 Tile Matrix Set)
 

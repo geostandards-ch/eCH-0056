@@ -1,4 +1,4 @@
-=== Kachelmatrix basierend auf OGC 2D Tile Matrix Set und Tile Set Metadata
+=== Matrice de tuiles basée sur OGC 2D Tile Matrix Set und Tile Set Metadata{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
 
 (Schweizer CH1903 Tile Matrix Set)
 

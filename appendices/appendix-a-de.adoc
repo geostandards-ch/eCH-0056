@@ -1,6 +1,4 @@
-[.appendix nonumber]
-
-== Anhang A – Normative Referenzen und Bibliographie
+== Anhang A – Normative Referenzen und Bibliographie{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/20[#20]]
 === Normative Referenzen
 
 [width="100%",cols="7%,93%"]
@@ -109,8 +107,3 @@ https://epsg.org[https://epsg.org]
 VERORDNUNG (EU) Nr. 1088/2010 DER KOMMISSION vom 23. November 2010 zur Änderung der Verordnung (EG) Nr. 976 2009 hinsichtlich Downloaddiensten und Transformationsdiensten +
 https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32010R1088&from=EN[https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32010R1088&from=EN]
 |===
-
-[NOTE]
-====
-Diese Verweise könnten anders gehandhabt werden (Latex-Bibliografie)
-====

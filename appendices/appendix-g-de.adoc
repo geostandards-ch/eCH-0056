@@ -1,4 +1,3 @@
-[.appendix nonumber]
 == Anhang E – Neue Trends bei den Geostandards
 
 Die Suche nach, der Zugriff auf und die Nutzung von Geodaten, die über Geodateninfrastrukturen (GDI) auf der Grundlage von OGC-Webdiensten (WMS, WFS, WCS, WPS usw.) verbreitet werden, hat einige Nachteile: OGC-Webdienste sind grundsätzlich nicht für die Indizierung ihrer Inhalte durch Suchmaschinen geeignet (die Daten sind im Web nicht auffindbar) und für nicht fachkundige Nutzer schwer zu nutzen.

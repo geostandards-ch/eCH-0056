@@ -1,13 +1,1 @@
-=== Mess- und Auswertedienste
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Anforderungsklassen 
-==== Beispiel
-
-[NOTE]
-====
-Von der HEIG-VD auszufüllen
-====
+=== Mess- und Auswertedienste{empty}:footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/16[#16]]

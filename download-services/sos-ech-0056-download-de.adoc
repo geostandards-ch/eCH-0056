@@ -1,8 +1,0 @@
-=== Downloaddienst auf Basis Web Feature Service
-==== Einleitung
-==== Umfang
-==== Konformität
-==== Grundlegende Prinzipien
-==== Ressourcen 
-==== Empfehlungen 
-==== Beispiele

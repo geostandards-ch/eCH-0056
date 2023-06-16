@@ -1,6 +1,4 @@
-[.appendix nonumber]
-
-== Annexe B – Collaboration et vérification
+== Annexe B – Collaboration et vérification{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/21[#21]]
 
 <Il s'agit ici d'énumérer toutes les personnes qui ont contribué à la version
 ont collaboré à cette version du document.>
@@ -10,8 +8,3 @@ ont collaboré à cette version du document.>
 |<N. N.> |<Organisation/Entreprise>
 |<N. N.> |<Organisation/Entreprise>
 |===
-
-[NOTE]
-====
-À remplir ultérieurement.
-====
