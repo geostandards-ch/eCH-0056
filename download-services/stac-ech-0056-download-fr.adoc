@@ -20,12 +20,9 @@ Une API STAC est une version dynamique de STAC et définit en outre une interfac
 [width="100%",cols="29%,71%",options="header",]
 |===
 |*Exigence 1* |/req/stac
-|A (STAC-01) |La mise en œuvre d'un service de téléchargement prédéfini et basé sur des fichiers DOIT être conforme à la version 1.0.0 [5] de la STAC Specification.
-|B (STAC-02) |Le catalogue DOIT contenir un lien avec `rel=describedby` qui renvoie à des métadonnées de service lisibles par une machine.
-|C (STAC-03) |Chaque ensemble de données géographiques mis à disposition DOIT être décrit comme une collection.
-|D (STAC-04) |Chaque collection DOIT contenir un lien avec `rel=describedby`, qui renvoie à des métadonnées lisibles par machine selon le modèle GM03 version 2.1 [13].
-|E (STAC-05) |Pour l'échange de données vectorielles conforme au modèle, un lien vers des fichiers INTERLIS XTF [7] ou INTERLIS GML [8] DOIT être proposé.
-|F (STAC-06) |Pour les données raster bidimensionnelles, le format de données GeoTIFF{empty}footnote:[Un GeoTIFF optimisé pour le Cloud répond à cette directive] [24] DOIT être proposé.
-|G (STAC-07) |Des formats de géodonnées optimisés pour le cloud DOIVENT être proposés.
-|H (STAC-08) |La mise en œuvre d'un service de téléchargement prédéfini et basé sur des fichiers DEVRAIT être conforme à la version 1.0.0 de la STAC API Specification [6].
+|A (STAC-02) |Le catalogue DOIT contenir un lien avec `rel=describedby` qui renvoie à des métadonnées de service lisibles par une machine.
+|B (STAC-04) |Chaque collection DOIT contenir un lien avec `rel=describedby`, qui renvoie à des métadonnées lisibles par machine selon le modèle GM03 version 2.1 [13].
+|C (STAC-05) |Pour l'échange de données vectorielles conforme au modèle, un lien vers des fichiers INTERLIS XTF [7] ou INTERLIS GML [8] DOIT être proposé.
+|D (STAC-06) |Pour les données raster bidimensionnelles, le format de données GeoTIFF{empty}footnote:[Un GeoTIFF optimisé pour le Cloud répond à cette directive] [24] DOIT être proposé.
+|E (STAC-07) |Des formats de géodonnées optimisés pour le cloud DOIVENT être proposés.
 |===
