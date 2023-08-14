@@ -12,10 +12,6 @@
 
 [width="100%",cols="29%,71%",options="header",]
 |===
-|WCS-01 | Die Umsetzung eines WCS *MUSS* dem OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core [12] entsprechen.
-|WCS-02 | Die Umsetzung eines WCS *MUSS* im «BoundingBox»-Element des «CoverageSummary» der GetCapabilities-Antwort eine Ausdehnung im Ursprungskoordinatensystem beschreiben.
-|WCS-03 | Die GetCapabilities-Antwort eines WCS *MUSS* für jede Coverage das «Metadata»-Element mit dem Attribut «link» enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
-|WCS-04 | Die Umsetzung eines WCS *SOLLTE* dem OGC Web Coverage Service Interface Standard - CRS Extension entsprechen.
-|WCS-05 |Der Geodienst *SOLLTE* Rasterdaten verlustfrei im Format GeoTiff anbieten.
+|A (WCS-02) | Die Umsetzung eines WCS *MUSS* im `«cis11:envelope»`-Element der GetCapabilities-Antwort eine Ausdehnung im Ursprungskoordinatensystem beschreiben.
+|B (WCS-03) | Die GetCapabilities-Antwort eines WCS *MUSS* für jede Coverage das «Metadata»-Element mit dem Attribut «link» enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
 |===
-
