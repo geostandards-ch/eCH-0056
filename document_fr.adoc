@@ -322,19 +322,6 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |A (CRS-03) |Un géoservice DEVRAIT supporte les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
 |===
 
-==== Qualité{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/3[#3]]
-
-Ces directives ciblent le cas de figure bien particulier des géoservices de base et sont réduites au minimum.
-
-[width="100%",cols="19%,81%",options="header",]
-|===
-|QUAL-01 |Les géoservices fonctionnent 24 heures sur 24. Le géoservice DOIT être garanti les jours ouvrables de 08:00 à 17:00 avec une disponibilité de 99%{empty}footnote:[Cela correspond à une durée maximale de panne (non planifiée) de près de 47 heures par an. En sont exclues les fenêtres de maintenance communiquées à long terme].
-|QUAL-02 |Le temps de réponse initial à une requête adressée à un service de recherche DOIT être inférieur à 3 secondes{empty}footnote:[Le temps de réponse est mesuré directement au point final du service accessible de l'extérieur, afin d'exclure les retards non influençables dans le réseau].
-|QUAL-03 |Le temps de réponse initial à une requête (par ex. `GetMap`) à un service de consultation DOIT être inférieur à 5 secondes pour 470 Ko (800x600 pixels avec une profondeur de couleur de 8 bits).
-|QUAL-04 |Le temps de réponse initial à une requête de téléchargement sur un service de téléchargement DOIT être inférieur à 30 secondes. Ensuite, le débit continu (sustained) jusqu'à la complétion de la livraison *DOIT* être supérieur à > 0.5MB/seconde (ou 500 objets/seconde).
-|QUAL-05 |Le respect des directives de qualité DOIT être prouvé par le fournisseur de prestations.
-|===
-
 ==== Matrice de tuiles suisse CH1903+{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/7[#7]]{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
 
 [width="100%",cols="24%,76%",options="header",]

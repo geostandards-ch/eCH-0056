@@ -309,17 +309,6 @@ In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspri
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
 |===
 
-=== Qualität{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/3[#3]]
-
-[width="100%",cols="19%,81%",options="header",]
-|===
-|QUAL-01 |Die Geodienste werden rund um die Uhr betrieben. Der Geodienst *MUSS* Werktags 08:00-17:00 mit einer Verfügbarkeit von 99% gewährleistet sein{empty}footnote:[Dies entspricht einer maximalen (unplanmässigen) Ausfallzeit von knapp 47 Stunden pro Jahr. Davon ausgenommen sind langfristig kommunizierte Wartungsfenster.]
-|QUAL-02 |Die initiale Antwortzeit auf eine Anfrage an einem Suchdienst *MUSS* unter 3 Sekunden liegen{empty}footnote:[Die Antwortzeit wird direkt am extern ansprechbaren Endpunkt des Dienstes gemessen, um unbeeinflussbare Verzögerungen im Netzwerk auszuschliessen.]
-|QUAL-03 |Die initiale Antwortzeit auf eine Anfrage (z.B. GetMap) an einem Darstellungsdienst *MUSS* für 470 KB (800x600 Pixel mit 8Bit Farbtiefe) unter 5 Sekunden liegen
-|QUAL-04 |Die initiale Antwortzeit auf eine Download-Anfrage an einem Downloaddienst *MUSS* unter 30 Sekunden liegen. Anschliessend MUSS der kontinuierliche (_sustained_) Durchsatz bis zur Komplementierung der Auslieferung über >0.5MB/Sekunde (oder 500 Objekte/Sekunde) liegen
-|QUAL-05 |Die Einhaltung der Qualitätsrichtlinien *MUSS* durch den Leistungserbringer nachgewiesen werden
-|===
-
 === Darstellungsdiente
 
 Ein Darstellungsdienst ist ein Internetdienst, mit dem darstellbare Geodatensätze angezeigt, vergrössert, verkleinert und verschoben, Daten überlagert angezeigt werden können und der ein Navigieren in den Geodaten ermöglicht (Art. 2 GeoIV [4a]).
