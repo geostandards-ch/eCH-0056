@@ -4,7 +4,7 @@
 La spécification WCS définit une interface pour un service de téléchargement. Elle définit l’accès à des «données matricielles (rasters)» (Coverages en anglais). Le service transmet les «données brutes» en y adjoignant une description détaillée et le géoréférencement associé. Les données transmises peuvent être utilisées dans le cadre d’analyses complémentaires.
 
 ==== Classes d'exigences
-===== Classe d’exigences WCS{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/14[#14]]
+===== Classe d’exigences WCS
 
 [width="100%",cols="24%,76%",options="header",]
 |===
@@ -16,27 +16,6 @@ La spécification WCS définit une interface pour un service de téléchargement
 [width="100%",cols="24%,76%",options="header",]
 |===
 |*Exigence 1* |/req/wcs/getcapabilities
-|A (WCS-01)|La mise en œuvre d'un WCS DOIT respecter le standard OGC WCS Interface Standard version 2.0 [12].
-|B (WCS-02)| La mise en œuvre d’un WCS DOIT décrire une extension dans le système de coordonnées d’origine dans l’élément `«ows:BoundingBox»` du «CoverageSummary» de la réponse `GetCapabilities`.
-|C (WCS-03)| La réponse `GetCapabilities` d’un WCS DOIT contenir, pour chaque `Coverage`, l’élément `Metadata` avec l’attribut `link`, renvoyant vers des métadonnées associées à des données, interprétables par un ordinateur et conformes au modèle GM03 version 2.1 [13].
+|A (WCS-02)| La mise en oeuvre d’un WCS DOIT décrire une extension dans le système de coordonnées d’origine dans l’élément `«cis11:envelope»` de la réponse `DescribeCoverage`.
+|B (WCS-03)| La réponse `GetCapabilities` d’un WCS DOIT contenir, pour chaque `Coverage`, l’élément `Metadata` avec l’attribut `link`, renvoyant vers des métadonnées associées à des données, interprétables par un ordinateur et conformes au modèle GM03 version 2.1 [13].
 |===
-
-[width="100%",cols="24%,76%",options="header",]
-|===
-|*Recommandation 1* |/rec/wcs/getcoverage
-|A (WCS-05)|Le géoservice DEVRAIT proposer des données matricielles (rasters) sans perte au format GeoTiff.
-|===
-
-[width="100%",cols="24%,76%",options="header",]
-|===
-|*Classe d’exigences* |https://ech.ch/fr/0056/main/wcs-crs/req/wcs-crs
-|Type d’objectif |Web API
-|Dépendances |https://portal.ogc.org/files/54209[OGC WCS Interface Standard – CRS Extension, version 1.0.0]
-|===
-
-[width="100%",cols="24%,76%",options="header",]
-|===
-|*Recommandation 2* |/rec/wcs-crs
-|A (WCS-04)|La mise en œuvre d'un WCS DEVRAIT est conforme à l'OGC Web Coverage Service Interface Standard - CRS Extension.
-|===
-
