@@ -263,11 +263,11 @@ Eine Ausnahme bilden nur Datums- und Zeitangaben in Hinweisen, die ausschliessli
 
 [width="100%",cols="19%,81%",options="header",]
 |===
-|LANG-01 |Sofern nicht in einem spezifischen Standard definiert, *MUSS* für die Sprach-Verhandlung der übliche HTTP-Content-Negotiation-Mechanismus [18] angewendet werden.
+|()LANG-01 |Sofern nicht in einem spezifischen Standard definiert, *MUSS* für die Sprach-Verhandlung der übliche HTTP-Content-Negotiation-Mechanismus [18] angewendet werden.
 |LANG-02 |Sprach-Tags *MÜSSEN* nach «RFC 5646» [19] erfolgen.
 |LANG-03 |String-Werte, die sprachlichen Text enthalten, *MÜSSEN* der Sprache entsprechen, die der Server zurückgibt.
-|LANG-04 |Zusätzlich zu LANG-01 *SOLLTE* ein Server eine Abfrageparameter language unterstützen.
-|LANG-05 |Bei Link-Objekten *SOLLTE* das Attribut hreflang verwendet werden, um die Sprache der referenzierten Ressource anzugeben [24].
+|LANG-04 |Zusätzlich zur Anforderung *1 A* MUSS ein Server einen Anfrageparameter `AcceptLanguages` (OWS-Dienste) oder `lang` (OGC API) unterstützen.
+|LANG-05 |Bei Link-Objekten *SOLLTE* das Attribut `xml:lang` (OWS-Dienste) oder `hreflang`(OGC API) verwendet werden, um die Sprache der referenzierten Ressource anzugeben [24].
 |===
 
 === Metadaten
