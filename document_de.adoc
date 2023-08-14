@@ -128,7 +128,7 @@ Berücksichtigt sind die zum Zeitpunkt der Überarbeitung dieses Dokuments als r
 [width="100%",cols="23%,77%"]
 |===
 |Geobasisdaten |Als Geobasisdaten gemäss Art. 34 GeoIV [4a] werden jene Geodaten bezeichnet, die auf einem rechtsetzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen.
-|Geobasisdienst |Unter Geobasisdiensten werden zusammenfassend die Geodienste für Geobasisdaten nach Art. 34 GeoIV [4a], die Dienste für Geometadaten nach Art. 35 GeoIV [4a] und die sachübergreifenden Geodienste nach Art. 36 GeoIV [4a] verstanden. Der Begriff beschränkt sich auf die in den Artikeln angesprochenen Geodienste. Im Wesentlichen handelt es sich dabei um Darstellungs-, Download-, Such- und Transformationsdienste. Es wird darauf hingewiesen, dass eCH-0056 keinen Anspruch auf Interpretation des Rechts legt, sondern die erwähnten Begriffe so präzisiert, wie sie im Rahmen des Standards zu verstehen sind.
+|Geobasisdienst |Unter Geobasisdiensten werden zusammenfassend die Geodienste für Geobasisdaten nach Art. 34 GeoIV [4a], die Dienste für Geometadaten nach Art. 35 GeoIV [4a] und die sachübergreifenden Geodienste nach Art. 36 GeoIV [4a] verstanden. Der Begriff beschränkt sich auf die in den Artikeln angesprochenen Geodienste. Im Wesentlichen handelt es sich dabei um Darstellungs-, Download- und Suchdienste. Es wird darauf hingewiesen, dass eCH-0056 keinen Anspruch auf Interpretation des Rechts legt, sondern die erwähnten Begriffe so präzisiert, wie sie im Rahmen des Standards zu verstehen sind.
 |Darstellungsdienst a| Internetdienst, mit dem darstellbare Geodatensätze angezeigt, vergrössert, verkleinert und verschoben, Daten überlagert angezeigt werden können und der ein Navigieren in den Geodaten ermöglicht (Art. 2 GeoIV [4a]).
 
 Im Rahmen von eCH-0056 wird unter einem Darstellungsdienst konkret ein Dienst gemäss OpenGIS Web Map Server Implementation Specification [2] (WMS) oder OpenGIS Web Map Tile Service Implementation Standard [3] (WMTS) oder OGC API - Tiles - Part 1: Core [4] verstanden.
@@ -343,8 +343,6 @@ include::./search-services/csw-ech-0056-search-de.adoc[]
 
 include::./other-services/mas-0056-other-de.adoc[]
 include::./other-services/adr-0056-other-de.adoc[]
-include::./other-services/wps-0056-other-de.adoc[]
-include::./other-services/oaproc-0056-other-de.adoc[]
 
 == Haftungsausschluss/Hinweise auf Rechte Dritter
 

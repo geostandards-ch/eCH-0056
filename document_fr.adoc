@@ -111,7 +111,7 @@ Ainsi, la version la plus récente n'est pas nécéssairement exigée, le choix 
 [width="100%",cols="35%,65%"]
 |===
 |Géodonnées de base| Par géodonnées de base au sens de l'article 34 OGéo [4a], on entend les géodonnées qui se fondent sur un acte législatif fédéral, cantonal ou communal.
-|Géoservice de base| Par géoservices de base, on entend à la fois les géoservices pour les géodonnées de base (article 34 OGéo [4a]), les services pour les géométadonnées (article 35 OGéo [4a]) et les géoservices englobant plusieurs domaines (article 36 OGéo [4a]). La notion se limite aux géoservices évoqués dans ces articles. Il s'agit pour l'essentiel de services de consultation, de téléchargement, de re- cherche et de transformation. Les auteurs tiennent à signaler que la norme eCH-0056 n'entend aucunement interpréter le droit, mais qu'il lui faut préciser la manière dont les notions mentionnées doivent être comprises dans le cadre de la présente norme.
+|Géoservice de base| Par géoservices de base, on entend à la fois les géoservices pour les géodonnées de base (article 34 OGéo [4a]), les services pour les géométadonnées (article 35 OGéo [4a]) et les géoservices englobant plusieurs domaines (article 36 OGéo [4a]). La notion se limite aux géoservices évoqués dans ces articles. Il s'agit pour l'essentiel de services de consultation, de téléchargement et de recherche. Les auteurs tiennent à signaler que la norme eCH-0056 n'entend aucunement interpréter le droit, mais qu'il lui faut préciser la manière dont les notions mentionnées doivent être comprises dans le cadre de la présente norme.
 |Service de consultation| Service web permettant d'afficher, d'agrandir, de réduire et de déplacer des jeux de géodonnées représentables, de superposer des données et de naviguer dans les géodonnées (art. 2 OGéo [4a]). + 
 Dans le cadre d'eCH-0056, on entend concrètement par service de consultation un service respectant la spécification OpenGIS Web Map Server Implementation Specification [2] (WMS) ou le standard OpenGIS Web Map Tile Service Implementation Standard [3] (WMTS) ou OGC API - Tiles - Part 1: Core [4] ou Styled Layer Descriptor [22] ou Symbology Encoding [23] (SE).
 |Service de téléchargement a| Service web permettant de télécharger des copies de séries de géodonnées complètes ou de parties de celles-ci (service de téléchargement prédéfini) et, si cela est réalisable, d'y accéder directement (service de téléchargement à accès direct) (art. 2 OGéo [4a]). +
@@ -373,8 +373,6 @@ include::./search-services/csw-ech-0056-search-fr.adoc[]
 == Autres services
 
 include::./other-services/adr-0056-other-fr.adoc[]
-
-== Services de transformation{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/12[#12]]
 
 == Exclusion de responsabilité - droits de tiers
 
