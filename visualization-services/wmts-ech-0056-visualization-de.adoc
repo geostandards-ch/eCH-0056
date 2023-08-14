@@ -13,7 +13,7 @@
 |WMTS-02 |Die Umsetzung eines WMTS *MUSS* die Bildformate JPEG oder PNG unterstützen.
 |WMTS-03 |Falls sinnvoll{empty}footnote:[S. WMS-04], *MUSS* die Umsetzung eines WMTS für Vektordaten die GetFeatureInfo-Anfrage unterstützen.
 |WMTS-04 |Falls sinnvoll{empty}footnote:[S. WMS-05], *MUSS* die Umsetzung eines WMTS für Rasterdaten die GetFeatureInfo-Anfrage unterstützen.
-|WMTS-05 |Falls sinnvoll{empty}footnote:[S. WMS-06], *MUSS* die Umsetzung eines WMTS die GetLegendGraphics-Anfrage unterstützen.
+|WMTS-05 |Falls sinnvoll{empty}footnote:[S. WMS-06], *MUSS* die Umsetzung eines WMTS für jede Ebene einen Link zu einer Legende über den Parameter LegendURL bereitstellen: `<<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
 |WMTS-06 |Die GetCapabilities-Response eines WMTS *MUSS* für jeden Layer das «Metadata»-Element, das auf maschinenlesbare Datenmetadaten verweist.
 |WMS-07 |Bei der RESTful-Implementierung des WMTS *SOLLTE* die Reihenfolge Tilematrix/Column/Row eingehalten werden.
 |===

@@ -23,14 +23,9 @@ La spécification WMTS définit une interface pour un service de consultation. U
 
 [width="100%",cols="24%,76%",options="header",]
 |===
-|*Exigence 2* |/req/wmts/getcapabilities/layer/metadata{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/10[#10]]
+|*Exigence 2* |/req/wmts/getcapabilities/layer/metadata
 |A (WMTS-06) |La réponse `GetCapabilities` d'un service WMTS, DOIT, pour chaque couche, contenir l'élément "Metadata" qui renvoie à des métadonnées de données lisibles par une machine via un lien.
-|===
-
-[width="100%",cols="24%,76%",options="header",]
-|===
-|*Exigence 3* |/req/wmts/legendurl{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/9[#9]]
-|A (WMTS-05) |Si cela est utile{empty}footnote:[p. WMS-06], La mise en œuvre d'un WMTS DOIT supporter la requête `GetLegendGraphics`.
+|B (WMTS-05) |Si cela est utile{empty}footnote:[p. WMS-06], La mise en œuvre d'un WMTS DOIT fournir un lien vers une légende pour chaque couche via le paramètre LegendURL: `<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
 |===
 
 [width="100%",cols="24%,76%",options="header",]
