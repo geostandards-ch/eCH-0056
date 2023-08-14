@@ -245,18 +245,6 @@ YYYY-MM-DDThh:mm:ss   «2023-08-31T16:55:01» +
 Seules les indications de date et d'heure figurant dans des mentions, qui doivent être lisibles exclusivement par des êtres humains, constituent une exception.
 |===
 
-==== Sécurité{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/2[#2]]
-
-Ces directives et ces recommandations ne garantissent aucune sécurité. Un système doit être considéré comme un tout dans ce contexte. Aussi, seules sont définies des directives et des recomandations qui précisent les conditions de nature à accroître la sécurité.
-
-[width="100%",cols="19%,81%",options="header",]
-|===
-|SECU-01 |S’il est fait appel à des cryptosystèmes asymétriques, des certificats DOIVENT être délivrés par la Swiss Government PKI ou par un organisme de certification accepté par le prestataire de service concerné.
-|SECU-02 |Si des fichiers PDF sont utilisés, c’est la version PDF/A-1 du format, conforme à la norme ISO 19005-1:2005 [17], qui DOIT être employée.
-|SECU-03 |Un transfert de données DOIT être effectué via HTTPS pour être sûr.
-|SECU-04 |L’authentification via nom d’utilisateur et mot de passe pour l’accès aux services DEVRAIT s’effectuer via HTTPS.
-|===
-
 ==== Langue
 
 [width="100%",cols="24%,76%",options="header",]

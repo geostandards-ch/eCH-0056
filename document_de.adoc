@@ -259,18 +259,6 @@ YYYY-MM-DDThh:mm:ss «2023-08-31T16:55:01»
 Eine Ausnahme bilden nur Datums- und Zeitangaben in Hinweisen, die ausschliesslich für Menschen lesbar sein müssen.
 |===
 
-=== Sicherheit{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/2[#2]]
-
-Diese Richtlinien und Empfehlungen garantieren keine Sicherheit. Ein System muss in diesem Zusammenhang als Ganzes betrachtet werden. Es sind deshalb nur Richtlinien und Empfehlungen definiert, welche Teilaspekt bezüglich Sicherheit profilieren.
-
-[width="100%",cols="19%,81%",options="header",]
-|===
-|SECU-01 |Beim Einsatz asymmetrischer Kryptosysteme *MÜSSEN* Zertifikate von der Swiss Gouvernement PKI oder einer vom jeweiligen Leistungserbringer akzeptierten Zertifizierungsstelle ausgestellt sein.
-|SECU-02 |Bei Verwendung von PDF Dateien, *MUSS* die verwendete PDF Version PDF/A-1 gemäss ISO 19005-1:2005 [17] sein.
-|SECU-03 |Der sichere Datentransfer *MUSS* über HTTPS erfolgen.
-|SECU-04 |Die Authentifizierung über Benutzername und Passwort für den Zugriff auf Dienste *MUSS* über HTTPS
-|===
-
 === Sprache
 
 [width="100%",cols="19%,81%",options="header",]
