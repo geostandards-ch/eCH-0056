@@ -1,7 +1,7 @@
-=== Service de recherche basé sur OpenGIS Web Feature Service{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/22[#22]]
+=== Service de Geocoding & Reverse Geocoding
 ==== Introduction
 
-Bien qu'il n'existe actuellement pas de standard international de Geocoding, les standards https://docs.ogc.org/is/09-025r2/09-025r2.html[OpenGIS Web Feature Service] et https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding] peuvent toutefois être utilisés dans ce but. 
+2 possibilités sont offertes pour la mise en oeuvre d'un service de Geocoding & Reverse Geocoding. La première est basée sur le standard https://portal.ogc.org/files/?artifact_id=22122[OpenGIS Location Services (OpenLS): Core Services] et la seconde sur l'association des standards https://docs.ogc.org/is/09-025r2/09-025r2.html[OpenGIS Web Feature Service] (WFS) et https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding].
 
 ==== Classes d’exigences
 ===== Classe d’exigences Simple WFS
