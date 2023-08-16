@@ -298,15 +298,63 @@ In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspri
 |CRS-03 |Ein Geodienst *SOLLTE* die Koordinatenreferenzsysteme ETRS89 LAEA Europe («EPSG: 3035»), LCC Europe («EPSG: 3034») und UTM Zone 32N («EPSG: 3044») unterstützen.
 |===
 
-=== Schweizer CH1903+ Tile Matrix Set{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/7[#7]]{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
+=== Schweizer CH1903+ Tile Matrix Set
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="24%,76%",options="header",]
 |===
-|TMS-01 a| Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen *MÜSSEN* für das Bezugssystem CH1903+ die folgenden Werte umfassen:
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/tms
+|Objektivtyp |Web API
+|Abhängigkeiten | 
+https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata] 
+|===
 
-1 Pixel entspricht 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 Meter.
-
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Anforderung 1* |/req/tms
+|A (TMS-01) | Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen MÜSSEN für das Bezugssystem CH1903+ die folgenden Werte umfassen : +
+1 Pixel entspricht 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 Meter. +
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
+|B          | Bei jeder Definition einer TileMatrixSet MUSS der folgende Ursprungspunkt verwendet werden: `2419995.75, 1350004.29`.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Empfehlung 1* |/rec/tms
+|A  |Ein Geodienst SOLLTE idealerweise die untenstehende Definition des Schweizer Kachelmatrizensatzes verwenden. 
+|===
+
+:table-Swiss2DTMS: 
+.Definition des Schweizer TileMatrixSet CH1903+ / LV95
+[cols="a,a,a,a,a"]
+|===
+5+| *CRS*: http://www.opengis.net/def/crs/EPSG/0/2056, CH1903+ / LV95
+
+*BBOX LowerLeft:* 2419995.75, 1030006.66
+
+*BBOX UpperRight:* 2900009.73, 1350004.29
+
+*PointOfOrigin*: 2419995.75, 1350004.29
+
+*TileWidth*: 256
+
+*TileHeight*: 256
+| *TileMatrix id* | *Scale Denominator* | *Cell Size (m)* | *Matrix Width* | *Matrix Height*
+| 0 | 14285714.285714284 | 4000 | 1   | 1
+| 1 | 7142857.142857142  | 2000 | 1   | 1
+| 2 | 3571428.571428571  | 1000 | 2   | 2
+| 3 | 1785714.2857142854 | 500  | 4   | 3
+| 4 | 892857.1428571427  | 250  | 8   | 5
+| 5 | 357142.8571428571  | 100  | 19  | 3
+| 6 | 178571.42857142855 | 50   | 38  | 25
+| 7 | 71428.57142857142  | 20   | 94  | 63
+| 8 | 35714.28571428571  | 10   | 188 | 125
+| 9 | 17857.142857142855 | 5    | 375 | 250
+| 10 | 8928.571428571428 | 2.5  | 750 | 500
+| 11 | 3571.428571428571 | 1    | 1875 | 1250
+| 12 | 1785.7142857142856 | 0.5 | 3750 | 2500
+| 13 | 892.8571428571428 | 0.25 | 7500 | 5000
+| 14 | 357.14285714285717 | 0.1 | 18750 | 12500
+| 15 | 178.57142857142858 | 0.05 | 37500 | 25000
 |===
 
 === Darstellungsdiente
