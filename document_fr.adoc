@@ -442,7 +442,7 @@ include::./appendices/appendix-a-fr.adoc[]
 
 [.appendix nonumber]
 
-include::./appendices/appendix-b-fr.adoc[]
+include::./appendices/appendix-b.adoc[]
 
 // Annexe C – Abréviations &  glossaire
 
