@@ -422,7 +422,7 @@ include::./appendices/appendix-a-de.adoc[]
 
 [.appendix nonumber]
 
-include::./appendices/appendix-b-de.adoc[]
+include::./appendices/appendix-b.adoc[]
 
 // Anhang C – Abkürzungen und Glossar
 

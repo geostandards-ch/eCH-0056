@@ -1,0 +1,14 @@
+== Annexe B – Collaboration et vérification{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/21[#21]]
+
+[width="100%",cols="24%,76%",]
+|===
+| Frank	Gottsmann	  | swisstopo       |
+| Jens Ingensand	  | HEIG-VD         |
+| Marco Bernasocchi   | OPENGIS.ch      |
+| Maxime Collombin    | HEIG-VD         |
+| Oliver Grimm        | Geowerkstatt    |
+| Olivier Ertz        | HEIG-VD         |
+| Pasquale Di Donato  |	swisstopo       |
+| Romedi Filli        | Kt.Schaffhausen |
+|===
+
