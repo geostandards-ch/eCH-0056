@@ -8,6 +8,8 @@
 :toclevels: 5
 :pdf-theme: eCH
 :pdf-themesdir: {docdir}
+:sectlinks:
+:!section-refsig:
 
 [width="100%",cols="29%,71%",]
 |===
@@ -15,13 +17,13 @@
 |*Code* |eCH-0056
 |*Type* |Standard
 |*Stade* |
-|*Version* |x.x.x
+|*Version* |4.0 (draft)
 |*Statut* |En cours d'élaboration
 |*Date de validation* |AAA-MM-JJ
 |*Date de publication* |AAA-MM-JJ
 |*Remplace* |eCH-0056 3.0
 |*Conditions requises* |eCH-0056 3.0
-|*Annexes* |<Annexes>
+|*Annexes* |
 |*Langues* |Allemand (original), Français (traduction)
 |*Auteurs* | 
 |*Autres participants*|
@@ -34,12 +36,13 @@ http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
 <<<
 
 [.section nonumber]
+[#summary]
 == Résumé
 
 C'est pour qu'un large éventail d'utilisateurs dispose rapidement et simplement de géodonnées à jour, au niveau de qualité requis et à un coût approprié, conformément au but visé par la loi sur la géoinformation (LGéo) [1a], que l'infrastructure nationale de données géographiques (INDG) est mise en place et exploitée. Les géoservices revêtent un rôle central dans ce cadre. Il est possible, grâce à eux, de mettre à disposition via Internet et d'utiliser les données réparties sur l'ensemble du territoire.
 Il est indispensable, pour assurer le bon fonctionnement des différents géoservices au sein de l'INDG, d'affiner le profil des spécifications existantes, parce que certaines définitions n'y figurent pas, que d'autres sont insuffisamment précises et que certaines exigences propres au contexte suisse doivent être prises en compte. L'interconnexion réclame par ailleurs une harmonisation des éléments de contenu et des métainformations. La présente norme définit ou concrétise l'implémentation de géoservices de base au travers d'un ensemble de directives et de recommandations complémentaires grâce auxquelles les services sont rendus aptes à être utilisés en pratique. Et parce que la norme est explicitement citée à l'article 7 OGéo-swisstopo [2a], les directives définies ici ont valeur de règles de droit contraignantes pour les géoservices qui se fondent sur des géodonnées de base relevant du droit fédéral, respectivement pour les services compétents pour ces données.
 
-Les bases, les objectifs et la délimitation du profil d'application sont abordés au chapitre 3. Les directives et les recommandations effectives qui concrétisent des spécifications de l'OGC (Open Geospatial Consortium) à une exception près (cf. cidessous), sont formulées au chapitre 6.
+Les bases, les objectifs et la délimitation du profil d'application sont abordés au chapitre xref:introduction[xrefstyle=full]. Les directives et les recommandations effectives qui concrétisent des spécifications de l'OGC (Open Geospatial Consortium) à une exception près (cf. ci-dessous), sont formulées au chapitre xref:guidelines[xrefstyle=short].
 
 // Saut de page
 <<<
@@ -56,11 +59,15 @@ Seule la forme masculine est utilisée dans le présent document pour désigner 
 // Saut de page
 <<<
 
+[#introduction]
 == Introduction
+
+[#status]
 === Statut
 
-En cours : l'utilisation n'est autorisée qu'au sein du groupe spécialisé ou du comité d'experts.
+En cours : l'utilisation n'est autorisée qu'au sein du groupe spécialisé ou du comité d'experts. 
 
+[#context]
 === Situation initiale et motivation
 
 L'établissement de géoservices web (appelés géoservices dans la suite) crée des conditions propices aussi bien à un recours simplifié aux géoinformations par un cercle d'utilisateurs sans cesse élargi qu'à l'ouverture de nouveaux champs d'application. 
@@ -68,15 +75,17 @@ En Suisse, la Stratégie suisse pour l'information géographique et le plan d'ac
 
 La loi sur la géoinformation (LGéo) [1a], entrée en vigueur le 1er juillet 2008, ainsi que l'ordonnance sur la géoinformation (OGéo) [4a], qui repose sur cette loi, servent aujourd'hui de base légale à l'INDG.
 
-L'intégration de géoservices est visée dans le cadre du développement de l'INDG. Des exemples possibles d'une telle interconnexion ou réunion de géoservices proposés par des fournisseurs différents sont présentés sur la figure 1.
+L'intégration de géoservices est visée dans le cadre du développement de l'INDG. Des exemples possibles d'une telle interconnexion ou réunion de géoservices proposés par des fournisseurs différents sont présentés sur la xref:fig:geoservices[xrefstyle=short].
 
 //Figure
 
-.accès en réseau aux géodonnées au moyen de géoservices (modifié d'après [28])
+[#fig:geoservices]
+.Accès en réseau aux géodonnées au moyen de géoservices (modifié d'après [28])
 image::images/geoservices_fr.jpg[align="center"]
 
 Des défis d'ordre technique en plus de ceux de nature organisationnelle sont à relever dans le cadre de la mise en oeuvre de l'interconnexion et de l'intégration de géoservices. La normalisation (par exemple ISO/TC 211) et la standardisation (par exemple Open Geospatial Consortium, OGC) servent à aplanir les problèmes rencontrés ici.
 
+[#objectives]
 === Interconnexion des géoservices, importance de l'harmonisation des données
 
 L'objectif principal est l'interconnexion aussi fluide que possible des géoservices au sein d'un réseau hétérogène et réparti. Selon les exigences à satisfaire, cette interconnexion peut aller de la simple visualisation jusqu'à la diffusion des données dans le respect de modèles de données harmonisés, en passant par des requêtes d'informations unifiées. L'accent est mis sur l'harmonisation des modèles de données dans le cadre de la mise en oeuvre de la LGéo [1a] et des ordonnances correspondantes [2a][4a]. L'harmonisation des modèles de données et des données concerne les champs d'action "Promouvoir l'écosystème de la géoinformation" et "Relier les géodonnées" conformément au plan d'action de la stratégie suisse pour l'information géographique.
@@ -97,6 +106,7 @@ Les fournisseurs de géoservices doivent veiller à ce qu'une description soit a
 chaque géoservice sur une base standard, conformément aux directives fédérales (SOA Po-
 licies) [1] en la matière.
 
+[#purpose]
 === Profil d'application de géoservices: but et public visés
 
 Dans le contexte de la mise en œuvre de la LGéo [1a] (cf. § 3.5), le «Profil d'application de géoservices» définit de manière juridiquement contraignante les exigences minimales que les géoservices de base doivent respecter (cf. § 3.4).
@@ -106,6 +116,7 @@ Le profil d'application s'adresse aux fournisseurs et aux «intégrateurs» de g
 Les normes / standards et les spécifications que l'on estime pertinents au moment de la révision du présent document ont été pris en compte. Le profil d'application adopte une attitude conservatrice pour ce qui concerne les normes / standards et les spécifications existants.
 Ainsi, la version la plus récente n'est pas nécéssairement exigée, le choix se porte plutôt sur celle qui est la plus largement utilisée en pratique. 
 
+[#definitions]
 === Notions et définitions
 
 [width="100%",cols="35%,65%"]
@@ -124,24 +135,27 @@ Dans le cadre d'eCH-0056, on entend les services suivants par services de télé
 Dans le cadre d'eCH-0056, on entend par service de recherche un service de catalogage conforme à la spécification OGC Catalogue Services 3.0 - General Model [13] ou à la spécification OGC Catalogue Services 3.0 Specification - HTTP Protocol Binding [14].
 |===
 
+[#legal]
 === Aspects juridiques
 
-Du fait de l'entrée en vigueur, le 1er juillet 2008, de la loi sur la géoinformation [26] et des or-
-donnances qui lui sont associées[4a], la norme eCH-0056 devient juridiquement contraignante
+Du fait de l'entrée en vigueur, le 1er juillet 2008, de la loi sur la géoinformation [26] et des ordonnances qui lui sont associées[4a], la norme eCH-0056 devient juridiquement contraignante
 pour les géoservices de base en vertu de l'article 7 OGéo-swisstopo [2a].
 
 //Figure
 
-.bases légales établissant le caractère contraignant de la norme eCH-0056
+[#fig:legal_aspects]
+.Bases légales établissant le caractère contraignant de la norme eCH-0056
 image::images/legal_aspects_fr.jpg[align="center"]
 
-La compétence de swisstopo à définir eCH-0056 comme une norme contraignante repose sur les articles 34 à 36 OGéo [4a] (cf. à ce sujet la figure 2).
 
-Lorsqu'un service compétent (selon l'annexe 1 OGéo [4a]) propose et/ou diffuse un ou plusieurs jeux de géodonnées de base dans un géoservice, ce dernier doit respecter la norme eCH-0056, donc se conformer à toutes les prescriptions contraignantes qu'elle contient. Il importe peu, dans ce cadre, que le géoservice développé par le service compétent concerné propose exclusivement des jeux de géodonnées de base qui lui sont attribués conformément à l'annexe 1 OGéo [4a] ou que son offre soit étendue à des jeux de géodonnées de base relevant d'autres services compétents.
+La compétence de swisstopo à définir eCH-0056 comme une norme contraignante repose sur les articles 34 à 36 OGéo [4a] (voir à ce sujet la xref:fig:legal_aspects[xrefstyle=short]).
+
+Lorsqu'un service compétent (selon l'ordonnance OGéo [4a]) propose et/ou diffuse un ou plusieurs jeux de géodonnées de base dans un géoservice, ce dernier doit respecter la norme eCH-0056, donc se conformer à toutes les prescriptions contraignantes qu'elle contient. Il importe peu, dans ce cadre, que le géoservice développé par le service compétent concerné propose exclusivement des jeux de géodonnées de base qui lui sont attribués conformément à l'ordonnance OGéo-swisstopo [4a] ou que son offre soit étendue à des jeux de géodonnées de base relevant d'autres services compétents.
 
 Ces conditions ne s'appliquent pas aux tiers (notamment aux acteurs du secteur privé). Toutefois, lorsque les obligations incombant à un service compétent sont déléguées à des tiers en vertu d'accords passés ou de décisions prises, ces derniers sont soumis à leur tour aux dispositions législatives en vigueur et doivent structurer les géoservices correspondants conformément à la norme eCH-0056.
 Il convient d'observer, de manière générale, que l'obligation légale de respect de la norme ne concerne que les directives, c.-à-d. les prescriptions obligatoires. Les recommandations doivent être respectées dans la mesure du possible, mais aucune obligation légale ne l'impose.
 
+[#scope]
 === Délimitation
 
 Dans le présent profil d'application, les géoservices de base sont standardisés en se fondant sur les normes et les standards référencés. Des exigences visant à garantir l'interopérabilité sont prises en compte en plus de celles spécifiques à notre pays.
@@ -153,22 +167,24 @@ L'implémentation des différents géoservices est régie par les spécification
 
 Les normes établies doivent être prises en compte de manière générale. En font notamment partie eCH-0014: SAGA.ch [15]. 
 
+[#structure]
 === Structure du profil d'application
 
 Les principales composantes du contenu du profil d'application sont :
 
-* Chapitre 1 Introduction : Introduction informative et explications.
-* Chapitre 2 Directives et recommandations : Directives et recommandations normatives.
+* le chapitre xref:introduction[xrefstyle=full]
+* le chapitre xref:guidelines[xrefstyle=full]
 
 Les directives et les recommandations sont traitées dans un chapitre distinct pour chaque spécification de géoservices, selon une structure uniforme. Celle-ci comprend les éléments suivants :
 
 * Brève description
 * Version actuelle : est considérée comme version actuelle celle qui a le niveau de document le plus élevé, dans le meilleur des cas la version finale. Ainsi, outre le numéro de version proprement dit, le statut du document et l'organisation responsable qui le détermine sont également indiqués. La date de publication est également indiquée.
-* Directives : elles sont numérotées par norme (p. ex. `WMS-01`). Les directives définissent des exigences obligatoires (voir chapitre 4).
-* Recommandations : La numérotation se poursuit par spécification pour les recommandations (p. ex. "WMS-10"). Les recommandations sont des spécifications non obligatoires (cf. chapitre 4).
+* Directives : elles sont numérotées par norme (p. ex. `WMS-01`). Les directives définissent des exigences obligatoires (voir section xref:conformance[xrefstyle=short]).
+* Recommandations : La numérotation se poursuit par spécification pour les recommandations (p. ex. `WMS-10`). Les recommandations sont des spécifications non obligatoires (voir section xref:conformance[xrefstyle=short]).
 
 Le profil d'application définit dans les directives quelle version d'une norme doit être prise en charge.
 
+[#update]
 === Mise à jour
 
 Le présent document est périodiquement mis à jour, une distinction étant toutefois établie entre des révisions d'une certaine ampleur (exemple: modification d'une directive, introduction de nouveaux standards) et des changements ou des compléments de moindre portée.
@@ -179,6 +195,7 @@ Les périodicités suivantes sont définies pour la mise à jour:
 
 Les demandes de modification (ou Change-Requests) peuvent être directement adressées au centre opérationnel e-geo.ch (info@e-geo.ch). 
 
+[#conformance]
 === Conformité
 
 Afin d'éviter toute confusion dans la terminologie, nous définissons ici les expressions utilisées dans les directives et les recommandations.
@@ -187,11 +204,12 @@ Afin d'éviter toute confusion dans la terminologie, nous définissons ici les e
 |===
 |Directive| Une directive est une disposition qu’il est impératif de respecter pour se conformer au profil d’application. La mise en œuvre des directives permet notamment de respecter les règles de droit énoncées à l’article 7 OGéo-swisstopo [2a].
 
-Les directives sont signalées au chapitre 2 par le mot-clé "*DOIT*", un cadre plus foncé et un fond gris.
+Les directives sont signalées au chapitre xref:guidelines[xrefstyle=short]
+ par le mot-clé "*DOIT*", un cadre plus foncé et un fond gris.
 
 |Recommandation| Une recommandation est une prescription non obligatoire. Elle devrait être respectée dans la mesure du possible afin d'améliorer l'interopérabilité, mais n'a aucun effet sur la conformité au profil d'application.
 
-Les recommandations sont signalées au chapitre 2 par le mot-clé "*DEVRAIT*" et un cadre plus clair.
+Les recommandations sont signalées au chapitre xref:guidelines[xrefstyle=short] par le mot-clé "*DEVRAIT*" et un cadre plus clair.
 |===
 
 La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Les expressions sont écrites en caractères gras et en MAJUSCULES.
@@ -202,8 +220,11 @@ La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Le
 |Cette expression signifie qu'il peut y avoir de bonnes raisons de ne pas appliquer cette directive. Cependant, il faut comprendre toutes les implications et les évaluer soigneusement avant de choisir une autre voie.
 |===
 
-== Directives et recommandations
+[#guidelines]
+== Directives et recommandations normatives
+[#general_rules]
 === Règles générales
+[#http]
 ==== Réponse à une requête HTTP(S)
 
 [width="100%",cols="41%,59%",options="header",]
@@ -220,6 +241,7 @@ La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Le
 |B| Un serveur DOIT renvoyer un document qui respecte l'encodage des caractères UTF-8.
 |===
 
+[#date-time]
 ==== Indication de la date et de l'heure
 
 [width="100%",cols="41%,59%",options="header",]
@@ -245,6 +267,7 @@ YYYY-MM-DDThh:mm:ss   «2023-08-31T16:55:01» +
 Seules les indications de date et d'heure figurant dans des mentions, qui doivent être lisibles exclusivement par des êtres humains, constituent une exception.
 |===
 
+[#language]
 ==== Langue
 
 [width="100%",cols="24%,76%",options="header",]
@@ -265,6 +288,7 @@ https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7
 |E (LANG-05) |Pour les objets de type liens, l'attribut `xml:lang` (services OWS) ou `hreflang`(OGC API) DOIT être utilisé pour indiquer la langue de la ressource référencée [24].
 |===
 
+[#metadata]
 ==== Métadonnées
 
 [width="100%",cols="24%,76%",options="header",]
@@ -294,6 +318,7 @@ https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common - Part 1: Core (1.0.
 
 Des directives et recommandations spécifiques concernant les géométadonnées suivent dans les sections consacrées aux différents géoservices.
 
+[#crs]
 ==== Systèmes de coordonnées{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/8[#8]]
 
 L'IOGP Geomatics Committee catalogue les systèmes de coordonnées dans le monde entier et attribue à chacun d'eux des numéros d'identification uniques (appelés "codes EPSG"). La base de données EPSG [7a] sert de norme pour le référencement des systèmes de référence de coordonnées et des transformations.
@@ -322,6 +347,7 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |A (CRS-03) |Un géoservice DEVRAIT supporte les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
 |===
 
+[#tilematrixset]
 ==== Matrice de tuiles suisse CH1903+
 [width="100%",cols="24%,76%",options="header",]
 |===
@@ -380,6 +406,7 @@ Si elle n'est pas définie dans une norme spécifique, la taille des pixels est 
 | 15 | 178.57142857142858 | 0.05 | 37500 | 25000
 |===
 
+[#visualization]
 == Service de représentation
 
 Un service de représentation est un service Internet qui permet d'afficher, d'agrandir, de réduire et de déplacer des jeux de géodonnées représentables, de superposer des données et de naviguer dans les géodonnées (art. 2 OGéo [4a]).
@@ -391,6 +418,7 @@ include::./visualization-services/wmts-ech-0056-visualization-fr.adoc[]
 include::./visualization-services/oatiles-ech-0056-visualization-fr.adoc[]
 // include::./visualization-services/2dtms-ech-0056-visualization-fr.adoc[]
 
+[#download]
 == Service de téléchargement
 
 Un service de téléchargement est un service Internet qui permet de télécharger des copies de séries de géodonnées complètes ou de parties de celles-ci (*service de téléchargement prédéfini*) et, si cela est réalisable, d'y accéder directement (*service de téléchargement en accès direct*) (art. 2 OGéo [4a]).
@@ -406,14 +434,17 @@ include::./download-services/wfs-ech-0056-download-fr.adoc[]
 include::./download-services/oafeat-ech-0056-download-fr.adoc[]
 include::./download-services/wcs-ech-0056-download-fr.adoc[]
 
+[#search]
 == Service de recherche
 
 include::./search-services/csw-ech-0056-search-fr.adoc[]
 
+[#other]
 == Autres services
 
 include::./other-services/adr-0056-other-fr.adoc[]
 
+[#responsibility]
 == Exclusion de responsabilité - droits de tiers
 
 Les normes élaborées par l'Association *eCH* et mises gratuitement à la disposition des utilisateurs, ou celles qu'*eCH* référence, ont seulement valeur de recommandations. L'Association *eCH* ne peut en aucun cas être tenue pour responsable des décisions ou mesures prises par un utilisateur sur la base des documents qu'elle met à disposition. L'utilisateur est tenu d'étudier attentivement les documents avant de les mettre en application et au besoin de procéder aux consultations appropriées. Les normes *eCH* ne remplacent en aucun cas les consultations techniques, organisationnelles ou juridiques appropriées dans un cas concret.
@@ -423,6 +454,7 @@ Bien que l'Association *eCH* mette tout en oeuvre pour assurer la qualité des n
 
 Toute responsabilité relative à des dommages que l'utilisateur pourrait subir par suite de l'utilisation des normes *eCH* est exclue dans les limites des réglementations applicables.
 
+[#copyright]
 == Droits d'auteur
 
 Tout auteur de normes *eCH* reste détenteur de la propriété intellectuelle qui leur est associée. Il s'engage toutefois à mettre, pour autant que cela soit possible, cette propriété intellectuelle ou les droits qu'il détient sur une propriété intellectuelle de tiers gratuitement à la disposition des groupes spécialisés concernés et de l'Association *eCH*, pour une utilisation et un développement ultérieurs sans restriction dans le cadre des buts poursuivis par l'association.
@@ -432,24 +464,34 @@ Les normes *eCH* sont intégralement documentées et libres de toute restriction
 droit des brevets et/ou des licences. La documentation afférente peut être obtenue gratuitement.
 Les présentes dispositions s'appliquent exclusivement aux normes élaborées par *eCH* et ne s'étendent pas aux normes ou produits de tiers auxquels il est fait référence dans les normes *eCH*. Les normes contiennent les informations correspondantes relatives aux droits de tiers.
 
-// Annexe A – Références normatives & bibliographie
+// Annexe A – Références normatives et bibliographiques
 
+[#appendix-a]
 [.appendix nonumber]
+== Annexe A – Références normatives et bibliographiques{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/20[#20]]
 
 include::./appendices/appendix-a-fr.adoc[]
 
 // Annexe B – Collaboration et vérification
 
+[#appendix-b]
 [.appendix nonumber]
+== Annexe B – Collaboration et vérification
 
 include::./appendices/appendix-b.adoc[]
 
 // Annexe C – Abréviations &  glossaire
 
+[#appendix-c]
 [.appendix nonumber]
+== Annexe C – Abréviations &  glossaire
 
 include::./appendices/appendix-c-fr.adoc[]
 
+// Annexe D – Modifications par rapport à la version précédente
+
+[#appendix-d]
+[.appendix nonumber]
 == Annexe D - Modifications par rapport à la version précédente{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/18[#18]]
 
 <Il s'agit de la première version>.
@@ -467,17 +509,19 @@ version précédente>
 | | | |
 |===
 
+// Annexe E – Liste des figures
+
+[#appendix-e]
+[.appendix nonumber]
 == Annexe E – Liste des figures
 
-* Figure 1 : Accès en réseau à des géodonnées au moyen de géoservices.
-* Figure 2 : Bases juridiques du caractère obligatoire de eCH-0056
+* xref:fig:geoservices[xrefstyle=full]
+* xref:fig:legal_aspects[xrefstyle=full]
 
-== Annexe F – Liste des tableaux{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/19[#19]]
+// Annexe F – Nouvelles tendances en matière de géostandards
 
-* Tableau 1: Modifications par rapport à la version précédente
-
-// Annexe G – Nouvelles tendances en matière de géostandards
-
+[#appendix-f]
 [.appendix nonumber]
+== Annexe F – Nouvelles tendances en matière de géostandards
 
-include::./appendices/appendix-g-fr.adoc[]
+include::./appendices/appendix-f-fr.adoc[]

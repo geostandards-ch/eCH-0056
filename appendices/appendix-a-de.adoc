@@ -1,4 +1,3 @@
-== Anhang A – Normative Referenzen und Bibliographie{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/20[#20]]
 === Normative Referenzen
 
 [width="100%",cols="7%,93%"]
