@@ -265,7 +265,7 @@ https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7
 |E (LANG-05) |Pour les objets de type liens, l'attribut `xml:lang` (services OWS) ou `hreflang`(OGC API) DOIT être utilisé pour indiquer la langue de la ressource référencée [24].
 |===
 
-==== Métadonnées{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/6]
+==== Métadonnées
 
 [width="100%",cols="24%,76%",options="header",]
 |===
