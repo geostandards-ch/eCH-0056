@@ -1,5 +1,3 @@
-== Anhang E – Neue Trends bei den Geostandards
-
 Die Suche nach, der Zugriff auf und die Nutzung von Geodaten, die über Geodateninfrastrukturen (GDI) auf der Grundlage von OGC-Webdiensten (WMS, WFS, WCS, WPS usw.) verbreitet werden, hat einige Nachteile: OGC-Webdienste sind grundsätzlich nicht für die Indizierung ihrer Inhalte durch Suchmaschinen geeignet (die Daten sind im Web nicht auffindbar) und für nicht fachkundige Nutzer schwer zu nutzen.
 
 Aus diesem Grund hat das Open Geospatial Consortium in Zusammenarbeit mit dem W3C das Dokument "Spatial Data on the Web Best Practices" erstellt. Dieses Dokument enthält eine Reihe von Empfehlungen für die Veröffentlichung von Geodaten im Web. Diese Empfehlungen richten sich an Praktiker/innen, darunter Webentwickler/innen und Geoinformatikexpert/innen, und wurden auf der Grundlage von Erfahrungen aus der Praxis zusammengestellt. Die Best Practices legen einen deutlichen Richtungswechsel von der traditionellen Geodateninfrastruktur hin zu einem Ansatz nahe, der auf gemeinsamen Webstandards basiert.
