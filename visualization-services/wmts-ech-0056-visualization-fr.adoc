@@ -1,4 +1,4 @@
-=== Service de représentation basé sur Web Map Tile Service (WMTS){empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/23[#23]]
+=== Service de représentation basé sur Web Map Tile Service (WMTS)
 ==== Introduction
 
 La spécification WMTS définit une interface pour un service de consultation. Un WMTS s'appuie sur un modèle de tuiles (`tiles`). Le WMTS fournit des tuiles d'images prétraitées à des niveaux de zoom fixes. Cela rend l'utilisation d'un WMTS très performante.

@@ -1,21 +1,101 @@
-==== Darstellungsdienst auf Basis von Web Map Service (WMS)
+=== Darstellungsdienst auf Basis von Web Map Service (WMS)
+==== Einleitung
 
-[width="100%",cols="29%,71%",options="header",]
+Die WMS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdienst. Das Produkt einer Anfrage ist ein Bild, das die angeforderten Informationen in Form einer Rasterkarte darstellt. Die Anforderung von Zusatzinformationen (sog. Feature Information) wird ebenfalls definiert, muss aber nicht unterstützt werden.
+
+Der WMS-Standard definiert 2 Anforderungsklassen Basic WMS und Queryable WMS (Optional).
+
+Ein Dienst, der die Anforderungsklasse Basic WMS erfüllt, muss in der Lage sein, die Basisanforderungen zu unterstützen und die Operationen GetCapabilities und GetMap zu unterstützen.
+
+Ein Dienst, der die Anforderungsklasse Queryable WMS erfüllt, muss in der Lage sein, alle Anforderungen der Konformitätsklasse Basic WMS sowie die Operation GetFeatureInfo zu unterstützen.
+
+Der Standard eCH-0056 definiert zusätzliche Anforderungen und Empfehlungen auf der Grundlage dieser 2 Anforderungsklassen. Zur Vereinfachung integriert der eCH-0056-Standard in denselben Abschnitt eine Anforderung für die Operation GetLegendGraphic des Standards .
+
+==== Anforderungsklassen
+===== Anforderungsklasse Basic WMS.
+
+[width="100%",cols="24%,76%",options="header",]
 |===
-|*Kurz-Beschreibung* | Die WMS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdienst. Als Produkt einer Anfrage erhält der Benutzer ein Bild, das die angefragten Informationen in Form einer Rasterkarte darstellt. Die Abfrage weiterer Informationen (sog. Feature Information) ist ebenfalls definiert.
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/wms/req/basic_wms
+|Zieltyp |Web API
+| Abhängigkeiten |https://portal.ogc.org/files/?artifact_id=14416[OpenGIS Web Map Service (WMS) Implementation Specification 1.3.0] / Conformance class: Basic WMS.
 |===
 
-[width="100%",cols="29%,71%",options="header",]
+[width="100%",cols="24%,76%",options="header",]
 |===
-|WMS-01 | Die Umsetzung eines WMS *MUSS* der OpenGIS WMS Implementation Specification Version 1.3.0 [2] entsprechen.
-|WMS-02 |Die Umsetzung eines WMS *MUSS* die Bildformate JPEG und PNG unterstützen.
-|WMS-03 |Ein WMS *MUSS* den Parameter transparent=true unterstützen.
-|WMS-04 |Falls sinnvoll{empty}footnote:[Bei einigen Vektordaten (z.B.......) liefert die GetFeatureInfo-Anfrage keine nützlichen Informationen.], *MUSS* die Umsetzung eines WMS für Vektordaten die GetFeatureInfo-Anfrage unterstützen.
-|WMS-05 |Falls sinnvoll[multiblock footnote omitted], *MUSS* die Umsetzung eines WMS für Rasterdaten die GetFeatureInfo-Anfrage unterstützen.
-|WMS-06 |Falls sinnvoll{empty}footnote:[z.B. bei Luftbildern macht eine Legende nicht wirklich Sinn], *MUSS* die Umsetzung eines WMS die GetLegendGraphics-Anfrage unterstützen.
-|WMS-07 |Die GetCapabilities-Antwort eines WMS *MUSS* für jeden Layer das «MetadataURL»-Element enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
-|WMS-08 |Die GetCapabilities-Antwort eines WMS *MUSS* für jeden Layer das «Attribution»-Element enthalten.
-|WMS-09 |Die GetCapabilities-Antwort eines WMS *SOLLTE* für jeden Layer das «DataURL»-Element enthalten, das auf Daten verweist.
-|WMS-10 |Die Umsetzung eines WMS *SOLLTE* benutzerdefinierte Darstellungen mittels Styled Layer Descriptor (SLD) [22] und Symbology Encoding (SE) [23] unterstützen.
-|WMS-11 |Der WMS *SOLLTE* einen dpi-Request-Parameter unterstützen.
+|*Anforderung 1* |/req/basic-wms/output-formats.
+|A (WMS-02) |Die WMS-Implementierung MUSS JPEG-Bildformate unterstützen.
+|B (WMS-02) |Die WMS-Implementierung MUSS PNG-Bildformate unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 2* |/req/basic-wms/getcapabilities/layer-properties/metadataurl.
+|A (WMS-07) |Die GetCapabilities-Antwort eines WMS MUSS für jeden Layer das Element "MetadataURL" enthalten, das auf maschinenlesbare Metadaten der Daten verweist.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 3* |/rec/basic-wms/getcapabilities/layer-properties/attribution.
+|A (WMS-08) |Die GetCapabilities-Antwort eines WMS MUSS für jeden Layer das Element "Attribution" enthalten.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Anforderung 4* |/req/basic-wms/getmap/transparent.
+|A (WMS-03) |Ein WMS-Dienst MUSS den Parameter transparent=true unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Empfehlung 1*.
+|/rec/basic-wms/getcapabilities/layer-properties/dataurl.
+|A (WMS-09) |Die GetCapabilities-Antwort eines WMS MUSS für jede Ebene das Element "DataURL" enthalten, das auf die Daten verweist.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Empfehlung 2* |/rec/basic-wms/getmap/dpi.
+|A (WMS-11) |Ein WMS-Dienst MUSS einen dpi-Abfrageparameter unterstützen.
+|===
+
+===== Anforderungsklasse Queryable WMS.
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Anforderungsklasse*.
+|https://ech.ch/fr/0056/main/wms/req/queryable_wms[https://ech.ch/fr/0056/main/wms/req/queryable_wms]]
+|Zieltyp |Web API
+|https://portal.ogc.org/files/?artifact_id=14416[OpenGIS Web Map Service (WMS) Implementation Specification 1.3.0] / Conformance class: Queryable WMS.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Erfordernis 5* |/req/queryable-wms/getfeatureinfo.
+|A (WMS-04) |Die WMS-Implementierung MUSS die GetFeatureInfo-Abfrage für Vektordaten unterstützen.
+|B (WMS-05) |Die Implementierung eines WMS MUSS die GetFeatureInfo-Abfrage für Rasterdaten unterstützen.
+|===
+
+===== Anforderungsklasse Styleable WMS.
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Anforderungsklasse*.
+|https://ech.ch/fr/0056/main/sld/req/getlegendgraphic[https://ech.ch/fr/0056/main/sld/req/getlegendgraphic]]
+|Zieltyp |Web API.
+| Abhängigkeiten| https://portal.ogc.org/files/?artifact_id=22364[Styled Layer Descriptor profile of the Web Map Service Implementation Specification 1.1.0] +
+https://portal.ogc.org/files/?artifact_id=16700[OpenGIS Symbology Encoding Implementation Specification]
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Exigence 6* |/req/sld/getlegendgraphic.
+|A (WMS-06) |Die Implementierung eines WMS MUSS die Unterstützung der
+Abfrage GetLegendGraphic unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Empfehlung 3* |/rec/sld/userstyle.
+|A (WMS-10) |Die Implementierung eines WMS SOLL benutzerdefinierte Darstellungen mit Hilfe von Styled Layer Descriptor (SLD) [22] und Symbology Encoding (SE) [23] unterstützen.
 |===

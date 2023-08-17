@@ -220,14 +220,16 @@ Um Unklarheiten in der Terminologie zu vermeiden, werden an dieser Stelle Ausdr�
 |===
 |Richtlinie| Eine Richtlinie ist eine zwingende Vorgabe, welche eingehalten werden muss, um zum Anwendungsprofil konform zu sein. Insbesondere wird durch die Umsetzung der Richtlinien der Rechtsvorgabe im Zusammenhang mit Art.7 GeoIV-swisstopo [2a] entsprochen.
 
-Richtlinien sind in Kapitel 2 durch das Schlüsselwort «*MUSS*», einen dunkleren Rahmen und eine graue Hinterlegung ausgezeichnet.
+Richtlinien sind in Kapitel 2 durch das Schlüsselwort "*MUSS*" ausgezeichnet.
 
 |Empfehlung| Eine Empfehlung ist eine nicht zwingende Vorgabe. Sie sollte für eine verbesserte Interoperabilität, wenn möglich eingehalten werden, hat aber hinsichtlich der Konformität zum Anwendungsprofil keine Wirkung.
 
-Empfehlungen sind in Kapitel 6 durch das Schlüsselwort «*SOLLTE*» sowie einen helleren Rahmen ausgezeichnet.
+Empfehlungen sind in Kapitel 6 durch das Schlüsselwort "*SOLLTE*".
+Richtlinien und Empfehlungen werden in Anforderungsklassen verknüpft.
 |===
 
-Die Definition der Begriffe «*MUSS*» und «*SOLLTE*» lehnt sich an eCH-0003 [6a] an. Die Ausdrücke werden im Text fett gesetzt und durch GROSSSCHREIBUNG ausgezeichnet.
+Die Definition der Begriffe "*MUSS*" und "*SOLLTE*" lehnt sich an eCH-0003 [6a] an. Die Ausdrücke werden im Text fett gesetzt und durch GROSSSCHREIBUNG ausgezeichnet.
+Die Definition der Anforderungsklassen basiert auf dem Dokument: "The Specification Model - A Standard for Modular specifications" [25].
 
 [width="100%",cols="19%,81%",options="header",]
 |===
@@ -399,7 +401,6 @@ include::./search-services/csw-ech-0056-search-de.adoc[]
 
 == Andere Dienste
 
-include::./other-services/mas-0056-other-de.adoc[]
 include::./other-services/adr-0056-other-de.adoc[]
 
 == Haftungsausschluss/Hinweise auf Rechte Dritter

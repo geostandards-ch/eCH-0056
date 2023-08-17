@@ -1,26 +1,30 @@
-==== Download-Dienst auf Basis von OGC API Features
+=== Download-Service auf Basis von OGC API Features.
 
-[width="100%",cols="26%,74%",]
+==== Einleitung
+
+OGC API - Features bietet API-Bausteine zum Erstellen, Bearbeiten und Abfragen von Entitäten im Web. OGC API - Features besteht aus mehreren Teilen, von denen jeder einen eigenen Standard darstellt. Der Teil http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[`Core`] legt die grundlegenden Fähigkeiten fest und beschränkt sich auf das Abrufen von Entitäten, deren Geometrien im Koordinatenreferenzsystem WGS 84 mit einer Achsenordnung Länge/Breite dargestellt werden. 
+
+==== Anforderungsklassen
+===== Anforderungsklasse{empty}footnote:[siehe Ausgabe https://github.com/MediaComem/eCH-0056/issues/11[#11]]
+[width="100%",cols="50%,50%",options="header",]
 |===
-| *Kurz-Beschreibung* | OGC API Features bietet API-Bausteine zum Erstellen, Ändern und Abfragen von Features im Web. OGC API Features besteht aus mehreren Teilen, von denen jeder ein eigener Standard ist. Part 1 spezifiziert die Kernfunktionen und beschränkt sich auf die Abfrage von Features, bei denen die Geometrien im Koordinatenreferenzsystem WGS 84 mit der Achsenfolge Long/Lat dargestellt werden.
-
-Part 2 fügt die Unterstützung für andere CRS hinzu.
-| *Aktuelle Version* |
-
-1.0.1, OGC API - Features - Part 1: Core corrigendum, Mai 2022 [10]
-
-1.0.1, OGC API - Features - Part 2: Coordinate Reference Systems by Reference, Mai 2022 [11]
-|===
-
-[width="100%",cols="29%,71%",options="header",]
-|===
-|OAFeat-01 | Die Umsetzung einer OGC API Features *MUSS* den Spezifikationen OGC API - Features - Part 1: Core [10] und OGC API - Features - Part 2: Coordinate Reference Systems by Reference [11] entsprechen.
-|OAFeat-02 | Die Landing Page *MUSS* einen Link mit rel=describedby enthalten, der auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
-|OAFeat-03 | Jede Collection *MUSS* einen Link mit rel=describedby enthalten, der auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
-|OAFeat-04 |
-
-Jede Collection *SOLLTE* einen Link mit rel=enclosure enthalten, der auf einen Bulk-Download des Datensatzes verweist (z. B. ein STAC-Asset).
-
-Für den modellkonformen Austausch von Vektordaten *MUSS* INTERLIS XTF [7] oder INTERLIS GML [8], sofern verfügbar, angeboten werden.
+|Anforderungsklasse
+|https://ech.ch/fr/0056/main/oafeat/req/oafeat
+|Zieltyp |Web API
+| Abhängigkeiten|https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] +
+https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 2: Coordinate Reference Systems by Reference]
 |===
 
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Anforderung 1* |/req/oafeat/links
+|A (OAFeat-02)|Die Landingpage MUSS einen Link `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
+|B (OAFeat-03)|Jede Sammlung MUSS einen Link mit `rel=describedbyby` enthalten, der auf maschinenlesbare Metadaten gemäß Vorlage GM03 Version 2.1 [13] verweist. + 
+Für den modellkonformen Austausch von Vektordaten MUSS, sofern verfügbar, eine INTERLIS XTF [7] oder INTERLIS GML [8] Ressource angeboten werden.
+|===
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Empfehlung 1* |/rec/oafeat/links.
+|A (OAFeat-04) | Jede Sammlung MUSS einen Link mit rel=enclosure enthalten, der auf einen Bulk-Download des Datensatzes verweist (z. B. ein STAC-Asset). 
+|===
