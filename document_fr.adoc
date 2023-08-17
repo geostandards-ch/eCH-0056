@@ -204,15 +204,16 @@ Afin d'éviter toute confusion dans la terminologie, nous définissons ici les e
 |===
 |Directive| Une directive est une disposition qu’il est impératif de respecter pour se conformer au profil d’application. La mise en œuvre des directives permet notamment de respecter les règles de droit énoncées à l’article 7 OGéo-swisstopo [2a].
 
-Les directives sont signalées au chapitre xref:guidelines[xrefstyle=short]
- par le mot-clé "*DOIT*", un cadre plus foncé et un fond gris.
+Les directives sont signalées au chapitre xref:guidelines[xrefstyle=short] par le mot-clé "*DOIT*".
 
 |Recommandation| Une recommandation est une prescription non obligatoire. Elle devrait être respectée dans la mesure du possible afin d'améliorer l'interopérabilité, mais n'a aucun effet sur la conformité au profil d'application.
 
-Les recommandations sont signalées au chapitre xref:guidelines[xrefstyle=short] par le mot-clé "*DEVRAIT*" et un cadre plus clair.
+Les recommandations sont signalées au chapitre xref:guidelines[xrefstyle=short] par le mot-clé "*DEVRAIT*".
+Directives et recommandations sont associées en classes d'exigences.
 |===
 
 La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Les expressions sont écrites en caractères gras et en MAJUSCULES.
+La définition des classes d'exigences s'inspire du document: "The Specification Model — A Standard for Modular specifications" [25].
 
 [width="100%",cols="19%,81%"]
 |===
@@ -344,7 +345,7 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 [width="100%",cols="24%,76%",options="header",]
 |===
 |*Recommandation 1* |/rec/crs
-|A (CRS-03) |Un géoservice DEVRAIT supporte les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
+|A (CRS-03) |Un géoservice DEVRAIT supporter les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
 |===
 
 [#tilematrixset]
@@ -416,7 +417,6 @@ Dans le cadre de eCH-0056, on entend concrètement par service de représentatio
 include::./visualization-services/wms-ech-0056-visualization-fr.adoc[]
 include::./visualization-services/wmts-ech-0056-visualization-fr.adoc[]
 include::./visualization-services/oatiles-ech-0056-visualization-fr.adoc[]
-// include::./visualization-services/2dtms-ech-0056-visualization-fr.adoc[]
 
 [#download]
 == Service de téléchargement

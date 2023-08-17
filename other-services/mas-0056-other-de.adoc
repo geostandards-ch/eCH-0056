@@ -1,1 +1,0 @@
-=== Mess- und Auswertedienste{empty}:footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/16[#16]]

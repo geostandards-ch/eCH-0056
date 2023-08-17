@@ -75,6 +75,9 @@ http://portal.opengeospatial.org/files/?artifact_id=16700[http://portal.opengeos
 |[24]| Open Geospatial Consortium (OGC), 2019 +
 OGC GeoTIFF standard (OGC 05-077r4), +
 https://docs.opengeospatial.org/is/19-008r4/19-008r4.html[https://docs.opengeospatial.org/is/19-008r4/19-008r4.html]
+|[25]| Open Geospatial Consortium (OGC), 2009 +
+The Specification Model — A Standard for Modular specifications (OGC 08-131r3), + 
+https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449[https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449]
 |===
 
 [NOTE]

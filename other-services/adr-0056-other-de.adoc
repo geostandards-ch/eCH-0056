@@ -30,7 +30,7 @@ Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implemen
 
 [width="100%",cols="24%,76%",options="header",]
 |===
-|*Exigence 2* |/req/adr/basic-wfs/getfeature/typename
+|*Anforderung 2* |/req/adr/basic-wfs/getfeature/typename
 |A | Die Implementierung eines Adressdienstes MUSS den Parameter `Typename` der Operation `GetFeature` des OGC WFS 2.0.2 Standards unterstützen.
 | Die Implementierung eines Adressdienstes MUSS den Parameter `PropertyName` der Operation `GetFeature` des OGC WFS 2.0.2-Standards unterstützen.
 |===
