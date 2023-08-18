@@ -10,18 +10,14 @@ Es werden nur Begriffe aufgeführt, welche im Text oder in den Definitionen ande
 | CSW                  | Catalogue Services for the Web
 | EPSG                 | European Petroleum Survey Group
 | ETRS89               | Europäisches Terrestrisches Referenzsystem 1989
-| EVRS                 | European Vertical Reference System
 | GeoIG                | Geoinformationsgesetzt
 | GeoIV                | Geoinformationsverordnung
-| GeoRSS               | Geographically Encoded Objects for RSS feeds
 | GeoTIFF              | Geo Tagged Image File Format
 | GML                  | Geography Markup Language
-| GNSS                 | Global Navigation Satellite Systems
 | HTML                 | Hypertext Markup Language
 | HTTP                 | Hypertext Transfer Protocol
 | HTTPS                | Hypertext Transfer Protocol Secure
 | IETF                 | Internet Engineering Task Force
-| IGS                  | International GNSS Service
 | INSPIRE              | Infrastructure for Spatial Information in the European Community
 | INTERLIS-GML         | GML Transferformat für INTERLIS 2, verwendet die Dateierweiterung *.gml
 | INTERLIS-XTF     | INTERLIS 2 Transferformat, verwendet die Dateierweiterung *.xtf (gelegentlich auch *.xml)
@@ -33,12 +29,10 @@ Es werden nur Begriffe aufgeführt, welche im Text oder in den Definitionen ande
 | LCC                  | Lambert Conformal Conic
 | LHN95                | Landeshöhennetz 1995
 | LN02                 | Landesnivellement 1902
-| LV03                 | Landesvermessung 1903 («alte Landesvermessung»)
 | LV95                 | Landesvermessung 1995 («neue Landesvermessung»)
 | MGDM                 | Minimale Geodatenmodelle
 | MIME                 | Multipurpose Internet Mail Extensions
 | NGDI                 | Nationale Geodateninfrastruktur
-| NTRIP                | Standard for Networked Transport of RTCM via Internet Protocol
 | NTv2                 | National Transformation Version 2
 | OASIS                | Organization for the Advancement of Structured Information Standards
 | OGC                  | Open Geospatial Consortium (ehemals Open GIS Consortium OpenGIS)
@@ -49,9 +43,6 @@ Es werden nur Begriffe aufgeführt, welche im Text oder in den Definitionen ande
 | REST                 | Representational State Transfer
 | RFC                  | Request for Comments
 | PHP                  | PHP: Hypertext Preprocessor
-| RINEX                | Receiver Independent Exchange Format
-| RSS                  | Really Simple Syndication
-| RTCM                 | Radio Technical Commission for Maritime Services
 | SAGA.ch              | Standards Architektur für E-Government Anwendungen der Schweiz
 | SE                   | Symbology Encoding
 | SLD                  | Styled Layer Descriptor
@@ -66,7 +57,6 @@ Es werden nur Begriffe aufgeführt, welche im Text oder in den Definitionen ande
 | URL                  | Uniform Resource Locator
 | UTF-8                | 8-Bit UCS Transformation Format
 | UTM                  | Universal Transverse Mercator
-| VRS                  | Virtual Reference Station
 | WCS                  | Web Coverage Service
 | WFS                  | Web Feature Service
 | WGS84                | World Geodetic System 1984
