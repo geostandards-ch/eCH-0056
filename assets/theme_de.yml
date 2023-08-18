@@ -1,0 +1,60 @@
+extends: default
+font:
+  catalog:
+    merge: true
+    Arial:
+      normal: arial.ttf
+      bold: arial-bold.ttf
+      italic: arial-italic.ttf
+      bold-italic: arial-bold_italic.ttf
+page:
+  margin: [2.93cm, 1.09cm, 2.08cm, 2.5cm]
+header:
+  height: 1.5cm
+  border-color: #DDDDDD
+  border-width: 0.25
+  recto:
+    content-margin: [0.25cm, inherit, 0.25cm, inherit]
+    right:
+      content: 'Seite {page-number} von {page-count}'
+    left:
+      content: image:assets/images/logo-ech.png[width=2.5cm]
+  verso:
+    content-margin: [0.25cm, inherit, 0.25cm, inherit]
+    right:
+      content: 'Seite {page-number} von {page-count}'
+    left:
+      content: image:assets/images/logo-ech.png[width=2.5cm]
+footer:
+  height: 1.74cm
+  recto:
+    right:
+      content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
+      inline_format: true
+    left:
+      content: 'Association eCH, ID – <Name> / x.x.x / In Arbeit / JJJJ-MM-TT'
+  verso:
+    right:
+      content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
+      inline_format: true
+    left:
+      content: 'Association eCH, ID – <Name> / x.x.x / In Arbeit / JJJJ-MM-TT'
+base:
+  font-family: Arial
+  font-size: 11
+  text_align: justify
+link:
+  font_color: #0563C1
+heading:
+  font-family: Arial
+  h1-font-size: 20
+  h2-font-size: 18 
+  h3-font-size: 16
+  h4-font-size: 14
+  h5-font-size: 12
+table:
+  caption:
+    end: bottom
+code:
+  caption:
+    end: bottom

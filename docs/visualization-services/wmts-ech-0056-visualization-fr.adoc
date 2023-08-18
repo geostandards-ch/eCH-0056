@@ -1,0 +1,40 @@
+==== Service de représentation basé sur Web Map Tile Service (WMTS)
+===== Introduction
+
+La spécification WMTS définit une interface pour un service de consultation. Un WMTS s'appuie sur un modèle de tuiles (`tiles`). Le WMTS fournit des tuiles d'images prétraitées à des niveaux de zoom fixes. Cela rend l'utilisation d'un WMTS très performante.
+
+===== Classes d'exigences
+====== Classe d’exigences Basic WMTS
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/wmts/req/wmts
+|Type d’objectif |Web API
+|Dépendances |https://portal.ogc.org/files/?artifact_id=35326[OpenGIS Web Map Tile Service Implementation Standard 1.0.0]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Exigence 1* |/req/wmts/output-formats
+|A (WTMS-02) |La mise en œuvre WMS *DOIT* prendre en charge le format d'image *JPEG*.
+|B (WMTS-02) |La mise en œuvre WMS *DOIT* prendre en charge le format d'image *PNG*.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Exigence 2* |/req/wmts/getcapabilities/layer/metadata
+|A (WMTS-06) |La réponse `GetCapabilities` d'un service WMTS, *DOIT*, pour chaque couche, contenir l'élément "Metadata" qui renvoie à des métadonnées de données lisibles par une machine via un lien.
+|B (WMTS-05) |Si cela est utile{empty}footnote:[p. WMS-06], La mise en œuvre d'un WMTS *DOIT* fournir un lien vers une légende pour chaque couche via le paramètre LegendURL: `<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Recommandation 1* |/rec/wmts/getfeatureinfo
+|A (WTMS-03 & WMTS-04) |Si cela est utile{empty}footnote:[p. ex WMS-04], la mise en œuvre d'un WMTS DEVRAIT supporter la requête GetFeatureInfo.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Recommandation 3* |/rec/wmts/tilematrix
+|WMS-07 |Dans le cas d’une implémentation RESTful du WMTS , l’ordre de succession `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` DEVRAIT être respecté.
+|===

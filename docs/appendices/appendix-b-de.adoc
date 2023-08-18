@@ -1,0 +1,16 @@
+[width="100%",cols="24%,76%",]
+|===
+| Beat Tschanz        | swisstopo
+| Frank	Gottsmann	  | swisstopo       
+| Jens Ingensand	  | HEIG-VD  
+| Jürgen Hansmann     | swisstopo        
+| Marco Bernasocchi   | OPENGIS.ch      
+| Maria Klonner       | swisstopo
+| Maxime Collombin    | HEIG-VD         
+| Oliver Grimm        | Geowerkstatt    
+| Olivier Ertz        | HEIG-VD         
+| Pasquale Di Donato  |	swisstopo       
+| Romedi Filli        | Kanton Schaffhausen
+| Stefan Ziegler      | Kanton Solohturn 
+|===
+

@@ -1,0 +1,111 @@
+=== Références normatives
+
+[width="100%",cols="7%,93%"]
+|===
+|[1]| Unité de pilotage informatique de la Confédération UPIC, 2016. +
+R016 - SOA Policies +
+https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/ikt-vorgaben/architekturen/r016-soa-policies.html]
+|[2]| Open Geospatial Consortium (OGC), 2006 +
+OpenGIS Web Map Server Implementation Specification 1.3.0 (OGC 06-042) +
+http://portal.opengeospatial.org/files/?artifact_id=14416[http://portal.opengeospatial.org/files/?artifact_id=14416]
+|[3]| Open Geospatial Consortium (OGC), 2010 +
+OpenGIS Web Map Tile Service Implementation Standard 1.0.0 (OGC 07-057r7) +
+http://portal.opengeospatial.org/files/?artifact_id=35326[http://portal.opengeospatial.org/files/?artifact_id=35326]
+|[4]| Open Geospatial Consortium (OGC), 2022 +
+OGC API - Tiles - Part 1: Core +
+https://docs.ogc.org/is/20-057/20-057.html[https://docs.ogc.org/is/20-057/20-057.html]
+|[5]| STAC Community, 2021 +
+The Spatial Temporal Asset Catalog Specification +
+https://github.com/radiantearth/stac-spec[https://github.com/radiantearth/stac-spec]
+|[6]| STAC Community, 2022 +
+The Spatial Temporal Asset Catalog API Specification +
+https://github.com/radiantearth/stac-api-spec[https://github.com/radiantearth/stac-api-spec]
+|[7]| eCH, 2016 +
+eCH-0031 Géoinformation: INTERLIS 2 - Manuel de référence, version 2.0 +
+https://www.ech.ch/fr/ech/ech-0031/2.0[https://www.ech.ch/fr/ech/ech-0031/2.0]
+|[8]| eCH, 2016 +
+eCH-0118 Géoinformation: Règles de codification GML pour INTERLIS, version 2.0 +
+https://www.ech.ch/de/ech/ech-0118/2.0[https://www.ech.ch/de/ech/ech-0118/2.0]
+|[9]| Open Geospatial Consortium (OGC), 2014 +
+OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum (OGC 09-025r2) +
+http://docs.opengeospatial.org/is/09-025r2/09-025r2.html[http://docs.opengeospatial.org/is/09-025r2/09-025r2.html]
+|[10]| Open Geospatial Consortium (OGC), 2022 +
+OGC API - Features - Part 1: Core corrigendum (OGC 17-069r4) +
+https://docs.opengeospatial.org/is/17-069r4/17-069r4.html[https://docs.opengeospatial.org/is/17-069r4/17-069r4.html]
+|[11]| Open Geospatial Consortium (OGC), 2022 +
+OGC API - Features - Part 2: Coordinate Reference Systems by Reference corrigendum (OGC 18-058r1) +
+https://docs.opengeospatial.org/is/18-058r1/18-058r1.html[https://docs.opengeospatial.org/is/18-058r1/18-058r1.html]
+|[12]| Open Geospatial Consortium (OGC), 2018 +
+OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core (OGC 17-089r1) +
+http://docs.opengeospatial.org/is/17-089r1/17-089r1.html[http://docs.opengeospatial.org/is/17-089r1/17-089r1.html]
+|[13]| Open Geospatial Consortium (OGC), 2016 +
+OGC Catalogue Services 3.0 - General Model (OGC 12-168r6) +
+https://docs.opengeospatial.org/is/12-168r6/12-168r6.html[https://docs.opengeospatial.org/is/12-168r6/12-168r6.html]
+|[14]| Open Geospatial Consortium (OGC), 2016 +
+OGC Catalogue Services 3.0 Specification - HTTP Protocol Binding (OGC 12-176r7) +
+https://docs.opengeospatial.org/is/12-176r7/12-176r7.html[https://docs.opengeospatial.org/is/12-176r7/12-176r7.html]
+|[15]| eCH, 2017 +
+eCH-0014 SAGA.ch +
+https://www.ech.ch/fr/ech/ech-0014/8.0[https://www.ech.ch/de/ech/ech-0014/8.0]
+|[16]| ISO/TC 154, 2019 +
+ISO 8601-1:2019. Date and time - Representations for information interchange - Part 1: Basic rules +
+https://www.iso.org/standard/70907.html[https://www.iso.org/standard/70907.html]
+|[17]| ISO/TC 171, 2005 +
+ISO 19005-1:2005. Document management -- Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1) +
+https://www.iso.org/standard/38920.html[https://www.iso.org/standard/38920.html]
+|[18]| Internet Engineering Task Force (IETF), 2022 +
+HTTP Semantics - RFC 9110 +
+https://www.rfc-editor.org/info/rfc9110[https://www.rfc-editor.org/info/rfc9110]
+|[19]| Internet Engineering Task Force (IETF), 2009 +
+Tags for Identifying Languages - RFC 5646 +
+https://www.rfc-editor.org/info/rfc5646[https://www.rfc-editor.org/info/rfc5646]
+|[20]| Internet Engineering Task Force (IETF), 2009 +
+Web Linking - RFC 8288 +
+https://www.rfc-editor.org/info/rfc8288[https://www.rfc-editor.org/info/rfc8288]
+|[21]| Open Geospatial Consortium (OGC), 2019 +
+OGC Two Dimensional Tile Matrix Set +
+https://docs.opengeospatial.org/is/17-083r2/17-083r2.html[https://docs.opengeospatial.org/is/17-083r2/17-083r2.html]
+|[22]| Open Geospatial Consortium (OGC), 2007 +
+OpenGIS Styled Layer Descriptor Profile of the Web Map Service +
+Implementation Specification 1.1.0 (OGC 05-078r4), +
+https://portal.opengeospatial.org/files/?artifact_id=22364[https://portal.opengeospatial.org/files/?artifact_id=22364]
+|[23]| Open Geospatial Consortium (OGC), 2006 +
+Symbology Encoding Implementation Specification 1.1.0 (OGC 05-077r4), +
+http://portal.opengeospatial.org/files/?artifact_id=16700[http://portal.opengeospatial.org/files/?artifact_id=16700]
+|[24]| Open Geospatial Consortium (OGC), 2019 +
+OGC GeoTIFF standard (OGC 05-077r4), +
+https://docs.opengeospatial.org/is/19-008r4/19-008r4.html[https://docs.opengeospatial.org/is/19-008r4/19-008r4.html]
+|[25]| Open Geospatial Consortium (OGC), 2009 +
+The Specification Model — A Standard for Modular specifications (OGC 08-131r3), + 
+https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449[https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449]
+|===
+
+=== Bibliographie
+
+[width="100%",cols="7%,93%"]
+|===
+|[1a]| Assemblée fédérale de la Confédération suisse, 2007 +
+Loi fédérale du 5 octobre 2007 sur la géoinformation (loi sur la géoinformation, LGéo) +
+https://www.fedlex.admin.ch/eli/cc/2008/388/fr[https://www.fedlex.admin.ch/eli/cc/2008/388/fr]
+|[2a]| Office fédéral de topographie (swisstopo), 2008 +
+Ordonnance du 26 mai 2008 de l'Office fédéral de topographie sur la géoinformation (OGéo-swisstopo), +
+https://www.fedlex.admin.ch/eli/cc/2008/390/fr[https://www.fedlex.admin.ch/eli/cc/2008/390/fr]
+|[3a]| CGC - BPUK, 2020 +
+Strategie Geoinformation Schweiz und Aktionsplan +
+https://www.geo.admin.ch/fr/strategie-et-mise-en-oeuvre[https://www.geo.admin.ch/fr/strategie-et-mise-en-oeuvre/]
+|[4a]| Conseil fédéral suisse, 2008 +
+Ordonnance du 21 mai 2008 sur la géoinformation (OGéo),
+https://www.fedlex.admin.ch/eli/cc/2008/389/fr[https://www.fedlex.admin.ch/eli/cc/2008/389/fr]
+|[5a]| eCH, 2012 +
+eCH-0150 Change und Release Management von eCH-Standards V1.0 +
+https://www.ech.ch/fr/ech/ech-0150/1.0[https://www.ech.ch/fr/ech/ech-0150/1.0]
+|[6a]| Internet Engineering Task Force (IETF) - Network Working Group, 1997. +
+RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels +
+http://www.ietf.org/rfc/rfc2119.txt[http://www.ietf.org/rfc/rfc2119.txt]
+|[7a]| IOGP Geomatics Committee - Geodesy Subcommittee +
+EPSG Geodetic Parameter Dataset +
+https://epsg.org[https://epsg.org]
+|[8a]| Comission européenne, 2010 +
+RÈGLEMENT (UE) No 1088/2010 DE LA COMMISSION du 23 novembre 2010 modifiant le règlement (CE) no 976/2009 en ce qui concerne les services de téléchargement et les services de transformation +
+https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32010R1088&from=EN[https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32010R1088&from=EN]
+|===

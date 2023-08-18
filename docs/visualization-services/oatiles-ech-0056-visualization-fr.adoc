@@ -1,0 +1,27 @@
+==== Service de représentation basé sur OGC API Tiles
+===== Introduction
+
+Le standard OGC API - Tiles définit les éléments de base pour la création d'API Web qui prennent en charge la récupération d'informations géospatiales sous forme de tuiles. Différentes formes d'informations géospatiales sont prises en charge, telles que les tuiles vectorielles et raster ainsi que d'autres types d'informations géospatiales. 
+
+Bien qu'il puisse être utilisé indépendamment, le standard OGC API - Tiles peut être combiné avec d'autres normes et projets de spécifications OGC API pour obtenir des capacités supplémentaires ou accroître l'interopérabilité pour des types de données spécifiques.
+
+Le standard OGC API - Tiles fait référence à la norme OGC Two Dimensional Tile Matrix Set (TMS) et Tileset Metadata, qui définit des modèles logiques et des encodages pour spécifier des ensembles de matrices de tuiles et décrire des ensembles de tuiles. Un ensemble de matrices de tuiles est un schéma de tuilage qui permet à une application de partitionner et d'indexer l'espace en fonction d'un ensemble de grilles régulières définies pour plusieurs échelles dans un système de coordonnées de référence (CRS).
+
+===== Classes d'exigences
+====== Classe d'exigences OGC API Tiles Core
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/oat/req/oat/encodings
+|Type d’objectif |Web API
+|Dépendances |https://docs.ogc.org/is/20-057/20-057.html#toc65[OGC API - Tiles - Part 1: Core + Requirements Classes for tile encodings]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Exigence 1* |/req/oat/encodings
+|A |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format d'image *JPEG*.
+|B |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format d'image *PNG*.
+|B |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format d'image *GeoJSON* pour des tuiles vectorielles.
+|C |La mise en œuvre API OGC API Tiles *DOIT* prendre en charge le format d'image *TIFF* pour des tuiles raster.
+|===

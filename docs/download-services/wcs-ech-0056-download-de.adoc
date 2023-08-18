@@ -1,0 +1,21 @@
+==== Download-Dienst auf Basis von Web Coverage Service (WCS)
+===== Einleitung
+
+Die WCS-Spezifikation definiert eine Schnittstelle für einen Download-Dienst. Sie definiert den Zugang zu "Rasterdaten (Rastern)" (englisch Coverages). Der Dienst übermittelt die "Rohdaten" zusammen mit einer detaillierten Beschreibung und der dazugehörigen Georeferenzierung. Die übermittelten Daten können für weitere Analysen verwendet werden.
+
+===== Anforderungsklassen
+====== WCS-Anforderungsklasse
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/wcs/req/wcs
+|Zieltyp |Web API
+| Abhängigkeiten |https://docs.ogc.org/is/17-089r1/17-089r1.html[OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core ]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/wcs/getcapabilities.
+|A (WCS-02)| Die Implementierung eines WCS *MUSS* eine Erweiterung in das ursprüngliche Koordinatensystem im Element `"cis11:envelope"` der Antwort `DescribeCoverage` beschreiben.
+|B (WCS-03)| Die Antwort `GetCapabilities` eines WCS *MUSS* für jeden `Coverage` das Element `Metadata` mit dem Attribut `link` enthalten, das auf datenbezogene Metadaten verweist, die von einem Computer interpretiert werden können und dem GM03-Modell Version 2.1 [13] entsprechen.
+|===

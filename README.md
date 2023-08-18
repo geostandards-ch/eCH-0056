@@ -22,5 +22,5 @@ gem install asciidoctor-pdf --pre
 
 Then, to generate the PDF document, run the following command:
 
-- `asciidoctor-pdf -a pdf-style=eCH-theme.yml .\document_de.adoc` for the German version
-- `asciidoctor-pdf -a pdf-style=eCH-theme.yml .\document_fr.adoc` for the French version
+- `asciidoctor-pdf -a pdf-theme=assets/theme_de.yml -a pdf-fontsdir=assets/fonts document_de.adoc` for the German version
+- `asciidoctor-pdf -a pdf-theme=assets/theme_fr.yml -a pdf-fontsdir=assets/fonts document_fr.adoc` for the French version

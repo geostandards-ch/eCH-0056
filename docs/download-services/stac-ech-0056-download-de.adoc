@@ -1,0 +1,28 @@
+==== Download-Dienst auf Basis STAC- und STAC-API Spezifikation
+===== Einleitung
+
+STAC (SpatioTemporal Asset Catalog) ist eine Spezifikation zur Katalogisierung von Geodaten, um deren Verarbeitung, Indexierung und Entdeckung zu erleichtern. STAC ist ein standardisiertes Mittel zur Veröffentlichung von räumlichen und zeitlichen Daten. Die Veröffentlichung von Geodaten mit STAC ist so einfach wie das Ablegen statischer Dateien in einem öffentlichen Ordner im Internet.
+
+Eine STAC-API ist eine dynamische Version von STAC und definiert darüber hinaus eine RESTful-Service-Schnittstelle für die Suche.
+
+===== Anforderungsklassen
+====== STAC-Anforderungsklasse
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/stac/req/stac
+|Zieltyp |Web API
+|https://github.com/radiantearth/stac-spec/[SpatioTemporal Asset Catalog Specification, Version 1.0.0]
+|===
+
+====== STAC-Anforderungsklasse
+
+[width="100%",cols="29%,71%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/stac
+|A (STAC-02) |Der Katalog *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten des Dienstes verweist.
+|B (STAC-04) |Jede Sammlung *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
+|C (STAC-05) |Für den modellkonformen Austausch von Vektordaten *MUSS* ein Link auf INTERLIS XTF [7] oder INTERLIS GML [8] Dateien angeboten werden.
+|D (STAC-06) |Für zweidimensionale Rasterdaten *MUSS* das Datenformat GeoTIFF{empty}footnote:[Ein für die Cloud optimiertes GeoTIFF erfüllt diese Richtlinie] [24] angeboten werden.
+|E (STAC-07) |Cloud-optimierte Geodatenformate MÜSSEN angeboten werden.
+|===

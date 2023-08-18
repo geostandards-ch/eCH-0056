@@ -5,7 +5,7 @@
 :toc: macro
 :toc-title: Inhaltsverzeichnis
 :table-caption: Tabelle
-:toclevels: 5
+:toclevels: 6
 :pdf-theme: eCH
 :pdf-themesdir: {docdir}
 :sectlinks:
@@ -26,7 +26,7 @@
 |*Voraussetzungen* |eCH-0056 3.0
 |*Beilagen* |
 |*Sprachen* |Deutsch (Original), Französisch (Übersetzung)
-|*Autoren*  |
+|*Autoren*  | eCH Fachgruppe Geoinformation
 *Andere Teilnehmer*|
 |*Herausgeber / Vertrieb*| Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich +
 T 044 388 74 64, F 044 388 71 80 +
@@ -69,9 +69,11 @@ Aus Gründen der besseren Lesbarkeit und Verständlichkeit wird im vorliegenden 
 [#status]
 === Status
 
-In Arbeit: Der Gebrauch ist nur innerhalb der Fachgruppe, bzw. im Expertenausschuss zugelassen.
+Entwurf: Das Dokument wurde von den zuständigen Referenten aus dem Expertenausschuss zur öffentlichen Konsultation freigegeben und entsprechend publiziert.
 
-// Entwurf: Das Dokument wurde von den zuständigen Referenten aus dem Expertenausschuss zur öf-fentlichen Konsultation freigegeben und entsprechend publiziert.
+// In Arbeit: Der Gebrauch ist nur innerhalb der Fachgruppe, bzw. im Expertenausschuss zugelassen.
+
+// Entwurf: Das Dokument wurde von den zuständigen Referenten aus dem Expertenausschuss zur öffentlichen Konsultation freigegeben und entsprechend publiziert.
 
 // Vorschlag: Das Dokument wird dem Expertenausschuss zur Genehmigung vorgelegt, ist aber normativ noch nicht gültig. 
 
@@ -96,7 +98,7 @@ Im Rahmen der Entwicklung der NGDI wird die Integration von Geodiensten angestre
 
 [#fig:geoservices]
 .Vernetzter Zugriff auf Geodaten mittels Geodiensten (modifiziert nach [28])
-image::images/geoservices_de.jpg[align="center"]
+image::assets/images/geoservices_de.jpg[align="center"]
 
 Bei der Umsetzung der Vernetzung und Integration von Geodiensten stellen sich neben den organisatorischen Herausforderungen auch Herausforderungen technischer Natur. Diesen Problemen wird mit Normung / Standardisierung (z.B. ISO/TC 211, Open Geospatial Consortium OGC) begegnet.
 
@@ -104,6 +106,7 @@ Bei der Umsetzung der Vernetzung und Integration von Geodiensten stellen sich ne
 === Vernetzung von Geodiensten, Bedeutung der Datenharmonisierung
 
 Hauptziel ist die möglichst reibungslose Vernetzung von Geodiensten in einem heterogenen, verteilten Netzwerk. Je nach Anforderung kann diese Vernetzung von der reinen Visualisierung, über die einheit-liche Informationsabfrage bis hin zur Datenabgabe nach harmonisierten Datenmodellen gehen. Im Rahmen der Umsetzung des GeoIG [1a] und der zugehörigen Verordnungen [2a][4a] steht die Daten-modellharmonisierung im Vordergrund. Die Harmonisierung von Datenmodellen und Daten betrifft die Aktionsfelder «Ökosystem Geoinformation fördern» und «Geodaten verknüpfen» gemäss dem Akti-onsplan zur Strategie Geoinformation Schweiz.
+
 Verschiedene Probleme verhindern oder erschweren heute die Vernetzung von Geodiensten verschie-dener Anbieter: 
 
 * Unvollständige Unterstützung der Standards durch die eingesetzten Softwarekomponenten.
@@ -120,7 +123,7 @@ Zu beachten sind SOA-Strategien, z.B. vom ISB Bund [1].
 [#purpose]
 === Anwendungsprofil Geodienste: Zielsetzung und Zielgruppe
 
-Im Kontext der Umsetzung des GeoIG [1a] definiert das «Anwendungsprofil Geodienste» rechtsverbindlich die Mindestanforderungen an die Geobasisdienste (vgl. Kapitel 3.4).
+Im Kontext der Umsetzung des GeoIG [1a] (vgl. Abschnitt xref:legal[xrefstyle=short]) definiert das «Anwendungsprofil Geodienste» rechtsverbindlich die Mindestanforderungen an die Geobasisdienste (vgl. Abschnitt xref:definitions[xrefstyle=short]).
 
 Daneben wird mit den geeigneten Einschränkungen und Präzisierungen der ausgewählten Standards für Geodienste die Basis für die interoperable Nutzung gelegt. Das Anwendungsprofil ist so in jedem Fall standardkonform. Es soll im Rahmen der NGDI und darüber hinaus möglich sein, Geodienste unterschiedlicher Anbieter zu kombinieren und die Geodaten anbieterübergreifend verfügbar zu machen, um so die Interoperabilität in der Praxis zu gewährleisten.
 
@@ -163,7 +166,7 @@ Durch das Inkrafttreten des GeoIG vom 1. Juli 2008 [1a] und der zugehörigen Ver
 
 [#fig:legal_aspects]
 .Rechtsgrundlagen der Verbindlichkeit von eCH-0056
-image::images/legal_aspects_de.jpg[align="center"]
+image::assets/images/legal_aspects_de.jpg[align="center"]
 
 Die Kompetenz von swisstopo eCH-0056 als verbindlichen Standard festzulegen beruht auf den Art. 34 -36 GeoIV [4a] (vgl. dazu xref:fig:legal_aspects[xrefstyle=short]).
 
@@ -174,6 +177,7 @@ Für Dritte (insbesondere Private) gelten diese Voraussetzungen grundsätzlich n
 
 Allgemein ist zu beachten, dass die gesetzliche Verpflichtung den Standard einzuhalten nur die Richtlinien, d.h. die zwingenden Vorgaben umfasst. Die Empfehlungen sind nach Möglichkeit einzuhalten, jedoch besteht dazu keine gesetzliche Pflicht.
 
+[#scope]
 === Abgrenzung
 
 Im vorliegenden Anwendungsprofil werden basierend auf den referenzierten Normen die Geobasisdienste standardisiert. Dabei werden neben den landesspezifischen Anforderungen, Ansprüche zur Sicherstellung der Interoperabilität berücksichtigt.
@@ -187,22 +191,24 @@ Aspekte)
 
 Im Allgemeinen sind etablierte Standards zu berücksichtigen. Dazu gehört insbesondere eCH-0014: SAGA.ch [15]. 
 
+[#structure]
 === Aufbau des Anwendungsprofil
 
 Die wesentlichen inhaltlichen Komponenten des Anwendungsprofils sind:
 
-* Kapitel 1 Einleitung: Informative Einführung und Erläuterungen.
-* Kapital 2 Richtlinien und Empfehlungen: Normative Richtlinien und Empfehlungen.
+* Kapitel xref:introduction[xrefstyle=full]
+* Kapitel xref:guidelines[xrefstyle=full]
 
 Die Richtlinien und Empfehlungen werden für jede Geodienst-Spezifikation in einem eigenen Abschnitt nach einer einheitlichen Struktur abgehandelt. Diese umfasst die folgenden Elemente:
 
 * Kurz-Beschreibung
 * Aktuelle Version: Als aktuelle Version wird diejenige mit der höchsten Dokumentenstufe angesehen, im besten Fall die finale Version. Somit werden neben der eigentlichen Versionsnummer auch der Dokumenten-Status, sowie die zuständige Organisation, die diesen festlegt, angegeben. Ebenfalls aufgeführt ist das Erscheinungsdatum.
-* Richtlinien: Sind pro Standard nummeriert (z.B. «WMS-01»). Die Richtlinien definieren zwingende Vorgaben (vgl. Kapitel 4).
-* Empfehlungen: Die Nummerierung wird pro Spezifikation für die Empfehlungen fortgeführt (z.B. «WMS-10»). Empfehlungen sind nicht zwingende Vorgaben (vgl. Kapitel 4).
+* Richtlinien: Sind pro Spezifikation und Anforderungsklasse. Die Richtlinien definieren zwingende Vorgaben (vgl. Abschnitt xref:conformance[xrefstyle=short]).
+* Empfehlungen: Sind pro Spezifikation und Anforderungsklasse. Empfehlungen sind nicht zwingende Vorgaben (vgl. Abschnitt xref:conformance[xrefstyle=short]).
 
 Das Anwendungsprofil legt in den Richtlinien fest, welche Version eines Standards unterstützt werden muss.
 
+[#update]
 === Nachführung
 
 Die Nachführung dieses Dokumentes erfolgt periodisch, wobei zwischen grösseren Überarbeitungen (z.B. Änderung einer Richtlinie, Einführung neuer Standards) und kleinen Änderungen und Ergänzungen unterschieden wird. Folgende Nachführungsperioden sind festgelegt:
@@ -212,107 +218,167 @@ Die Nachführung dieses Dokumentes erfolgt periodisch, wobei zwischen grösseren
 
 Change-Requests können direkt an die geostandards.ch-Geschäftsstelle gerichtet. Der detaillierte Ablauf ist im Standard eCH-0150 «Change und Release Management von eCH-Standards» [5a] geregelt.
 
+[#conformance]
 === Konformität
 
 Um Unklarheiten in der Terminologie zu vermeiden, werden an dieser Stelle Ausdrücke definiert, die in den Richtlinien und Empfehlungen zum Einsatz kommen.
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="19%,81%",options="noheader",]
 |===
 |Richtlinie| Eine Richtlinie ist eine zwingende Vorgabe, welche eingehalten werden muss, um zum Anwendungsprofil konform zu sein. Insbesondere wird durch die Umsetzung der Richtlinien der Rechtsvorgabe im Zusammenhang mit Art.7 GeoIV-swisstopo [2a] entsprochen.
 
-Richtlinien sind in Kapitel 2 durch das Schlüsselwort "*MUSS*" ausgezeichnet.
+Richtlinien sind in Kapitel xref:guidelines[xrefstyle=short] durch das Schlüsselwort "*MUSS*" ausgezeichnet.
 
 |Empfehlung| Eine Empfehlung ist eine nicht zwingende Vorgabe. Sie sollte für eine verbesserte Interoperabilität, wenn möglich eingehalten werden, hat aber hinsichtlich der Konformität zum Anwendungsprofil keine Wirkung.
 
-Empfehlungen sind in Kapitel 6 durch das Schlüsselwort "*SOLLTE*".
+Empfehlungen sind in Kapitel xref:guidelines[xrefstyle=short] durch das Schlüsselwort "*SOLLTE*".
 Richtlinien und Empfehlungen werden in Anforderungsklassen verknüpft.
 |===
 
 Die Definition der Begriffe "*MUSS*" und "*SOLLTE*" lehnt sich an eCH-0003 [6a] an. Die Ausdrücke werden im Text fett gesetzt und durch GROSSSCHREIBUNG ausgezeichnet.
 Die Definition der Anforderungsklassen basiert auf dem Dokument: "The Specification Model - A Standard for Modular specifications" [25].
 
-[width="100%",cols="19%,81%",options="header",]
+Für jede Anforderungsklasse wird ein eindeutiger URI definiert, der es ermöglicht, im Anwendungsprofil auf die Anforderungsklasse zu verweisen. Die Syntax für den URI lautet: https://ech.ch/fr/0056/main/base/req/{Anforderungsklasse}. Die Anforderungsklasse "http" wird z. B. durch den URI https://ech.ch/fr/0056/main/base/req/http definiert.
+
+[width="100%",cols="19%,81%",options="noheader",]
 |===
 |*MUSS* |Dieser Ausdruck bedeutet, dass die Richtlinie in jedem Fall
 erfüllt sein muss.
 |*SOLLTE* |Dieser Ausdruck bedeutet, dass unter Umständen gute Gründe existieren, diese Richtlinie nicht umzusetzen. Es müssen jedoch sämtliche Auswirkungen verstanden und sorgfältig abgewogen werden, bevor ein anderer Weg eingeschlagen wird.
 |===
 
+[#guidelines]
 == Richtlinien und Empfehlungen
+[#general_rules]
 === Allgemeine Regeln
+[#http]
 ==== Antwort auf HTTP(s)-Abfragen
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="41%,59%",options="noheader",]
 |===
-|ALLG-01 |Ein Server *MUSS* ein Dokument zurücksenden, das mit dem angeforderten Medientyp übereinstimmt und die UTF-8-Zeichenkodierung einhält.
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/http
+|Zieltyp |Encoding
+|Abhängigkeiten |N/A
 |===
 
+[width="100%",cols="41%,59%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/http/response
+| A| Ein Server *MUSS* ein Dokument zurücksenden, das mit dem angeforderten Medientyp übereinstimmt.
+| B| Ein Server *MUSS* ein Dokument zurückgeben, das der UTF-8-Zeichenkodierung einhält.
+|===
+
+[#date-time]
 ==== Angabe von Datum und Zeit
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="41%,59%",options="noheader",]
 |===
-|ALLG-02 a|
-Die Angabe von Datum und Zeit *MUSS* nach «ISO 8601-1:2019» [10] erfolgen:
-
-Format Beispiel
-
-YYYY «2023»
-
-YYYY-MM «2023-08»
-
-YYYY-MM-DD «2023-08-31»
-
-YYYY-MM-DDThh «2023-08-31T16»
-
-YYYY-MM-DDThh:mm «2023-08-31T16:55»
-
-YYYY-MM-DDThh:mm:ss «2023-08-31T16:55:01»
-
-Eine Ausnahme bilden nur Datums- und Zeitangaben in Hinweisen, die ausschliesslich für Menschen lesbar sein müssen.
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/datetime
+|Zieltyp |Encoding
+|ISO 8601-1:2019 Datum und Uhrzeit - Darstellungen für den Informationsaustausch - Teil 1: Grundlegende Regeln.
 |===
 
+[width="100%",cols="41%,59%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/datetime/format
+|A| Die Angabe von Datum und Zeit *MUSS* der Norm "ISO" 8601-1:2019" [10]entsprechen. +
+
+Format Beispiel +
+
+YYYY "2023" +
+YYYY-MM "2023-08" + +
+YYYY-MM-DD "2023-08-31" + +
+YYYY-MM-DDThh "2023-08-31T16" +
+YYYY-MM-DDThh:mm "2023-08-31T16:55" +
+YYYY-MM-DDThh:mm:ss "2023-08-31T16:55:01" +
+
+Eine Ausnahme bilden nur Datums- und Zeitangaben in Vermerken, die ausschließlich von Menschen lesbar sein müssen.
+|===
+
+[#language]
 === Sprache
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="24%,76%",options="noheader",]
 |===
-|()LANG-01 |Sofern nicht in einem spezifischen Standard definiert, *MUSS* für die Sprach-Verhandlung der übliche HTTP-Content-Negotiation-Mechanismus [18] angewendet werden.
-|LANG-02 |Sprach-Tags *MÜSSEN* nach «RFC 5646» [19] erfolgen.
-|LANG-03 |String-Werte, die sprachlichen Text enthalten, *MÜSSEN* der Sprache entsprechen, die der Server zurückgibt.
-|LANG-04 |Zusätzlich zur Anforderung *1 A* MUSS ein Server einen Anfrageparameter `AcceptLanguages` (OWS-Dienste) oder `lang` (OGC API) unterstützen.
-|LANG-05 |Bei Link-Objekten *SOLLTE* das Attribut `xml:lang` (OWS-Dienste) oder `hreflang`(OGC API) verwendet werden, um die Sprache der referenzierten Ressource anzugeben [24].
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/lang
+|Zieltyp |Web API
+| Abhängigkeiten |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7[OGC API - Common - Part 1: Core (1.0.0) Core Requirements Class] 
 |===
 
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/string-i18n
+|A (LANG-01) |Sofern nicht in einem spezifischen Standard definiert, *MUSS* für die Sprach-Verhandlung der übliche HTTP-Content-Negotiation-Mechanismus [18] angewendet werden.
+|B (LANG-02) |Sprach-Tags *MÜSSEN* nach «RFC 5646» [19] erfolgen.
+|C (LANG-03) |String-Werte, die sprachlichen Text enthalten, *MÜSSEN* der Sprache entsprechen, die der Server zurückgibt.
+|D (LANG-04) |Zusätzlich zur Anforderung *1 A* MUSS ein Server einen Anfrageparameter `AcceptLanguages` (OWS-Dienste) oder `lang` (OGC API) unterstützen.
+|E (LANG-05) |Bei Link-Objekten *SOLLTE* das Attribut `xml:lang` (OWS-Dienste) oder `hreflang`(OGC API) verwendet werden, um die Sprache der referenzierten Ressource anzugeben [24].
+|===
+
+[#metadata]
 === Metadaten
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="24%,76%",options="noheader",]
 |===
-|META-01 |Ein Geodienst MUSS im nationalen Geometadatenkatalog beschrieben werden.
-|META-02 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst einen Link auf die Dienstmetadaten im nationalen Geometadatenkatalog angeben.
-|META-03 |Die vom Geodienst selbst bereitgestellte Dienstbeschreibung *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
-|META-04 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst für jeden Geodatenbestand{empty}footnote:[z.B.: «Layer» beim WMS und WMTS, «Feature Type» beim WFS, «Coverage» beim WCS, «Collection» bei OGC APIs und STAC.] einen Link auf die Datenmetadaten angeben.
-|META-05 |Die Beschreibung der Geodatenbestände, die vom Geodienst selbst bereitgestellt wird, *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
-|META-06 |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst Kontaktinformationen über den Dienstanbieter und über die Attribution der bereitgestellten Geodatenbestände angeben.
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/metadata
+|Zieltyp |Web API
+|Abhängigkeiten |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common - Part 1: Core (1.0.0) Core Requirements Class] 
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/metadata
+|A (META-01) |Ein Geodienst MUSS im nationalen Geometadatenkatalog beschrieben werden.
+|B (META-02) |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst einen Link auf die Dienstmetadaten im nationalen Geometadatenkatalog angeben.
+|C (META-03) |Die vom Geodienst selbst bereitgestellte Dienstbeschreibung *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
+|D (META-04) |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst für jeden Geodatenbestand (z.B.: «Layer» beim WMS und WMTS, «Feature Type» beim WFS, «Coverage» beim WCS, «Collection» bei OGC APIs und STAC) einen Link auf die Datenmetadaten angeben.
+|E (META-05) |Die Beschreibung der Geodatenbestände, die vom Geodienst selbst bereitgestellt wird, *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
+|F (META-06) |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst Kontaktinformationen über den Dienstanbieter und über die Attribution der bereitgestellten Geodatenbestände angeben.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 1* |/rec/metadata
 |META-07 |Sofern ein bestimmter Standard es zulässt, *SOLLTE* ein Geodienst für jeden Geodatenbestand einen Link auf die Daten angeben.
 |===
 
 Spezifische Richtlinien und Empfehlungen zu den Geometadaten folgen in den Abschnitten zu den einzelnen Geodiensten.
 
+[#crs]
 === Koordinatensysteme
 
 Das IOGP Geomatics Committee katalogisiert weltweit Koordinatensysteme und vergibt jeweils eindeutige Identifikationsnummern (die so genannten «EPSG-Codes»). Die EPSG-Datenbank [7a] dient als Standard für das Referenzieren von Koordinatenreferenzsystemen und Transformationen.
 
 In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspricht.
 
-[width="100%",cols="19%,81%",options="header",]
+[width="100%",cols="24%,76%",options="noheader",]
 |===
-|CRS-01 |Ein Geodienst *MUSS* das Schweizer Bezugssystem CH1903+ («EPSG:2056», Bezugsrahmen LV95) unterstützen.
-|CRS-02 |Ein Geodienst *SOLLTE* das globale Koordinatenreferenzsysteme WGS84 in geografischen Koordinaten mit Pseudo-Platte-Carrée-Projektion («EPSG:4326») und Pseudo-Mercator Projektion («EPSG:3857») sowie das europäische Koordinatenreferenzsystem ETRS89 in geografischen Koordinaten («EPSG:4258») unterstützen.
-|CRS-03 |Ein Geodienst *SOLLTE* die Koordinatenreferenzsysteme ETRS89 LAEA Europe («EPSG: 3035»), LCC Europe («EPSG: 3034») und UTM Zone 32N («EPSG: 3044») unterstützen.
+|*Classe d'exigences* |https://ech.ch/fr/0056/main/base/req/crs
+|Type d'objectif |Web API
+|Dépendances |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+http://www.opengis.net/doc/IS/ogcapi-features-1/1.0[OGC API - Features - Part 1: Core 1.0] + 
+https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_reference_systems_by_reference[OGC API - Features - Part 2: Coordinate Reference Systems by Reference] 
 |===
 
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/crs
+|A (CRS-01) |Ein Geodienst *MUSS* das Schweizer Bezugssystem CH1903+ («EPSG:2056», Bezugsrahmen LV95) unterstützen.
+|B (CRS-02) |Ein Geodienst *SOLLTE* das globale Koordinatenreferenzsysteme WGS84 in geografischen Koordinaten mit Pseudo-Platte-Carrée-Projektion («EPSG:4326») und Pseudo-Mercator Projektion («EPSG:3857») sowie das europäische Koordinatenreferenzsystem ETRS89 in geografischen Koordinaten («EPSG:4258») unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 1* |/rec/crs
+|A (CRS-03) |Ein Geodienst *SOLLTE* die Koordinatenreferenzsysteme ETRS89 LAEA Europe («EPSG: 3035»), LCC Europe («EPSG: 3034») und UTM Zone 32N («EPSG: 3044») unterstützen.
+|===
+
+[#tilematrixset]
 === Schweizer CH1903+ Tile Matrix Set
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/tms
 |Objektivtyp |Web API
@@ -320,16 +386,16 @@ In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspri
 https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata] 
 |===
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Anforderung 1* |/req/tms
+|*Directive 1* |/req/tms
 |A (TMS-01) | Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen MÜSSEN für das Bezugssystem CH1903+ die folgenden Werte umfassen : +
 1 Pixel entspricht 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 Meter. +
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
 |B          | Bei jeder Definition einer TileMatrixSet MUSS der folgende Ursprungspunkt verwendet werden: `2419995.75, 1350004.29`.
 |===
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Empfehlung 1* |/rec/tms
 |A  |Ein Geodienst SOLLTE idealerweise die untenstehende Definition des Schweizer Kachelmatrizensatzes verwenden. 
@@ -369,17 +435,20 @@ Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgröss
 | 15 | 178.57142857142858 | 0.05 | 37500 | 25000
 |===
 
+Um die Implementierung zu erleichtern, sind 2 Beispiele für die Kodierung (`XML` und `JSON`) der Definition des Schweizer TileMatrixSet CH1903+ / LV95 im Anhang xref:appendix-g[xrefstyle=full] zu finden.
+
+[#visualization]
 === Darstellungsdiente
 
 Ein Darstellungsdienst ist ein Internetdienst, mit dem darstellbare Geodatensätze angezeigt, vergrössert, verkleinert und verschoben, Daten überlagert angezeigt werden können und der ein Navigieren in den Geodaten ermöglicht (Art. 2 GeoIV [4a]).
 
 Im Rahmen von eCH-0056 wird unter einem Darstellungsdienst konkret ein Dienst gemäss OpenGIS Web Map Server Implementation Specification [2] (WMS) oder OpenGIS Web Map Tile Service Implementation Standard [3] (WMTS) oder OGC API - Tiles - Part 1: Core [4] verstanden.
 
-include::./visualization-services/wms-ech-0056-visualization-de.adoc[]
-include::./visualization-services/wmts-ech-0056-visualization-de.adoc[]
-include::./visualization-services/oatiles-ech-0056-visualization-de.adoc[]
-// include::./visualization-services/2dtms-ech-0056-visualization-de.adoc[]
+include::docs/visualization-services/wms-ech-0056-visualization-de.adoc[]
+include::docs/visualization-services/wmts-ech-0056-visualization-de.adoc[]
+include::docs/visualization-services/oatiles-ech-0056-visualization-de.adoc[]
 
+[#download]
 === Download-Dienste
 
 Ein Downloaddienst ist ein Internetdienst, der das Herunterladen von Kopien vollständiger Geodatensätze oder von Teilen davon (*vordefinierter Download-Dienst*) und, wenn durchführbar, den direkten Zugriff darauf (*Direktzugriffs-Downloaddienst*) ermöglicht (Art. 2 GeoIV [4a]).
@@ -390,19 +459,22 @@ Im Rahmen von eCH-0056 werden unter einem Download-Dienst die folgenden Dienste 
 * Ein *Direktzugriffs-Downloaddienst* gemäss OpenGIS Web Feature Service Interface Standard (WFS) [9] oder gemäss OGC API - Features - Part 1: Core [10] und OGC API - Features - Part 2: Coordinate Reference Systems by Reference [11]
 * Sowie für Rasterdaten ein Dienst gemäss OGC Web Coverage Service Interface Standard (WCS) [12].
 
-include::./download-services/stac-ech-0056-download-de.adoc[]
-include::./download-services/wfs-ech-0056-download-de.adoc[]
-include::./download-services/oafeat-ech-0056-download-de.adoc[]
-include::./download-services/wcs-ech-0056-download-de.adoc[]
+include::./docs/download-services/stac-ech-0056-download-de.adoc[]
+include::./docs/download-services/wfs-ech-0056-download-de.adoc[]
+include::./docs/download-services/oafeat-ech-0056-download-de.adoc[]
+include::./docs/download-services/wcs-ech-0056-download-de.adoc[]
 
-== Suchdienst
+[#search]
+=== Suchdienst
 
-include::./search-services/csw-ech-0056-search-de.adoc[]
+include::./docs/search-services/csw-ech-0056-search-de.adoc[]
 
-== Andere Dienste
+[#other]
+=== Andere Dienste
 
-include::./other-services/adr-0056-other-de.adoc[]
+include::./docs/other-services/adr-0056-other-de.adoc[]
 
+[#responsibility]
 == Haftungsausschluss/Hinweise auf Rechte Dritter
 
 *eCH*-Standards, welche der Verein *eCH* den Benutzenden zur unentgeltlichen Nutzung zur Verfügung stellen oder welche *eCH* referenzieren, haben nur den Status von Empfehlungen. Der Verein *eCH* haftet in keinem Fall für Entscheidungen oder Massnahmen, welche den Benutzenden auf Grund dieser Dokumente trifft und / oder ergreift. Die Benutzenden sind verpflichtet, die Dokumente vor deren Nutzung selbst zu überprüfen und sich gegebenenfalls beraten zu lassen. *eCH*-Standards können und sollen die technische, organisatorische oder juristische Beratung im konkreten Einzelfall nicht ersetzen.
@@ -413,6 +485,7 @@ Obwohl der Verein *eCH* all seine Sorgfalt darauf verwendet, die *eCH*-Standards
 
 Jede Haftung für Schäden, welche den Benutzenden aus dem Gebrauch der *eCH*-Standards entstehen ist, soweit gesetzlich zulässig, wegbedungen.
 
+[#copyright]
 == Urheberrechte
 
 Wer *eCH*-Standards erarbeitet, behält das geistige Eigentum an diesen. Allerdings verpflichtet sich die Erarbeitenden, ihr betreffendes geistiges Eigentum oder ihre Rechte an geistigem Eigentum anderer, sofern möglich, den jeweiligen Fachgruppen und dem Verein *eCH* kostenlos zur uneingeschränkten Nutzung und Weiterentwicklung im Rahmen des Vereinszweckes zur Verfügung zu stellen.
@@ -429,7 +502,7 @@ Diese Bestimmungen gelten ausschliesslich für die von *eCH* erarbeiteten Standa
 [.appendix nonumber]
 == Anhang A – Normative Referenzen und Bibliographie{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/20[#20]]
 
-include::./appendices/appendix-a-de.adoc[]
+include::./docs/appendices/appendix-a-de.adoc[]
 
 // Anhang B – Mitarbeit und Überprüfung
 
@@ -437,7 +510,7 @@ include::./appendices/appendix-a-de.adoc[]
 [.appendix nonumber]
 == Anhang B – Mitarbeit & Überprüfung{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/21[#21]]
 
-include::./appendices/appendix-b.adoc[]
+include::./docs/appendices/appendix-b-de.adoc[]
 
 // Anhang C – Abkürzungen und Glossar
 
@@ -445,24 +518,16 @@ include::./appendices/appendix-b.adoc[]
 [.appendix nonumber]
 == Anhang C – Abkürzungen und Glossar
 
-include::./appendices/appendix-c-de.adoc[]
+include::./docs/appendices/appendix-c-de.adoc[]
 
 [#appendix-d]
 [.appendix nonumber]
 == Anhang D – Änderungen gegenüber Vorversion{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/18[#18]]
 
-<Dies ist die erste Version.>
-
-<oder eine detaillierte Zusammenstellung der Änderungen gegenüber der
-Vorgängerversion>
-
 .Änderungen gegenüber Vorversion
-[width="100%",cols="13%,9%,64%,14%",options="header",]
+[width="100%",cols="13%,9%,64%,14%",options="noheader",]
 |===
 |*Kapitel* |*Seite* |*Anpassung* |*RFC Nr.*
-| | | |
-| | | |
-| | | |
 |===
 
 [#appendix-e]
@@ -478,4 +543,12 @@ Vorgängerversion>
 [.appendix nonumber]
 == Anhang F – Neue Trends bei den Geostandards
 
-include::./appendices/appendix-f-de.adoc[]
+include::./docs/appendices/appendix-f-de.adoc[]
+
+// Anhang G - Kodierungsbeispiele für die Definition des Schweizer TileMatrixSet CH1903+ / LV95.
+
+[#appendix-g]
+[.appendix nonumber].
+== Anhang G - Kodierungsbeispiele für die Definition des Schweizer TileMatrixSet CH1903+ / LV95.
+
+include::./docs/appendices/appendix-g-de.adoc[]
