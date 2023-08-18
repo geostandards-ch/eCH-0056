@@ -232,6 +232,7 @@ Les directives sont signalées au chapitre xref:guidelines[xrefstyle=short] par 
 Les recommandations sont signalées au chapitre xref:guidelines[xrefstyle=short] par le mot-clé "*DEVRAIT*".
 Directives et recommandations sont associées en classes d'exigences.
 Pour chaque classe d'exigence est défini une URI unique, qui permet de faire référence à la classe d'exigence dans le profil d'application. La syntaxe de l'URI est la suivante: https://ech.ch/fr/0056/main/base/req/{classe d'exigence}. Par exemple, la classe d'exigence "http" est définie par l'URI https://ech.ch/fr/0056/main/base/req/http.
+Afin de garder un suivi avec les anciennes versions de la norme eCH-0056, les anciennes références des exigences et recommandations (p.ex. `WMS-01`) ont été apposées à la nouvelle nomenclature.
 |===
 
 La définition des termes "*DOIT*" et "*DEVRAIT*" s'inspire de eCH-0003 [6a]. Les expressions sont écrites en caractères gras et en MAJUSCULES.

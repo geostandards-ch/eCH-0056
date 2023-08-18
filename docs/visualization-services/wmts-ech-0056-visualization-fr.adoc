@@ -36,5 +36,5 @@ La spécification WMTS définit une interface pour un service de consultation. U
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 3* |/rec/wmts/tilematrix
-|WMS-07 |Dans le cas d’une implémentation RESTful du WMTS , l’ordre de succession `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` DEVRAIT être respecté.
+|A (WMS-07) |Dans le cas d’une implémentation RESTful du WMTS , l’ordre de succession `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` DEVRAIT être respecté.
 |===

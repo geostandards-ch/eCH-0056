@@ -36,5 +36,5 @@ Die WMTS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdiens
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Empfehlung 3* |/rec/wmts/tilematrix
-||WMS-07 |Im Falle einer RESTful-Implementierung des WMTS , *MUSS* die Reihenfolge `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` eingehalten werden.
+|A (WMS-07) |Im Falle einer RESTful-Implementierung des WMTS , *MUSS* die Reihenfolge `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` eingehalten werden.
 |===

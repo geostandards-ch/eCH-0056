@@ -20,9 +20,9 @@ Eine STAC-API ist eine dynamische Version von STAC und definiert darüber hinaus
 [width="100%",cols="29%,71%",options="noheader",]
 |===
 |*Richtlinie 1* |/req/stac
-|A (STAC-02) |Der Katalog *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten des Dienstes verweist.
-|B (STAC-04) |Jede Sammlung *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
-|C (STAC-05) |Für den modellkonformen Austausch von Vektordaten *MUSS* ein Link auf INTERLIS XTF [7] oder INTERLIS GML [8] Dateien angeboten werden.
-|D (STAC-06) |Für zweidimensionale Rasterdaten *MUSS* das Datenformat GeoTIFF (oder COG) [24] angeboten werden.
-|E (STAC-07) |Cloud-optimierte Geodatenformate MÜSSEN angeboten werden.
+|A |Der Katalog *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten des Dienstes verweist.
+|B |Jede Sammlung *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
+|C |Für den modellkonformen Austausch von Vektordaten *MUSS* ein Link auf INTERLIS XTF [7] oder INTERLIS GML [8] Dateien angeboten werden.
+|D |Für zweidimensionale Rasterdaten *MUSS* das Datenformat GeoTIFF (oder COG) [24] angeboten werden.
+|E |Cloud-optimierte Geodatenformate MÜSSEN angeboten werden.
 |===
