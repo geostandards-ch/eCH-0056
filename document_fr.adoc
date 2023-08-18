@@ -386,16 +386,16 @@ https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Ma
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Directive 1* |/req/tms
-|A (TMS-01) | Les niveaux de zoom prédéfinis pour la mise en œuvre d'un service de tuiles 2D DOIVENT comprendre les valeurs suivantes pour le système de référence CH1903+ : +
+|A | Les niveaux de zoom prédéfinis pour la mise en œuvre d'un service de tuiles 2D DOIVENT comprendre les valeurs suivantes pour le système de référence CH1903+ : +
 1 pixel correspond à 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 mètres. +
 Si elle n'est pas définie dans une norme spécifique, la taille des pixels est régie par la norme "OGC Two Dimensional Tile Matrix Set" [21].
-|B          | Pour toute définition d'une matrice de tuiles, le point d'origine suivant *DOIT* être utilisé : `2419995.75, 1350004.29`
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/tms
-|A  |Un géoservice *DEVRAIT* idéalement utiliser la définition du jeu de matrices de tuiles suisse ci-dessous. 
+|A | Pour toute définition d'une matrice de tuiles, le point d'origine suivant *DEVRAIT* être utilisé : `2419995.75, 1350004.29`
+|B |Un géoservice *DEVRAIT* idéalement utiliser la définition du jeu de matrices de tuiles suisse ci-dessous. 
 |===
 
 :table-Swiss2DTMS: 
