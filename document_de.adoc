@@ -293,7 +293,7 @@ YYYY-MM-DDThh "2023-08-31T16" +
 YYYY-MM-DDThh:mm "2023-08-31T16:55" +
 YYYY-MM-DDThh:mm:ss "2023-08-31T16:55:01" +
 
-Eine Ausnahme bilden nur Datums- und Zeitangaben in Vermerken, die ausschließlich von Menschen lesbar sein müssen.
+Eine Ausnahme bilden nur Datums- und Zeitangaben in Vermerken, die ausschliesslich von Menschen lesbar sein müssen.
 |===
 
 [#language]

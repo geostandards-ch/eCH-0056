@@ -5,7 +5,7 @@ Der Standard OGC API - Tiles definiert die grundlegenden Elemente für die Erste
 
 Obwohl der OGC API-Standard - Tiles unabhängig verwendet werden kann, kann er mit anderen OGC API-Standards und Spezifikationsprojekten kombiniert werden, um zusätzliche Fähigkeiten zu erhalten oder die Interoperabilität für bestimmte Datentypen zu erhöhen.
 
-Der OGC API-Standard - Tiles bezieht sich auf den OGC-Standard Two Dimensional Tile Matrix Set (TMS) and Tileset Metadata, der logische Modelle und Kodierungen zur Spezifizierung von Tile-Matrix-Sets und zur Beschreibung von Tile-Sets definiert. Ein Tile-Matrix-Set ist ein Tile-Schema, das es einer Anwendung ermöglicht, den Raum anhand eines Satzes regelmäßiger Raster, die für mehrere Maßstäbe in einem Referenzkoordinatensystem (CRS) definiert sind, zu partitionieren und zu indizieren.
+Der OGC API-Standard - Tiles bezieht sich auf den OGC-Standard Two Dimensional Tile Matrix Set (TMS) and Tileset Metadata, der logische Modelle und Kodierungen zur Spezifizierung von Tile-Matrix-Sets und zur Beschreibung von Tile-Sets definiert. Ein Tile-Matrix-Set ist ein Tile-Schema, das es einer Anwendung ermöglicht, den Raum anhand eines Satzes regelmässiger Raster, die für mehrere Masstäbe in einem Referenzkoordinatensystem (CRS) definiert sind, zu partitionieren und zu indizieren.
 
 ===== Anforderungsklassen
 ====== OGC-Anforderungsklasse API Tiles Core
