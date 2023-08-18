@@ -239,6 +239,7 @@ Die Definition der Begriffe "*MUSS*" und "*SOLLTE*" lehnt sich an eCH-0003 [6a] 
 Die Definition der Anforderungsklassen basiert auf dem Dokument: "The Specification Model - A Standard for Modular specifications" [25].
 
 Für jede Anforderungsklasse wird ein eindeutiger URI definiert, der es ermöglicht, im Anwendungsprofil auf die Anforderungsklasse zu verweisen. Die Syntax für den URI lautet: https://ech.ch/fr/0056/main/base/req/{Anforderungsklasse}. Die Anforderungsklasse "http" wird z. B. durch den URI https://ech.ch/fr/0056/main/base/req/http definiert.
+Um den Anschluss an die älteren Versionen des eCH-0056-Standards zu behalten, wurden die alten Referenzen der Anforderungen und Empfehlungen (z.B. `WMS-01`) an die neue Nomenklatur angehängt.
 
 [width="100%",cols="19%,81%",options="noheader",]
 |===
