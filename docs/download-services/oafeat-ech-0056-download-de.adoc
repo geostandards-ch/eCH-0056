@@ -1,0 +1,29 @@
+==== Download-Service auf Basis von OGC API Features.
+===== Einleitung
+
+OGC API - Features bietet API-Bausteine zum Erstellen, Bearbeiten und Abfragen von Entitäten im Web. OGC API - Features besteht aus mehreren Teilen, von denen jeder einen eigenen Standard darstellt. Der Teil http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[`Core`] legt die grundlegenden Fähigkeiten fest und beschränkt sich auf das Abrufen von Entitäten, deren Geometrien im Koordinatenreferenzsystem WGS 84 mit einer Achsenordnung Länge/Breite dargestellt werden. 
+
+===== Anforderungsklassen
+====== Anforderungsklasse{empty}footnote:[siehe Ausgabe https://github.com/MediaComem/eCH-0056/issues/11[#11]]
+[width="100%",cols="50%,50%",options="noheader",]
+|===
+|*Anforderungsklasse*
+|https://ech.ch/fr/0056/main/oafeat/req/oafeat
+|Zieltyp |Web API
+|Abhängigkeiten|https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] +
+https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 2: Coordinate Reference Systems by Reference]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/oafeat/links
+|A (OAFeat-02)|Die Landingpage *MUSS* einen Link `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
+|B (OAFeat-03)|Jede Sammlung *MUSS* einen Link mit `rel=describedbyby` enthalten, der auf maschinenlesbare Metadaten gemäß Vorlage GM03 Version 2.1 [13] verweist. + 
+Für den modellkonformen Austausch von Vektordaten *MUSS*, sofern verfügbar, eine INTERLIS XTF [7] oder INTERLIS GML [8] Ressource angeboten werden.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 1* |/rec/oafeat/links.
+|A (OAFeat-04) | Jede Sammlung *MUSS* einen Link mit `rel=enclosure enthalten, der auf einen Bulk-Download des Datensatzes verweist (z. B. ein STAC-Asset). 
+|===

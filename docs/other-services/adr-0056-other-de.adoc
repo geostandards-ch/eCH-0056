@@ -1,0 +1,57 @@
+==== Geocoding & Reverse Geocoding Service === Geocoding & Reverse Geocoding Service
+===== Einleitung
+
+Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implementieren. Die erste basiert auf dem Standard https://portal.ogc.org/files/?artifact_id=22122[OpenGIS Location Services (OpenLS): Core Services] und die zweite auf der Kombination der Standards https://docs.ogc.org/is/09-025r2/09-025r2.html[OpenGIS Web Feature Service] (WFS) und https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding].
+
+===== Anforderungsklassen
+====== Anforderungsklasse Simple WFS
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/adr/req/simple-wfs
+|Zieltyp |Web API
+| Abhängigkeiten |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Simple WFS.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/adr/simple-wfs/getfeature
+|A | Die Implementierung eines Adressdienstes *MUSS* die Operation `GetFeature` des OGC-Standards WFS 2.0.2 unterstützen.
+|===
+
+====== Anforderungsklasse Basic WFS.
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtliniesklasse* |https://ech.ch/fr/0056/main/adr/req/basic-wfs
+|Zieltyp |Web API
+| Abhängigkeiten |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Basic WFS.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 2* |/req/adr/basic-wfs/getfeature/typename
+|A | Die Implementierung eines Adressdienstes *MUSS* den Parameter `Typename` der Operation `GetFeature` des OGC WFS 2.0.2 Standards unterstützen.
+| Die Implementierung eines Adressdienstes *MUSS* den Parameter `PropertyName` der Operation `GetFeature` des OGC WFS 2.0.2-Standards unterstützen.
+|===
+
+====== Anforderungsklasse Filter Encoding
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/adr/req/filter-enonding/minimum-standard-filter
+|Zieltyp |Web API
+|https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding 2.0 Encoding Standard] / Conformance Classes: Minimum Standard Filter & Spatial filter.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 3* |/req/adr/filter-enconding/minimum-standard-filter/propertyisequalto.
+|A| Die Implementierung eines Adressdienstes *MUSS* den Parameter `PropertyIsEqualTo` des OGC Filter Encoding 2.0 Standards unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 4* |/req/adr/filter-enconding/spatial-filter/dwithin.
+|A| Die Implementierung eines Adressdienstes *MUSS* den Parameter `DWithin` des OGC Filter Encoding 2.0 Standards unterstützen.
+|===

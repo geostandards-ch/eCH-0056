@@ -1,0 +1,40 @@
+==== Darstellungsdienst auf Basis von Web Map Tile Service (WMTS)
+===== Einleitung
+
+Die WMTS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdienst. Ein WMTS stützt sich auf ein Modell von Kacheln (`tiles`). Der WMTS stellt vorverarbeitete Bildkacheln mit festen Zoomstufen zur Verfügung. Dies macht die Verwendung eines WMTS sehr leistungsfähig.
+
+===== Anforderungsklassen
+====== Anforderungsklasse Basic WMTS
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/wmts/req/wmts
+|Zieltyp |Web API
+|Abhängigkeiten |https://portal.ogc.org/files/?artifact_id=35326[OpenGIS Web Map Tile Service Implementation Standard 1.0.0]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/wmts/output-formats.
+|A (WTMS-02) |Die WMS-Implementierung *MUSS* das Bildformat *JPEG* unterstützen.
+|B (WMTS-02) |Die WMS-Implementierung *MUSS* das Bildformat *PNG* unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 2* |/req/wmts/getcapabilities/layer/metadata.
+|A (WMTS-06) |Die `GetCapabilities`-Antwort eines WMTS-Dienstes, *MUSS* für jede Schicht das Element "Metadata" enthalten, das auf Metadaten von Daten verweist, die über einen Link maschinenlesbar sind.
+|B (WMTS-05) |Wenn sinnvoll{empty}footnote:[p. WMS-06], Die Implementierung eines WMTS *MUSS* für jede Ebene einen Link zu einer Legende über den LegendURL-Parameter bereitstellen: `<<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 1* |/rec/wmts/getfeatureinfo.
+|A (WTMS-03 & WMTS-04) |Wenn es sinnvoll ist{empty}footnote:[z.B. WMS-04], sollte die WMTS-Implementierung die GetFeatureInfo-Anfrage unterstützen.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 3* |/rec/wmts/tilematrix
+||WMS-07 |Im Falle einer RESTful-Implementierung des WMTS , *MUSS* die Reihenfolge `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` eingehalten werden.
+|===

@@ -1,0 +1,21 @@
+==== Service de recherche basé sur Catalogue Service (CSW)
+===== Introduction
+
+La spécification OGC Web Catalogue Service (CSW) définit l’interface pour des services géographiques de catalogage. Les services de catalogage servent à la publication et à la détection de métadonnées, c.à.d. des données descriptives relatives aux données, concernant des services et d’autres éléments connexes.
+
+===== Classes d'exigences
+====== Classe d'exigences CSW
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/csw/req{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/15[#15]]
+|Type d’objectif |Web API
+|Dépendances |https://docs.ogc.org/is/12-168r6/12-168r6.html[OGC Catalogue Services 3.0 - General Model] +
+https://docs.ogc.org/is/12-176r7/12-176r7.html[OGC Catalogue Services 3.0 Specification - HTTP Protocol Binding ]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Directive 1* |/req/csw
+|A (CS-01) |La mise en œuvre d'un service de recherche *DOIT* être conforme à OGC Catalogue Services 3.0 - General Model [13] et à OGC Catalogue Services 3.0 Specification [14].
+|===

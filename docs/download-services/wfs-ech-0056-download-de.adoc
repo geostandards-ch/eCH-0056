@@ -1,0 +1,34 @@
+==== Download-Dienst auf Basis von Web Feature Service (WFS)
+===== Einleitung
+
+Statt Geoinformationen auf Dateiebene auszutauschen, bietet der WFS einen direkten Zugriff auf Geodaten. der WFS bietet einen direkten und granularen Zugriff auf Geodaten.
+Informationen auf Merkmalsebene und Merkmalseigenschaften.
+
+===== Anforderungsklassen
+====== Anforderungsklasse Einfacher WFS.
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/wfs/req/simple-wfs
+|Zieltyp |Web API
+| Abhängigkeiten |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Simple WFS.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/wfs/simple-wfs/getcapabilities/metadataurl
+|A (WFS-03) | Die Implementierung eines WFS *MUSS* das Element "MetadataURL" pro Feature Type enthalten, das auf maschinenlesbare Metadaten von Daten nach dem GM03-Modell Version 2.1 [13] verweist.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 2* |/req/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype.
+|A (WFS-03) | Die Implementierung eines WFS *MUSS* das Element "MetadataURL" pro Entitätstyp (Feature Type) enthalten, das auf maschinenlesbare Metadaten gemäß der Vorlage GM03 Version 2.1 [13] verweist.
+|B (WFS-04)|Die Implementierung eines WFS *MUSS* die ursprüngliche Projektion des Feature-Typs im Element `DefaultCRS` beschreiben.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 1* |/rec/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype/outputformats.
+|C (WFS-05)|Das Format GEOJSON *MUSS* angeboten werden.
+|===
