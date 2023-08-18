@@ -19,7 +19,7 @@ https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - P
 |===
 |*Richtlinie 1* |/req/oafeat/links
 |A |Die Landingpage *MUSS* einen Link `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
-|B |Jede Sammlung *MUSS* einen Link mit `rel=describedbyby` enthalten, der auf maschinenlesbare Metadaten gemäß Vorlage GM03 Version 2.1 [13] verweist. + 
+|B |Jede Sammlung *MUSS* einen Link mit `rel=describedbyby` enthalten, der auf maschinenlesbare Metadaten gemäss Vorlage GM03 Version 2.1 [13] verweist. + 
 Für den modellkonformen Austausch von Vektordaten *MUSS*, sofern verfügbar, eine INTERLIS XTF [7] oder INTERLIS GML [8] Ressource angeboten werden.
 |===
 
