@@ -4,7 +4,8 @@
 OGC API - Features fournit des blocs de construction d'API pour créer, modifier et interroger des entités sur le Web. OGC API - Features se compose de plusieurs parties, chacune d'entre elles étant une norme distincte. La partie http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[`Core`] spécifie les capacités de base et se limite à l'extraction d'entités dont les géométries sont représentées dans le système de référence de coordonnées WGS 84 avec un ordre d'axe longitude/latitude. 
 
 ===== Classes d'exigences
-====== Classe d'exigences{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/11[#11]]
+====== Classe d'exigences 
+
 [width="100%",cols="50%,50%",options="noheader",]
 |===
 |Classe d'exigences

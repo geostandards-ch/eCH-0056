@@ -1,0 +1,12 @@
+Différentes adaptations ont été réalisées dans cette version par rapport à la précédente. En
+voici la liste:
+
+* La page de couverture a été actualisée.
+* La structure des différents chapitres a été modifiée.
+* La structure des classes d'exigences a été revues
+* De nouveaux standards ont été ajoutés (OGC API) et d'autres ont été supprimés (WCS, Atom & OpenSearch)
+* Les sections sur la sécurité et la qualité ont été supprimées
+* Les annexes ont été actualisés
+* Le mappage des éléments de métadonnées a été supprimé
+* L'annexe xref:appendix-f[xrefstyle=short] a été ajoutée faisant état des nouvelles tendances en matières de géostandardisation
+* un repository GitHub a été créé pour faciliter la contribution et la gestion des versions

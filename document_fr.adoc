@@ -514,21 +514,13 @@ include::./docs/appendices/appendix-b-fr.adoc[]
 
 include::./docs/appendices/appendix-c-fr.adoc[]
 
-// Annexe D – Modifications par rapport à la version précédente
+// Annexe D – Modifications par rapport à la version 3.0
 
 [#appendix-d]
 [.appendix nonumber]
-== Annexe D - Modifications par rapport à la version précédente{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/18[#18]]
+== Annexe D - Modifications par rapport à la version 3.0
 
-:table-modifications: 
-.Modifications par rapport à la version précédente
-[width="100%",cols="13%,9%,64%,14%",options="noheader",]
-|===
-|*Chapitre* |*Page* |*Adaptation* |*RFC No.*
-| | | |
-| | | |
-| | | |
-|===
+include::./docs/appendices/appendix-d-fr.adoc[]
 
 // Annexe E – Liste des figures
 

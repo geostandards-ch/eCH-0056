@@ -24,13 +24,13 @@ Die WMTS-Spezifikation definiert eine Schnittstelle für einen Darstellungsdiens
 |===
 |*Richtlinie 2* |/req/wmts/getcapabilities/layer/metadata.
 |A (WMTS-06) |Die `GetCapabilities`-Antwort eines WMTS-Dienstes, *MUSS* für jede Schicht das Element "Metadata" enthalten, das auf Metadaten von Daten verweist, die über einen Link maschinenlesbar sind.
-|B (WMTS-05) |Wenn sinnvoll{empty}footnote:[p. WMS-06], Die Implementierung eines WMTS *MUSS* für jede Ebene einen Link zu einer Legende über den LegendURL-Parameter bereitstellen: `<<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
+|B (WMTS-05) |Wenn sinnvoll, Die Implementierung eines WMTS *MUSS* für jede Ebene einen Link zu einer Legende über den LegendURL-Parameter bereitstellen: `<<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Empfehlung 1* |/rec/wmts/getfeatureinfo.
-|A (WTMS-03 & WMTS-04) |Wenn es sinnvoll ist{empty}footnote:[z.B. WMS-04], sollte die WMTS-Implementierung die GetFeatureInfo-Anfrage unterstützen.
+|A (WTMS-03 & WMTS-04) |Wenn es sinnvoll ist, sollte die WMTS-Implementierung die GetFeatureInfo-Anfrage unterstützen.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]

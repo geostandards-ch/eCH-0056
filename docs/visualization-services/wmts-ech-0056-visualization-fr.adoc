@@ -24,13 +24,13 @@ La spécification WMTS définit une interface pour un service de consultation. U
 |===
 |*Exigence 2* |/req/wmts/getcapabilities/layer/metadata
 |A (WMTS-06) |La réponse `GetCapabilities` d'un service WMTS, *DOIT*, pour chaque couche, contenir l'élément "Metadata" qui renvoie à des métadonnées de données lisibles par une machine via un lien.
-|B (WMTS-05) |Si cela est utile{empty}footnote:[p. WMS-06], La mise en œuvre d'un WMTS *DOIT* fournir un lien vers une légende pour chaque couche via le paramètre LegendURL: `<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
+|B (WMTS-05) |Si cela est utile, La mise en œuvre d'un WMTS *DOIT* fournir un lien vers une légende pour chaque couche via le paramètre LegendURL: `<LegendURL format="image/png" xlink:href=https://www.example.com/image.png"/>`.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/wmts/getfeatureinfo
-|A (WTMS-03 & WMTS-04) |Si cela est utile{empty}footnote:[p. ex WMS-04], la mise en œuvre d'un WMTS DEVRAIT supporter la requête GetFeatureInfo.
+|A (WTMS-03 & WMTS-04) |Si cela est utile, la mise en œuvre d'un WMTS DEVRAIT supporter la requête GetFeatureInfo.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
