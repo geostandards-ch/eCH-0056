@@ -393,13 +393,13 @@ https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Ma
 |A (TMS-01) | Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen MÜSSEN für das Bezugssystem CH1903+ die folgenden Werte umfassen : +
 1 Pixel entspricht 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 Meter. +
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
-|B          | Bei jeder Definition einer TileMatrixSet MUSS der folgende Ursprungspunkt verwendet werden: `2419995.75, 1350004.29`.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Empfehlung 1* |/rec/tms
-|A  |Ein Geodienst SOLLTE idealerweise die untenstehende Definition des Schweizer Kachelmatrizensatzes verwenden. 
+|A | Bei jeder Definition einer TileMatrixSet *SOLLTE* der folgende Ursprungspunkt verwendet werden: `2419995.75, 1350004.29`.
+|B  |Ein Geodienst *SOLLTE* die untenstehende Definition der Schweizer CH1903+ Tile Matrix Set verwenden. 
 |===
 
 :table-Swiss2DTMS: 
@@ -545,7 +545,7 @@ include::./docs/appendices/appendix-f-de.adoc[]
 // Anhang G - Kodierungsbeispiele für die Definition des Schweizer TileMatrixSet CH1903+ / LV95.
 
 [#appendix-g]
-[.appendix nonumber].
+[.appendix nonumber]
 == Anhang G - Kodierungsbeispiele für die Definition des Schweizer TileMatrixSet CH1903+ / LV95.
 
 include::./docs/appendices/appendix-g-de.adoc[]
