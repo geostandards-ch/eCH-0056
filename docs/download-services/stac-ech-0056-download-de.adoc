@@ -1,4 +1,4 @@
-==== Download-Dienst auf Basis STAC- und STAC-API Spezifikation
+==== Download-Dienst auf Basis von STAC- und STAC-API Spezifikation
 ===== Einleitung
 
 STAC (SpatioTemporal Asset Catalog) ist eine Spezifikation zur Katalogisierung von Geodaten, um deren Verarbeitung, Indexierung und Entdeckung zu erleichtern. STAC ist ein standardisiertes Mittel zur Veröffentlichung von räumlichen und zeitlichen Daten. Die Veröffentlichung von Geodaten mit STAC ist so einfach wie das Ablegen statischer Dateien in einem öffentlichen Ordner im Internet.

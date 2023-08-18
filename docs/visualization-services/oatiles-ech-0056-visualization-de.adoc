@@ -1,4 +1,4 @@
-==== Darstellungsdienst basierend auf OGC API Tiles
+==== Darstellungsdienst auf Basis von OGC API Tiles
 ===== Einleitung
 
 Der Standard OGC API - Tiles definiert die grundlegenden Elemente für die Erstellung von Web-APIs, die den Abruf von Geoinformationen in Form von Tiles unterstützen. Es werden verschiedene Formen von Geoinformationen unterstützt, z. B. Vektor- und Rasterkacheln sowie andere Arten von Geoinformationen. 
