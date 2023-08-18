@@ -1,4 +1,4 @@
-==== Geocoding & Reverse Geocoding Service === Geocoding & Reverse Geocoding Service
+==== Geocoding & Reverse Geocoding Service
 ===== Einleitung
 
 Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implementieren. Die erste basiert auf dem Standard https://portal.ogc.org/files/?artifact_id=22122[OpenGIS Location Services (OpenLS): Core Services] und die zweite auf der Kombination der Standards https://docs.ogc.org/is/09-025r2/09-025r2.html[OpenGIS Web Feature Service] (WFS) und https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding].
