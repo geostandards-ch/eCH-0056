@@ -500,7 +500,7 @@ Diese Bestimmungen gelten ausschliesslich für die von *eCH* erarbeiteten Standa
 
 [#appendix-a]
 [.appendix nonumber]
-== Anhang A – Normative Referenzen und Bibliographie{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/20[#20]]
+== Anhang A – Normative Referenzen und Bibliographie
 
 include::./docs/appendices/appendix-a-de.adoc[]
 
@@ -508,7 +508,7 @@ include::./docs/appendices/appendix-a-de.adoc[]
 
 [#appendix-b]
 [.appendix nonumber]
-== Anhang B – Mitarbeit & Überprüfung{empty}footnote:[voir issue https://github.com/MediaComem/eCH-0056/issues/21[#21]]
+== Anhang B – Mitarbeit & Überprüfung
 
 include::./docs/appendices/appendix-b-de.adoc[]
 
@@ -522,13 +522,9 @@ include::./docs/appendices/appendix-c-de.adoc[]
 
 [#appendix-d]
 [.appendix nonumber]
-== Anhang D – Änderungen gegenüber Vorversion{empty}footnote:[siehe issue https://github.com/MediaComem/eCH-0056/issues/18[#18]]
+== Anhang D – Änderungen gegenüber Vorversion
 
-.Änderungen gegenüber Vorversion
-[width="100%",cols="13%,9%,64%,14%",options="noheader",]
-|===
-|*Kapitel* |*Seite* |*Anpassung* |*RFC Nr.*
-|===
+include::./docs/appendices/appendix-d-de.adoc[]
 
 [#appendix-e]
 [.appendix nonumber]

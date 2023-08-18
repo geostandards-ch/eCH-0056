@@ -4,7 +4,8 @@
 OGC API - Features bietet API-Bausteine zum Erstellen, Bearbeiten und Abfragen von Entitäten im Web. OGC API - Features besteht aus mehreren Teilen, von denen jeder einen eigenen Standard darstellt. Der Teil http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[`Core`] legt die grundlegenden Fähigkeiten fest und beschränkt sich auf das Abrufen von Entitäten, deren Geometrien im Koordinatenreferenzsystem WGS 84 mit einer Achsenordnung Länge/Breite dargestellt werden. 
 
 ===== Anforderungsklassen
-====== Anforderungsklasse{empty}footnote:[siehe Ausgabe https://github.com/MediaComem/eCH-0056/issues/11[#11]]
+====== Anforderungsklasse
+
 [width="100%",cols="50%,50%",options="noheader",]
 |===
 |*Anforderungsklasse*

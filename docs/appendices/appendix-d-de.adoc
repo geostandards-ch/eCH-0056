@@ -1,0 +1,11 @@
+In dieser Version wurden im Vergleich zur vorherigen Version verschiedene Anpassungen vorgenommen. Unter hier ist eine Liste:
+
+* Die Titelseite wurde aktualisiert.
+* Die Struktur der einzelnen Kapitel wurde geändert.
+* Die Struktur der Anforderungsklassen wurde überarbeitet.
+* Neue Standards wurden hinzugefügt (OGC API) und andere wurden entfernt (WCS, Atom & OpenSearch).
+* Die Abschnitte zu Sicherheit und Qualität wurden gestrichen.
+* Die Anhänge wurden aktualisiert.
+* Das Mapping von Metadatenelementen wurde entfernt.
+* Der Anhang xref:appendix-f[xrefstyle=short] wurde hinzugefügt, der neue Trends bei der Geo-Standardisierung aufzeigt.
+* Ein GitHub-Repository wurde eingerichtet, um Beiträge und die Versionsverwaltung zu erleichtern.
