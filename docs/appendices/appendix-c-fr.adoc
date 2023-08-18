@@ -11,16 +11,12 @@ Seules sont répertoriées ici des notions qui sont utilisées dans le texte ou 
 | CSW                   | Catalogue Services for the Web
 | EPSG                  | European Petroleum Survey Group
 | ETRS89                | Système de référence terrestre européen de 1989
-| EVRS                  | European Vertical Reference System
-| GeoRSS                | Geographically Encoded Objects for RSS feeds
 | GeoTIFF               | Geo Tagged Image File Format
 | GML                   | Geography Markup Language
-| GNSS                  | Global Navigation Satellite Systems
 | HTML                  | Hypertext Markup Language
 | HTTP                  | Hypertext Transfer Protocol
 | HTTPS                 | Hypertext Transfer Protocol Secure
 | IETF                  | Internet Engineering Task Force
-| IGS                   | International GNSS Service
 | INDG                  | Infrastructure nationale de donnéees géoographiques
 | INSPIRE               | Infrastructure for Spatial Information in the European Community
 | INTERLIS-GML          | Format de transfer GML pour INTERLIS 2
@@ -37,7 +33,6 @@ Seules sont répertoriées ici des notions qui sont utilisées dans le texte ou 
 | MN03                  | Mensuration nationale 1903 («ancienne mensuration nationale»)
 | MN95                  | Mensuration nationale 1995 («nouvelle mensuration nationale»)
 | NF02                  | Nivellement fédéral 1902
-| NTRIP                 | Standard for Networked Transport of RTCM via Internet Protocol
 | NTv2                  | National Transformation Version 2
 | OASIS                 | Organization for the Advancement of Structured Information Stand- ards
 | OGC                   | Open Geospatial Consortium (anciennement Open GIS Consortium OpenGIS)
@@ -50,11 +45,7 @@ Seules sont répertoriées ici des notions qui sont utilisées dans le texte ou 
 | RAN95                 | Réseau altimétrique national 1995
 | REST                  | Representational State Transfer
 | RFC                   | Request for Comments
-| RINEX                 | Receiver Independent Exchange Format
-| RSS                   | Really Simple Syndication
-| RTCM                  | Radio Technical Commission for Maritime Services
-| SAGA.ch               | Normes et architectures pour les applications de cyberadministration en
-Suisse
+| SAGA.ch               | Normes et architectures pour les applications de cyberadministration en Suisse
 | SE                    | Symbology Encoding
 | SLD                   | Styled Layer Descriptor
 | SNV                   | Association suisse de normalisation
@@ -68,7 +59,6 @@ Suisse
 | URL                   | Uniform Resource Locator
 | UTF-8                 | 8-Bit UCS Transformation Format
 | UTM                   | Universal Transverse Mercator
-| VRS                   | Virtual Reference Station
 | WCS                   | Web Coverage Service
 | WFS                   | Web Feature Service
 | WGS84                 | World Geodetic System 1984

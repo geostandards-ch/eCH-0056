@@ -105,7 +105,7 @@ Bei der Umsetzung der Vernetzung und Integration von Geodiensten stellen sich ne
 [#objectives]
 === Vernetzung von Geodiensten, Bedeutung der Datenharmonisierung
 
-Hauptziel ist die möglichst reibungslose Vernetzung von Geodiensten in einem heterogenen, verteilten Netzwerk. Je nach Anforderung kann diese Vernetzung von der reinen Visualisierung, über die einheit-liche Informationsabfrage bis hin zur Datenabgabe nach harmonisierten Datenmodellen gehen. Im Rahmen der Umsetzung des GeoIG [1a] und der zugehörigen Verordnungen [2a][4a] steht die Daten-modellharmonisierung im Vordergrund. Die Harmonisierung von Datenmodellen und Daten betrifft die Aktionsfelder «Ökosystem Geoinformation fördern» und «Geodaten verknüpfen» gemäss dem Akti-onsplan zur Strategie Geoinformation Schweiz.
+Hauptziel ist die möglichst reibungslose Vernetzung von Geodiensten in einem heterogenen, verteilten Netzwerk. Je nach Anforderung kann diese Vernetzung von der reinen Visualisierung, über die einheit-liche Informationsabfrage bis hin zur Datenabgabe nach harmonisierten Datenmodellen gehen. Im Rahmen der Umsetzung des GeoIG [1a] und der zugehörigen Verordnungen [2a][4a] steht die Daten-modellharmonisierung im Vordergrund. Die Harmonisierung von Datenmodellen und Daten betrifft die Aktionsfelder «Ökosystem Geoinformation fördern» und «Geodaten verknüpfen» gemäss dem Aktionsplan zur Strategie Geoinformation Schweiz.
 
 Verschiedene Probleme verhindern oder erschweren heute die Vernetzung von Geodiensten verschie-dener Anbieter: 
 
