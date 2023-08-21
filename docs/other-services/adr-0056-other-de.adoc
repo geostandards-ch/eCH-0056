@@ -10,7 +10,7 @@ Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implemen
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/adr/req/simple-wfs
 |Zieltyp |Web API
-| Abhängigkeiten |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Simple WFS.
+| Abhängigkeit |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 / Conformance Class: Simple WFS]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -25,7 +25,7 @@ Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implemen
 |===
 |*Richtliniesklasse* |https://ech.ch/fr/0056/main/adr/req/basic-wfs
 |Zieltyp |Web API
-| Abhängigkeiten |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Basic WFS.
+| Abhängigkeit |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 / Conformance Class: Basic WFS]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -46,12 +46,12 @@ Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implemen
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Richtlinie 3* |/req/adr/filter-enconding/minimum-standard-filter/propertyisequalto.
+|*Richtlinie 3* |/req/adr/filter-enconding/minimum-standard-filter/propertyisequalto
 |A| Die Implementierung eines Adressdienstes *MUSS* den Parameter `PropertyIsEqualTo` des OGC Filter Encoding 2.0 Standards unterstützen.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Richtlinie 4* |/req/adr/filter-enconding/spatial-filter/dwithin.
+|*Richtlinie 4* |/req/adr/filter-enconding/spatial-filter/dwithin
 |A| Die Implementierung eines Adressdienstes *MUSS* den Parameter `DWithin` des OGC Filter Encoding 2.0 Standards unterstützen.
 |===

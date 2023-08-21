@@ -10,12 +10,19 @@ Die WCS-Spezifikation definiert eine Schnittstelle für einen Download-Dienst. S
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/wcs/req/wcs
 |Zieltyp |Web API
-| Abhängigkeiten |https://docs.ogc.org/is/17-089r1/17-089r1.html[OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core ]
+| Abhängigkeiten |https://docs.ogc.org/is/17-089r1/17-089r1.html[OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core ] +
+https://portal.ogc.org/files/54209[OGC WCS Interface Standard – CRS Extension, version 1.0.0]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Richtlinie 1* |/req/wcs/getcapabilities.
+|*Richtlinie 1* |/req/wcs/getcapabilities
 |A (WCS-02)| Die Implementierung eines WCS *MUSS* eine Erweiterung in das ursprüngliche Koordinatensystem im Element `"cis11:envelope"` der Antwort `DescribeCoverage` beschreiben.
-|B (WCS-03)| Die Antwort `GetCapabilities` eines WCS *MUSS* für jeden `Coverage` das Element `Metadata` mit dem Attribut `link` enthalten, das auf datenbezogene Metadaten verweist, die von einem Computer interpretiert werden können und dem GM03-Modell Version 2.1 [13] entsprechen.
+|B (WCS-03)| Die Antwort `GetCapabilities` eines WCS *MUSS* für jeden `Coverage` das Element `Metadata` mit dem Attribut `link` enthalten, das auf datenbezogene Metadaten verweist, die maschinlesbar sind und dem GM03-Modell Version 2.1 [13] entsprechen.
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 1* |/rec/wcs/getCoverage-cis11
+|C (WCS-04)| Ein Geodienst *SOLLTE* Rasterdaten verlustfrei im Format *GeoTiff* anbieten.
 |===

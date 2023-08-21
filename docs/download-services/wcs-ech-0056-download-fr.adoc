@@ -10,7 +10,7 @@ La spécification WCS définit une interface pour un service de téléchargement
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/wcs/req/wcs
 |Type d’objectif |Web API
-|Dépendances |https://docs.ogc.org/is/17-089r1/17-089r1.html[OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core ]
+|Dépendance |https://docs.ogc.org/is/17-089r1/17-089r1.html[OGC Web Coverage Service (WCS) 2.1 Interface Standard - Core ]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -18,4 +18,10 @@ La spécification WCS définit une interface pour un service de téléchargement
 |*Directive 1* |/req/wcs/getcapabilities
 |A (WCS-02)| La mise en oeuvre d’un WCS *DOIT* décrire une extension dans le système de coordonnées d’origine dans l’élément `«cis11:envelope»` de la réponse `DescribeCoverage`.
 |B (WCS-03)| La réponse `GetCapabilities` d’un WCS *DOIT* contenir, pour chaque `Coverage`, l’élément `Metadata` avec l’attribut `link`, renvoyant vers des métadonnées associées à des données, interprétables par un ordinateur et conformes au modèle GM03 version 2.1 [13].
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Recommandation 1* |/rec/wcs/getCoverage-cis11
+|A (WCS-04)| Un géoservice *DEVRAIT* fournir des données raster sans perte au format *GeoTiff*.
 |===

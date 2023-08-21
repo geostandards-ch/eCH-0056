@@ -12,7 +12,8 @@ Eine STAC-API ist eine dynamische Version von STAC und definiert darüber hinaus
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/stac/req/stac
 |Zieltyp |Web API
-|https://github.com/radiantearth/stac-spec/[SpatioTemporal Asset Catalog Specification, Version 1.0.0]
+|Abhängigkeiten |https://github.com/radiantearth/stac-spec/[SpatioTemporal Asset Catalog Specification, Version 1.0.0] + 
+https://github.com/radiantearth/stac-api-spec[STAC API Foundation Specifications, version 1.0.0]
 |===
 
 ====== STAC-Anforderungsklasse
@@ -20,9 +21,9 @@ Eine STAC-API ist eine dynamische Version von STAC und definiert darüber hinaus
 [width="100%",cols="29%,71%",options="noheader",]
 |===
 |*Richtlinie 1* |/req/stac
-|A |Der Katalog *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten des Dienstes verweist.
-|B |Jede Sammlung *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Metadaten nach dem GM03-Modell Version 2.1 [13] verweist.
+|A |Der Catalog *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Dienstmetadaten des Dienstes verweist.
+|B |Jede Collection *MUSS* einen Link mit `rel=describedby` enthalten, der auf maschinenlesbare Datenmetadaten nach dem GM03-Modell Version 2.1 [13] verweist.
 |C |Für den modellkonformen Austausch von Vektordaten *MUSS* ein Link auf INTERLIS XTF [7] oder INTERLIS GML [8] Dateien angeboten werden.
 |D |Für zweidimensionale Rasterdaten *MUSS* das Datenformat GeoTIFF (oder COG) [24] angeboten werden.
-|E |Cloud-optimierte Geodatenformate MÜSSEN angeboten werden.
+|E |Cloud-optimierte Geodatenformate *MÜSSEN* angeboten werden.
 |===

@@ -22,6 +22,7 @@ Der OGC API-Standard - Tiles bezieht sich auf den OGC-Standard Two Dimensional T
 |*Richtlinie 1* |/req/oat/encodings
 |A |Die Umsetzung einer OGC API API Tiles *MUSS* das Bildformat *JPEG* unterstützen.
 |B |Die Umsetzung einer OGC API Tiles API *MUSS* das Bildformat  *PNG* unterstützen.
-|B |Die Umsetzung einer OGC API API Tiles *MUSS* das Bildformat *GeoJSON* für Vektorformat unterstützen.
-|C |Die OGC API Tiles API-Implementierung *MUSS* das Bildformat *TIFF* für Rasterkacheln unterstützen.
+|C |Die Umsetzung einer OGC API API Tiles *MUSS* das Vektorformat *GeoJSON* unterstützen.
+|D |Die OGC API Tiles API-Implementierung *MUSS* das Bildformat *TIFF* für Rasterkacheln unterstützen.
+|E |Die OGC API Tiles API-Implementierung *MUSS* das *Mapbox Vector Tile Format* für Vektor-Tiles unterstützen.
 |===

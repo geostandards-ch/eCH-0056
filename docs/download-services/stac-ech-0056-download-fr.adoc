@@ -12,7 +12,11 @@ Une API STAC est une version dynamique de STAC et définit en outre une interfac
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/stac/req/stac
 |Type d’objectif |Web API
-|Dépendances |https://github.com/radiantearth/stac-spec/[SpatioTemporal Asset Catalog Specification, version 1.0.0]
+|Dépendance |https://github.com/radiantearth/stac-spec[SpatioTemporal Asset Catalog Specification, version 1.0.0] + 
+https://github.com/radiantearth/stac-api-spec[STAC API Foundation Specifications, version 1.0.0]
+
+STAC API Foundation Specifications
+
 |===
 
 ====== Classe d’exigences STAC
