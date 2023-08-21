@@ -255,7 +255,7 @@ La définition des classes d'exigences s'inspire du document: "The Specification
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/http
 |Type d’objectif |Encoding
-|Dépendances |N/A
+|Dépendance |N/A
 |===
 
 [width="100%",cols="41%,59%",options="noheader",]
@@ -272,7 +272,7 @@ La définition des classes d'exigences s'inspire du document: "The Specification
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/datetime
 |Type d’objectif |Encoding
-|Dépendances |ISO 8601-1:2019 Date et heure — Représentations pour l'échange d'information — Partie 1: Règles de base
+|Dépendance |ISO 8601-1:2019 Date et heure — Représentations pour l'échange d'information — Partie 1: Règles de base
 |===
 
 [width="100%",cols="41%,59%",options="noheader",]
@@ -364,13 +364,13 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |===
 |*Directive 1* |/req/crs
 |A (CRS-01) |Un géoservice *DOIT* supporter le système de référence suisse CH1903+ ("EPSG:2056", cadre de référence MN95).
-|B (CRS-02) |Un géoservice *DOIT* supporter le système de référence de coordonnées global WGS84 en coordonnées géographiques avec projection pseudo-plaque-carrée ("EPSG:4326") et projection pseudo-Mercator ("EPSG:3857") ainsi que le système de référence de coordonnées européen ETRS89 en coordonnées géographiques ("EPSG:4258").
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/crs
-|A (CRS-03) |Un géoservice *DEVRAIT* supporter les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
+|A (CRS-02) |Un géoservice *DEVRAIT* supporter le système de référence de coordonnées global WGS84 en coordonnées géographiques avec projection pseudo-plaque-carrée ("EPSG:4326") et projection pseudo-Mercator ("EPSG:3857") ainsi que le système de référence de coordonnées européen ETRS89 en coordonnées géographiques ("EPSG:4258").
+|B (CRS-03) |Un géoservice *DEVRAIT* supporter les systèmes de référence de coordonnées ETRS89 LAEA Europe ("EPSG : 3035"), LCC Europe ("EPSG : 3034") et UTM Zone 32N ("EPSG : 3044").
 |===
 
 [#tilematrixset]
@@ -379,14 +379,14 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/base/req/tms
 |Type d’objectif |Web API
-|Dépendances | 
+|Dépendance | 
 https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata] 
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Directive 1* |/req/tms
-|A | Les niveaux de zoom prédéfinis pour la mise en œuvre d'un service de tuiles 2D DOIVENT comprendre les valeurs suivantes pour le système de référence CH1903+ : +
+|A | Les niveaux de zoom prédéfinis pour la mise en œuvre d'un service de tuiles 2D *DOIVENT* comprendre les valeurs suivantes pour le système de référence CH1903+ : +
 1 pixel correspond à 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 mètres. +
 Si elle n'est pas définie dans une norme spécifique, la taille des pixels est régie par la norme "OGC Two Dimensional Tile Matrix Set" [21].
 |===

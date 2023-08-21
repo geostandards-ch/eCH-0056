@@ -11,7 +11,7 @@ Informationen auf Merkmalsebene und Merkmalseigenschaften.
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/wfs/req/simple-wfs
 |Zieltyp |Web API
-| Abhängigkeiten |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Simple WFS.
+| Abhängigkeit |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 / Conformance Class: Simple WFS]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -22,13 +22,13 @@ Informationen auf Merkmalsebene und Merkmalseigenschaften.
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Richtlinie 2* |/req/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype.
-|A (WFS-03) | Die Implementierung eines WFS *MUSS* das Element "MetadataURL" pro Entitätstyp (Feature Type) enthalten, das auf maschinenlesbare Metadaten gemäss der Vorlage GM03 Version 2.1 [13] verweist.
+|*Richtlinie 2* |/req/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype
+|A (WFS-03) | Die Umsetzung eines WFS *MUSS* pro Feature Type das «MetadataURL»- Element enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
 |B (WFS-04)|Die Implementierung eines WFS *MUSS* die ursprüngliche Projektion des Feature-Typs im Element `DefaultCRS` beschreiben.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Empfehlung 1* |/rec/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype/outputformats.
-|C (WFS-05)|Das Format GEOJSON *MUSS* angeboten werden.
+|*Empfehlung 1* |/rec/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype/outputformats
+|C (WFS-05)|Das Format GEOJSON *SOLLTE* angeboten werden.
 |===

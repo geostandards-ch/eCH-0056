@@ -14,7 +14,7 @@ Le standard OGC API - Tiles fait référence à la norme OGC Two Dimensional Til
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/oat/req/oat/encodings
 |Type d’objectif |Web API
-|Dépendances |https://docs.ogc.org/is/20-057/20-057.html#toc65[OGC API - Tiles - Part 1: Core + Requirements Classes for tile encodings]
+|Dépendance |https://docs.ogc.org/is/20-057/20-057.html#toc65[OGC API - Tiles - Part 1: Core + Requirements Classes for tile encodings]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -22,6 +22,7 @@ Le standard OGC API - Tiles fait référence à la norme OGC Two Dimensional Til
 |*Exigence 1* |/req/oat/encodings
 |A |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format d'image *JPEG*.
 |B |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format d'image *PNG*.
-|B |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format d'image *GeoJSON* pour des tuiles vectorielles.
-|C |La mise en œuvre API OGC API Tiles *DOIT* prendre en charge le format d'image *TIFF* pour des tuiles raster.
+|C |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format *GeoJSON* pour des tuiles vectorielles.
+|D |La mise en œuvre API OGC API Tiles *DOIT* prendre en charge le format d'image *TIFF* pour des tuiles raster.
+|E |La mise en œuvre d'une API OGC API Tiles *DOIT* prendre en charge le format *Mapbox Vector Tile* pour des tuiles vectorielles.
 |===

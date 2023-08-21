@@ -259,7 +259,7 @@ erfüllt sein muss.
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/http
 |Zieltyp |Encoding
-|Abhängigkeiten |N/A
+|Abhängigkeit |N/A
 |===
 
 [width="100%",cols="41%,59%",options="noheader",]
@@ -313,7 +313,7 @@ https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7
 |A (LANG-01) |Sofern nicht in einem spezifischen Standard definiert, *MUSS* für die Sprach-Verhandlung der übliche HTTP-Content-Negotiation-Mechanismus [18] angewendet werden.
 |B (LANG-02) |Sprach-Tags *MÜSSEN* nach «RFC 5646» [19] erfolgen.
 |C (LANG-03) |String-Werte, die sprachlichen Text enthalten, *MÜSSEN* der Sprache entsprechen, die der Server zurückgibt.
-|D (LANG-04) |Zusätzlich zur Anforderung *1 A* MUSS ein Server einen Anfrageparameter `AcceptLanguages` (OWS-Dienste) oder `lang` (OGC API) unterstützen.
+|D (LANG-04) |Zusätzlich zur Anforderung *1 A* *MUSS* ein Server einen Anfrageparameter `AcceptLanguages` (OWS-Dienste) oder `lang` (OGC API) unterstützen.
 |E (LANG-05) |Bei Link-Objekten *SOLLTE* das Attribut `xml:lang` (OWS-Dienste) oder `hreflang`(OGC API) verwendet werden, um die Sprache der referenzierten Ressource anzugeben [24].
 |===
 
@@ -331,7 +331,7 @@ https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common - Part 1: Core (1.0.
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Richtlinie 1* |/req/metadata
-|A (META-01) |Ein Geodienst MUSS im nationalen Geometadatenkatalog beschrieben werden.
+|A (META-01) |Ein Geodienst *MUSS* im nationalen Geometadatenkatalog beschrieben werden.
 |B (META-02) |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst einen Link auf die Dienstmetadaten im nationalen Geometadatenkatalog angeben.
 |C (META-03) |Die vom Geodienst selbst bereitgestellte Dienstbeschreibung *MUSS* mit der entsprechenden Beschreibung im nationalen Geometadatenkatalog übereinstimmen.
 |D (META-04) |Sofern ein bestimmter Standard es zulässt, *MUSS* ein Geodienst für jeden Geodatenbestand (z.B.: «Layer» beim WMS und WMTS, «Feature Type» beim WFS, «Coverage» beim WCS, «Collection» bei OGC APIs und STAC) einen Link auf die Datenmetadaten angeben.
@@ -367,13 +367,13 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |===
 |*Richtlinie 1* |/req/crs
 |A (CRS-01) |Ein Geodienst *MUSS* das Schweizer Bezugssystem CH1903+ («EPSG:2056», Bezugsrahmen LV95) unterstützen.
-|B (CRS-02) |Ein Geodienst *SOLLTE* das globale Koordinatenreferenzsysteme WGS84 in geografischen Koordinaten mit Pseudo-Platte-Carrée-Projektion («EPSG:4326») und Pseudo-Mercator Projektion («EPSG:3857») sowie das europäische Koordinatenreferenzsystem ETRS89 in geografischen Koordinaten («EPSG:4258») unterstützen.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Empfehlung 1* |/rec/crs
-|A (CRS-03) |Ein Geodienst *SOLLTE* die Koordinatenreferenzsysteme ETRS89 LAEA Europe («EPSG: 3035»), LCC Europe («EPSG: 3034») und UTM Zone 32N («EPSG: 3044») unterstützen.
+|A (CRS-02) |Ein Geodienst *SOLLTE* das globale Koordinatenreferenzsysteme WGS84 in geografischen Koordinaten mit Pseudo-Platte-Carrée-Projektion («EPSG:4326») und Pseudo-Mercator Projektion («EPSG:3857») sowie das europäische Koordinatenreferenzsystem ETRS89 in geografischen Koordinaten («EPSG:4258») unterstützen.
+|B (CRS-03) |Ein Geodienst *SOLLTE* die Koordinatenreferenzsysteme ETRS89 LAEA Europe («EPSG: 3035»), LCC Europe («EPSG: 3034») und UTM Zone 32N («EPSG: 3044») unterstützen.
 |===
 
 [#tilematrixset]
@@ -383,14 +383,14 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/tms
 |Objektivtyp |Web API
-|Abhängigkeiten | 
+|Abhängigkeit | 
 https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata] 
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Directive 1* |/req/tms
-|A (TMS-01) | Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen MÜSSEN für das Bezugssystem CH1903+ die folgenden Werte umfassen : +
+|A | Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen *MÜSSEN* für das Bezugssystem CH1903+ die folgenden Werte umfassen : +
 1 Pixel entspricht 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 Meter. +
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
 |===

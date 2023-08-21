@@ -11,7 +11,7 @@ informations au niveau des caractéristiques et des propriétés des caractéris
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/wfs/req/simple-wfs
 |Type d’objectif |Web API
-|Dépendances |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014] / Conformance Class: Simple WFS
+|Dépendance |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 / Conformance Class: Simple WFS]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -30,5 +30,5 @@ informations au niveau des caractéristiques et des propriétés des caractéris
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype/outputformats
-|C (WFS-05)|Le format GEOJSON DEVRAIT être proposé.
+|C (WFS-05)|Le format GEOJSON *DEVRAIT* être proposé.
 |===

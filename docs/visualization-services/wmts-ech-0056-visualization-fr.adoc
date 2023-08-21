@@ -10,7 +10,7 @@ La spécification WMTS définit une interface pour un service de consultation. U
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/wmts/req/wmts
 |Type d’objectif |Web API
-|Dépendances |https://portal.ogc.org/files/?artifact_id=35326[OpenGIS Web Map Tile Service Implementation Standard 1.0.0]
+|Dépendance |https://portal.ogc.org/files/?artifact_id=35326[OpenGIS Web Map Tile Service Implementation Standard 1.0.0]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -30,11 +30,11 @@ La spécification WMTS définit une interface pour un service de consultation. U
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/wmts/getfeatureinfo
-|A (WTMS-03 & WMTS-04) |Si cela est utile, la mise en œuvre d'un WMTS DEVRAIT supporter la requête GetFeatureInfo.
+|A (WTMS-03 & WMTS-04) |Si cela est utile, la mise en œuvre d'un WMTS *DEVRAIT* supporter la requête GetFeatureInfo.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 3* |/rec/wmts/tilematrix
-|A (WMS-07) |Dans le cas d’une implémentation RESTful du WMTS , l’ordre de succession `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` DEVRAIT être respecté.
+|A (WMS-07) |Dans le cas d’une implémentation RESTful du WMTS , l’ordre de succession `{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}` *DEVRAIT* être respecté.
 |===
