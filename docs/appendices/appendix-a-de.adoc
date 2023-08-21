@@ -78,6 +78,9 @@ https://docs.opengeospatial.org/is/19-008r4/19-008r4.html[https://docs.opengeosp
 |[25]| Open Geospatial Consortium (OGC), 2009 +
 The Specification Model — A Standard for Modular specifications (OGC 08-131r3), + 
 https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449[https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449]
+|[26]| Open Geospatial Consortium (OGC), 2023 +
+OGC API Processes - Part 1: Core +
+https://docs.ogc.org/is/18-062r2/18-062r2.html[https://docs.ogc.org/is/18-062r2/18-062r2.html]
 |===
 
 === Bibliographie
