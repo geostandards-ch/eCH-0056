@@ -1,7 +1,7 @@
-==== Altimetrischer Dienst
+==== Höhendienst
 ===== Einleitung
 
-Unter einem Höhendienst versteht man einen Dienst, mit dem die Höhe eines oder mehrerer isolierter Punkte bestimmt werden kann, die auf einer Polylinie oder innerhalb einer Fläche liegen. Der Höhenmesserdienst ist ein Basisdienst, der von anderen Diensten genutzt werden kann, z. B. um die Höhe eines Start- oder Zielpunktes einer Route zu bestimmen.
+Unter einem Höhendienst versteht man einen Dienst, mit dem die Höhe eines oder mehrerer isolierter Punkte bestimmt werden kann, die auf einer Polylinie oder innerhalb einer Fläche liegen. Der Höhenmessdienst ist ein Basisdienst, der von anderen Diensten genutzt werden kann, z. B. um die Höhe eines Start- oder Zielpunktes einer Route zu bestimmen.
 
 ===== Anforderungsklassen
 ====== Anforderungsklasse OGC API Processes.
