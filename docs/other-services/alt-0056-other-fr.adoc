@@ -24,6 +24,7 @@ Y: coordonnée Y du point, +
 Z: altitude au point considéré (en mètres), +
 acc: précision de la valeur au point considéré (en mètres)
 |D | Un service altimétrique *DOIT* fournir une réponse selon le cadre de référence CH1903+ / LV95.
+|E | Un service altimétrique *DOIT* fournir une réponse selon le réseau de nivellement suisse LN02.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]

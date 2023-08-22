@@ -17,17 +17,18 @@ Unter einem Höhendienst versteht man einen Dienst, mit dem die Höhe eines oder
 |===
 |*Richtlinie 1* |/req/oaproc
 |A |Die Implementierung eines Höhenmessdienstes *MUSS* mit OGC API - Processes - Part 1: Core [26] übereinstimmen.
-| B | Ein Höhenmesserdienst *MUSS* eine Antwort im JSON-Format liefern.
+|B | Ein Höhenmesserdienst *MUSS* eine Antwort im JSON-Format liefern.
 |C | Ein Höhenmesserdienst MUSS eine Antwort mit den folgenden Parametern liefern: +
 X: X-Koordinate des Punktes, +
 Y: Y-Koordinate des Punktes, +
 Z: Höhe am Punkt (in Metern), +
 acc: Genauigkeit des Wertes am Punkt (in Metern).
-|Ein Höhendienst *MUSS* eine Antwort gemäss dem Referenzrahmen CH1903+ / LV95 liefern.
+|D |Ein Höhendienst *MUSS* eine Antwort gemäss dem Referenzrahmen CH1903+ / LV95 liefern.
+|E |Ein Höhenmessdienst *MUSS* eine Antwort gemäss dem Schweizer Nivellierungsnetz LN02 liefern.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Empfehlung 1* |/rec/oaproc
-| Ein Höhenmessdienst *MUSS* den Parameter `indent=true` anbieten, um eine bessere Lesbarkeit der JSON-Antworten zu ermöglichen.
+|A |Ein Höhenmessdienst *MUSS* den Parameter `indent=true` anbieten, um eine bessere Lesbarkeit der JSON-Antworten zu ermöglichen.
 |===
