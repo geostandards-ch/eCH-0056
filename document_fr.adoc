@@ -470,6 +470,9 @@ include::./docs/search-services/csw-ech-0056-search-fr.adoc[]
 === Autres services
 
 include::./docs/other-services/adr-0056-other-fr.adoc[]
+include::./docs/other-services/alt-0056-other-fr.adoc[]
+
+[#appendices]
 
 [#responsibility]
 == Exclusion de responsabilité - droits de tiers
