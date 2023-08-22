@@ -474,6 +474,7 @@ include::./docs/search-services/csw-ech-0056-search-de.adoc[]
 === Andere Dienste
 
 include::./docs/other-services/adr-0056-other-de.adoc[]
+include::./docs/other-services/alt-0056-other-de.adoc[]
 
 [#responsibility]
 == Haftungsausschluss/Hinweise auf Rechte Dritter
