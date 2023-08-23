@@ -27,7 +27,7 @@
 |*Beilagen* |
 |*Sprachen* |Deutsch (Original), Französisch (Übersetzung)
 |*Autoren*  | eCH Fachgruppe Geoinformation
-*Andere Teilnehmer*|
+|*Andere Teilnehmer*|
 |*Herausgeber / Vertrieb*| Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich +
 T 044 388 74 64, F 044 388 71 80 +
 http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
