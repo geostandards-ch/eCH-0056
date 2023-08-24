@@ -52,6 +52,7 @@ heading:
   h3-font-size: 16
   h4-font-size: 14
   h5-font-size: 12
+  h1-margin-bottom: 1cm
 table:
   caption:
     end: bottom
