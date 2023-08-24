@@ -1,0 +1,22 @@
+==== Service de calcul et transformation
+===== Introduction
+
+Par service de calcul et transformation, on entend un service web permettant de faire des appels à des services de traitement des données géospatiales (calcul d’itinéraire, profil altimétrique, etc.). Ces services sont généralement fournis par des organismes publics ou privés, et sont accessibles via des API (Application Programming Interface) ou des SDK (Software Development Kit). Les services de calcul et transformation sont généralement utilisés pour enrichir des données géospatiales, ou pour créer des applications web ou mobiles.
+
+===== Classes d’exigences
+====== Classe d’exigences OGC API Processes
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/oaproc/req
+|Type d’objectif |Web API
+|Dépendance |https://docs.ogc.org/is/18-062r2/18-062r2.html[OGC API - Processes - Part 1: Core]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Directive 1* |/req/oaproc
+|A | La mise en oeuvre d'un service de calcul et transformation doit être conforme à la spécification OGC API - Processes - Part 1: Core [27].
+|===
+
+

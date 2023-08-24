@@ -19,12 +19,12 @@ https://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - P
 |===
 |*Directive 1* |/req/oafeat/links
 |A |La landingpage *DOIT* contenir un lien `rel=describedby` qui renvoie à des métadonnées lisibles par une machine selon le modèle GM03 version 2.1 [13].
-|B |Chaque collection *DOIT* contenir un lien avec `rel=describedby` qui renvoie à des métadonnées lisibles par machine selon le modèle GM03 version 2.1 [13]. + 
-Pour l'échange de données vectorielles conforme au modèle, une ressource INTERLIS XTF [7] ou INTERLIS GML [8], si disponible, *DOIT* être proposé.
+|B |Chaque collection *DOIT* contenir un lien avec `rel=describedby` qui renvoie à des métadonnées lisibles par machine selon le modèle GM03 version 2.1 [13]. 
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/oafeat/links
-|A | Chaque collection *DEVRAIT* contenir un lien avec `rel=enclosure` qui renvoie à un téléchargement en vrac du jeu de données (p. ex. un asset STAC). 
+|A | Chaque collection *DEVRAIT* contenir un lien avec `rel=enclosure` qui renvoie à un téléchargement en vrac du jeu de données (p. ex. un asset STAC). +
+Pour l'échange de données vectorielles conforme au modèle, une ressource INTERLIS XTF [7] ou INTERLIS GML [8], si disponible, *DEVRAIT* être proposé.
 |===

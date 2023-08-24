@@ -389,13 +389,8 @@ https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Ma
 |A | Les niveaux de zoom prédéfinis pour la mise en œuvre d'un service de tuiles 2D *DOIVENT* comprendre les valeurs suivantes pour le système de référence CH1903+ : +
 1 pixel correspond à 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 mètres. +
 Si elle n'est pas définie dans une norme spécifique, la taille des pixels est régie par la norme "OGC Two Dimensional Tile Matrix Set" [21].
-|===
-
-[width="100%",cols="24%,76%",options="noheader",]
-|===
-|*Recommandation 1* |/rec/tms
-|A | Pour toute définition d'une matrice de tuiles, le point d'origine suivant *DEVRAIT* être utilisé : `2419995.75, 1350004.29`
-|B |Un géoservice *DEVRAIT* idéalement utiliser la définition du jeu de matrices de tuiles suisse ci-dessous. 
+|B | Pour toute définition d'une matrice de tuiles, le point d'origine suivant *DOIT* être utilisé : `2419995.75, 1350004.29`
+|C |Un géoservice *DOIT* utiliser la définition du jeu de matrices de tuiles suisse ci-dessous. 
 |===
 
 :table-Swiss2DTMS: 
@@ -444,6 +439,7 @@ Dans le cadre de eCH-0056, on entend concrètement par service de représentatio
 include::./docs/visualization-services/wms-ech-0056-visualization-fr.adoc[]
 include::./docs/visualization-services/wmts-ech-0056-visualization-fr.adoc[]
 include::./docs/visualization-services/oatiles-ech-0056-visualization-fr.adoc[]
+include::./docs/visualization-services/3dtiles-ech-0056-visualization-fr.adoc[]
 
 [#download]
 === Service de téléchargement
@@ -470,6 +466,7 @@ include::./docs/search-services/csw-ech-0056-search-fr.adoc[]
 === Autres services
 
 include::./docs/other-services/adr-0056-other-fr.adoc[]
+include::./docs/other-services/oaproc-0056-other-fr.adoc[]
 
 [#responsibility]
 == Exclusion de responsabilité - droits de tiers

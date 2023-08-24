@@ -389,17 +389,12 @@ https://docs.ogc.org/is/17-083r4/17-083r4.html#toc48[OGC Two Dimensional Tile Ma
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Directive 1* |/req/tms
+|*Richtlinie 1* |/req/tms
 |A | Die zur Umsetzung eines 2D-Tiledienstes vordefinierten Zoomstufen *MÜSSEN* für das Bezugssystem CH1903+ die folgenden Werte umfassen : +
 1 Pixel entspricht 4000, 2000, 1000, 500, 250, 100, 50, 20, 10, 5, 2.5, 1, 0.5, 0.25, 0.1, 0.05 Meter. +
 Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgrösse der Standard «OGC Two Dimensional Tile Matrix Set» [21].
-|===
-
-[width="100%",cols="24%,76%",options="noheader",]
-|===
-|*Empfehlung 1* |/rec/tms
-|A | Bei jeder Definition einer TileMatrixSet *SOLLTE* der folgende Ursprungspunkt verwendet werden: `2419995.75, 1350004.29`.
-|B  |Ein Geodienst *SOLLTE* die untenstehende Definition der Schweizer CH1903+ Tile Matrix Set verwenden. 
+|B | Bei jeder Definition einer TileMatrixSet *MUSS* der folgende Ursprungspunkt verwendet werden: `2419995.75, 1350004.29`.
+|C |Ein Geodienst *MUSS* die untenstehende Definition der Schweizer CH1903+ Tile Matrix Set verwenden. 
 |===
 
 :table-Swiss2DTMS: 
@@ -448,6 +443,7 @@ Im Rahmen von eCH-0056 wird unter einem Darstellungsdienst konkret ein Dienst ge
 include::docs/visualization-services/wms-ech-0056-visualization-de.adoc[]
 include::docs/visualization-services/wmts-ech-0056-visualization-de.adoc[]
 include::docs/visualization-services/oatiles-ech-0056-visualization-de.adoc[]
+include::./docs/visualization-services/3dtiles-ech-0056-visualization-de.adoc[]
 
 [#download]
 === Download-Dienste
@@ -474,6 +470,7 @@ include::./docs/search-services/csw-ech-0056-search-de.adoc[]
 === Andere Dienste
 
 include::./docs/other-services/adr-0056-other-de.adoc[]
+include::./docs/other-services/oaproc-0056-other-de.adoc[]
 
 [#responsibility]
 == Haftungsausschluss/Hinweise auf Rechte Dritter
