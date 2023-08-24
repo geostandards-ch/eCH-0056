@@ -78,9 +78,15 @@ https://docs.opengeospatial.org/is/19-008r4/19-008r4.html[https://docs.opengeosp
 |[25]| Open Geospatial Consortium (OGC), 2009 +
 The Specification Model — A Standard for Modular specifications (OGC 08-131r3), + 
 https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449[https://portal.ogc.org/files/?artifact_id=34762&amp;usg=AOvVaw2GRSJFxLts7c4s-0QN5b66&amp;opi=89978449]
-|[26]| Open Geospatial Consortium (OGC), 2023 +
-OGC API Processes - Part 1: Core +
+|[26]| Open Geospatial Consortium (OGC), 2014 +
+OGC Web Coverage Service Interface Standard - CRS Extension (11-053r1), +
+https://portal.ogc.org/files/54209[https://portal.ogc.org/files/54209]
+|[27]| Open Geospatial Consortium (OGC), 2021 +
+OGC API - Processes - Part 1: Core (18-062r2), +
 https://docs.ogc.org/is/18-062r2/18-062r2.html[https://docs.ogc.org/is/18-062r2/18-062r2.html]
+|[28]| Open Geospatial Consortium (OGC), 2023 +
+3D Tiles Specification (22-025r4), +
+https://docs.ogc.org/cs/22-025r4/22-025r4.html[https://docs.ogc.org/cs/22-025r4/22-025r4.html]
 |===
 
 === Bibliographie

@@ -23,8 +23,7 @@ informations au niveau des caractéristiques et des propriétés des caractéris
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Directive 2* |/req/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype
-|A (WFS-03) | La mise en oeuvre d'un WFS *DOIT* contenir l'élément `MetadataURL` par type d'entité (Feature Type), renvoyant à des métadonnées lisibles par une machine selon le modèle GM03 version 2.1 [13].
-|B (WFS-04)|La mise en oeuvre d'un WFS *DOIT* décrire la projection d'origine du type de fonction dans l'élément `DefaultCRS`.
+|A (WFS-04)|La mise en oeuvre d'un WFS *DOIT* décrire la projection d'origine du type de fonction dans l'élément `DefaultCRS`.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]

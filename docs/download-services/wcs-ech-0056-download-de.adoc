@@ -17,12 +17,18 @@ https://portal.ogc.org/files/54209[OGC WCS Interface Standard – CRS Extension,
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Richtlinie 1* |/req/wcs/getcapabilities
-|A (WCS-02)| Die Implementierung eines WCS *MUSS* eine Erweiterung in das ursprüngliche Koordinatensystem im Element `"cis11:envelope"` der Antwort `DescribeCoverage` beschreiben.
+|A (WCS-02)| Die Implementierung eines WCS *MUSS* eine Bounding-Box im ursprünglichen Koordinatensystem unter Verwendung des Elements `BoundinxBox` im Parameter `CoverageSummary` in der `GetCapabilities` Antwort enthalten
 |B (WCS-03)| Die Antwort `GetCapabilities` eines WCS *MUSS* für jeden `Coverage` das Element `Metadata` mit dem Attribut `link` enthalten, das auf datenbezogene Metadaten verweist, die maschinlesbar sind und dem GM03-Modell Version 2.1 [13] entsprechen.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Empfehlung 1* |/rec/wcs/getCoverage-cis11
-|C (WCS-04)| Ein Geodienst *SOLLTE* Rasterdaten verlustfrei im Format *GeoTiff* anbieten.
+|*Empfehlung 1* |/rec/wcs/crs
+|A (WCS-04)| Die Umsetzung eines WCS *SOLLTE* dem OGC Web Coverage Service Interface Standard - CRS Extension entsprechen [26].
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Empfehlung 2* |/rec/wcs/getCoverage-cis11
+|A (WCS-05)| Ein Geodienst *SOLLTE* Rasterdaten verlustfrei im Format *GeoTiff* anbieten.
 |===

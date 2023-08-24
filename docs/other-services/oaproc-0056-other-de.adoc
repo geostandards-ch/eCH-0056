@@ -1,0 +1,21 @@
+==== Berechnungs- und Transformationsdienst
+===== Einleitung
+
+Unter einem Berechnungs- und Transformationsdienst versteht man einen Webservice, der Aufrufe an Dienste zur Verarbeitung von Geodaten (Routenberechnung, Höhenprofil usw.) ermöglicht. Diese Dienste werden in der Regel von öffentlichen oder privaten Organisationen bereitgestellt und sind über APIs (Application Programming Interface) oder SDKs (Software Development Kit) zugänglich. Berechnungs- und Transformationsdienste werden in der Regel zur Anreicherung von Geodaten oder zur Erstellung von Webapplikationen oder mobilen Anwendungen verwendet.
+
+===== Anforderungsklassen
+====== Anforderungsklasse OGC API Processes
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/oaproc/req
+|Zieltyp |Web API
+|Abhängigkeit |https://docs.ogc.org/is/18-062r2/18-062r2.html[OGC API - Processes - Part 1: Core]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Richtlinie 1* |/req/oaproc
+|A | Die Implementierung eines Berechnungs- und Transformationsdienstes *MUSS* mit der Spezifikation OGC API - Processes - Part 1: Core  [27] übereinstimmen.
+|===
+

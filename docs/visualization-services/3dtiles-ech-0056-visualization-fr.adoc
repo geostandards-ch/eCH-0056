@@ -1,0 +1,20 @@
+==== Service de représentation basé sur OGC 3D Tiles
+===== Introduction
+
+Le standard OGC 3D Tiles est un community standard de l'Open Geospatial Consortium (OGC) initialement développé par la société Cesium. Il définit un protocole d'échange de données 3D telles que les bâtiments 3D, le BIM/CAD ou encore les nuages de points.
+
+===== Classes d'exigences
+====== Classe d'exigences OGC 3D Tiles
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/3dtiles/req
+|Type d’objectif |Web API
+|Dépendance |https://docs.ogc.org/cs/22-025r4/22-025r4.html[3D Tiles Specification]
+|===
+
+[width="100%",cols="24%,76%",options="noheader",]
+|===
+|*Directive 1* |/req/3dtiles
+|A |La mise en œuvre d'un service de données 3D *DOIT* être conforme à la OGC 3D Tiles Specification [28].
+|===

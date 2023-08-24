@@ -23,8 +23,7 @@ Informationen auf Merkmalsebene und Merkmalseigenschaften.
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Richtlinie 2* |/req/wfs/simple-wfs/getcapabilities/featuretypelist/featuretype
-|A (WFS-03) | Die Umsetzung eines WFS *MUSS* pro Feature Type das «MetadataURL»- Element enthalten, das auf maschinenlesbare Datenmetadaten gemäss Modell GM03 Version 2.1 [13] verweist.
-|B (WFS-04)|Die Implementierung eines WFS *MUSS* die ursprüngliche Projektion des Feature-Typs im Element `DefaultCRS` beschreiben.
+|A (WFS-04)|Die Implementierung eines WFS *MUSS* die ursprüngliche Projektion des Feature-Typs im Element `DefaultCRS` beschreiben.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
