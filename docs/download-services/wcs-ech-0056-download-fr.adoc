@@ -23,7 +23,7 @@ La spécification WCS définit une interface pour un service de téléchargement
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Recommandation 1* |/rec/wcs/crs
-|A (WCS-04)| La mise en oeuvre d'un service WCS *DEVRIAT* supporter le standard OGC Web Coverage Service Interface Standard - CRS Extension [26].
+|A (WCS-04)| La mise en oeuvre d'un service WCS *DEVRAIT* supporter le standard OGC Web Coverage Service Interface Standard - CRS Extension [26].
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
