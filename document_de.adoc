@@ -17,12 +17,12 @@
 |Name |Anwendungsprofil Geodienste
 |*eCH-Nummer* |eCH-0056
 |*Kategorie* |Standard
-|*Reifegrad* |
-|*Version* |4.0 (Entwurf)
-|*Status* |In Arbeit
+|*Reifegrad* |Implementiers
+|*Version* |4.0.0
+|*Status* |Entwurf
 |*Beschluss am* |JJJJ-MM-TT
-|*Ausgabedatum* |JJJJ-MM-TT
-|*Ersetzt Version* |eCH-0056 3.0
+|*Ausgabedatum* |2023-09-05
+|*Ersetzt Version* |3.0 – Major Change
 |*Voraussetzungen* |eCH-0056 3.0
 |*Beilagen* |
 |*Sprachen* |Deutsch (Original), Französisch (Übersetzung)

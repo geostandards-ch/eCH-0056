@@ -16,12 +16,12 @@
 |*Titre* |Profil d'application de géoservices
 |*Code* |eCH-0056
 |*Type* |Standard
-|*Stade* |
-|*Version* |4.0 (draft)
-|*Statut* |En cours d'élaboration
+|*Stade* |Implémenté
+|*Version* |4.0.0
+|*Statut* |Projet
 |*Date de validation* |AAA-MM-JJ
-|*Date de publication* |AAA-MM-JJ
-|*Remplace* |eCH-0056 3.0
+|*Date de publication* |2023-09-05
+|*Remplace* |3.0 – Major Change
 |*Conditions requises* |eCH-0056 3.0
 |*Annexes* |
 |*Langues* |Allemand (original), Français (traduction)
