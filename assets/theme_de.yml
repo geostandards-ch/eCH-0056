@@ -32,17 +32,17 @@ footer:
       content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
       inline_format: true
     left:
-      content: >
-        Verein eCH + 
-        eCH-0056 – Anwendungsprofil Geodienste / 4.0.0 / Entwurf / 2023-09-05
+      content: |
+        Verein eCH +
+        eCH-0056 - Anwendungsprofil Geodienste / 4.0.0 / Entwurf / 2023-09-05
   verso:
     right:
       content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
       inline_format: true
     left:
-      content: >
-        Verein eCH + 
-        eCH-0056 – Anwendungsprofil Geodienste / 4.0.0 / Entwurf / 2023-09-05
+      content: |
+        Verein eCH +
+        eCH-0056 - Anwendungsprofil Geodienste / 4.0.0 / Entwurf / 2023-09-05
 base:
   font-family: Arial
   font-size: 11
