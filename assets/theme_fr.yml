@@ -32,13 +32,17 @@ footer:
       content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
       inline_format: true
     left:
-      content: 'Association eCH, ID – <Name> / x.x.x / En cours / JJJJ-MM-TT'
+      content: |
+        Association eCH +
+        eCH-0056 - Profil d'application de géoservices / 4.0.0 / Projet / 2023-09-05
   verso:
     right:
       content: 'https://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]'
       inline_format: true
     left:
-      content: 'Association eCH, ID – <Name> / x.x.x / En cours / JJJJ-MM-TT'
+      content: |
+        Association eCH + 
+        eCH-0056 - Profil d'application de géoservices / 4.0.0 / Projet / 2023-09-05
 base:
   font-family: Arial
   font-size: 11

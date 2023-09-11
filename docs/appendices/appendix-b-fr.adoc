@@ -1,3 +1,5 @@
+=== Auteurs
+
 [width="100%",cols="24%,76%",]
 |===
 | Beat Tschanz        | swisstopo
@@ -14,3 +16,18 @@
 | Stefan Ziegler      | Canton de Soleure
 |===
 
+=== Autres contributeurs
+
+[width="100%",cols="24%,76%",]
+|===
+| Ken Kaufmann	      | Ruag
+| Luke Seelenbinder   | Stadia Maps
+| Michael Gysi        | swisstopo
+| Peter Staub         | Geostandards.ch, CGC
+| Pia Bereuter        | FHNW
+| Raphaël Arnaud      | swisstopo
+| Raphaël Bovier      | swisstopo
+| Raphaëlle Arnaud    | swisstopo
+| Rémy Baud           | swisstopo
+| Zimil Bordoloi      | Ville de Lucerne
+|===
