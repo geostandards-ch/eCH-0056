@@ -31,7 +31,6 @@ Frank Gottsmann, swisstopo +
 Jens Ingensand, HEIG-VD +
 Jürgen Hansmann, swisstopo +
 Marco Bernasocchi, OPENGIS.ch + 
-Maria Klonner, swisstopo +
 Maxime Collombin, HEIG-VD +
 Oliver Grimm, Geowerkstatt +
 Olivier Ertz, HEIG-VD +
@@ -40,12 +39,12 @@ Romedi Filli, Kanton Schaffhausen +
 Stefan Ziegler, Kanton Solohturn
 |*Andere Teilnehmer*|Ken Kaufmann, Ruag +
 Luke Seelenbinder, Stadia Maps +
+Maria Klonner, swisstopo +
 Michael Gysi, swisstopo +
 Peter Staub, Geostandards.ch, KGK +
 Pia Bereuter, FHNW +
 Raphaël Arnaud, swisstopo +
 Raphaël Bovier, swisstopo +
-Raphaëlle Arnaud, swisstopo +
 Rémy Baud, swisstopo +
 Zimil Bordoloi, Stadt Luzern
 |*Herausgeber / Vertrieb*| Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich +
