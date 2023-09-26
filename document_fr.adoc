@@ -25,8 +25,28 @@
 |*Conditions requises* |eCH-0056 3.0
 |*Annexes* |
 |*Langues* |Allemand (original), Français (traduction)
-|*Auteurs* | Groupe spécialisé eCH Géoinformation
-|*Autres participants*|
+|*Auteurs* |Beat Tschanz, swisstopo +
+Frank Gottsmann, swisstopo +        
+Jens Ingensand, HEIG-VD +  
+Jürgen Hansmann, swisstopo +        
+Marco Bernasocchi, OPENGIS.ch +      
+Maria Klonner, swisstopo +
+Maxime Collombin, HEIG-VD +         
+Oliver Grimm, Geowerkstatt +    
+Olivier Ertz, HEIG-VD +         
+Pasquale Di Donato, swisstopo +       
+Romedi Filli, Canton de Schaffouse +
+Stefan Ziegler, Canton de Soleure
+|*Autres participants*|Ken Kaufmann, Ruag +
+Luke Seelenbinder, Stadia Maps +
+Michael Gysi, swisstopo +
+Peter Staub, Geostandards.ch, CGC +
+Pia Bereuter, FHNW +
+Raphaël Arnaud, swisstopo +
+Raphaël Bovier, swisstopo +
+Raphaëlle Arnaud, swisstopo +
+Rémy Baud, swisstopo +
+Zimil Bordoloi, Ville de Lucerne
 |*Editeur / distributeur*| Association eCH, Mainaustrasse 30, case postale, 8034 Zurich +
 T 044 388 74 64, F 044 388 71 80 + 
 http://www.ech.ch[www.ech.ch] / mailto:info@ech.ch[info@ech.ch]
