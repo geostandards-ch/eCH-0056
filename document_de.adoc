@@ -35,6 +35,7 @@ Maxime Collombin, HEIG-VD +
 Oliver Grimm, Geowerkstatt +
 Olivier Ertz, HEIG-VD +
 Pasquale Di Donato, swisstopo +
+Rémy Baud, swisstopo +
 Romedi Filli, Kanton Schaffhausen +
 Stefan Ziegler, Kanton Solohturn
 |*Andere Teilnehmer*|Ken Kaufmann, Ruag +
@@ -45,7 +46,6 @@ Peter Staub, Geostandards.ch, KGK +
 Pia Bereuter, FHNW +
 Raphaël Arnaud, swisstopo +
 Raphaël Bovier, swisstopo +
-Rémy Baud, swisstopo +
 Zimil Bordoloi, Stadt Luzern
 |*Herausgeber / Vertrieb*| Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich +
 T 044 388 74 64, F 044 388 71 80 +
