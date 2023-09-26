@@ -12,6 +12,7 @@
 | Oliver Grimm        | Geowerkstatt    
 | Olivier Ertz        | HEIG-VD         
 | Pasquale Di Donato  |	swisstopo       
+| Rémy Baud           | swisstopo
 | Romedi Filli        | Kanton Schaffhausen
 | Stefan Ziegler      | Kanton Solohturn 
 |===
@@ -27,6 +28,5 @@
 | Pia Bereuter        | FHNW
 | Raphaël Arnaud      | swisstopo
 | Raphaël Bovier      | swisstopo
-| Rémy Baud           | swisstopo
 | Zimil Bordoloi      | Stadt Luzern
 |===
