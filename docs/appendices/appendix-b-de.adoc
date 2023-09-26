@@ -27,7 +27,6 @@
 | Pia Bereuter        | FHNW
 | Raphaël Arnaud      | swisstopo
 | Raphaël Bovier      | swisstopo
-| Raphaëlle Arnaud    | swisstopo
 | Rémy Baud           | swisstopo
 | Zimil Bordoloi      | Stadt Luzern
 |===
