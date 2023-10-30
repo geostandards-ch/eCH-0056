@@ -1,10 +1,10 @@
-==== Auf OGC 3D Tiles basierender Darstellungsdienst.
+==== Darstellungsdienst auf Basis von OGC 3D Tiles
 ===== Einleitung
 
 Der OGC 3D Tiles-Standard ist ein Community-Standard des Open Geospatial Consortium (OGC), der ursprünglich von der Firma Cesium entwickelt wurde. Er definiert ein Protokoll für den Austausch von 3D-Daten wie 3D-Gebäuden, BIM/CAD oder auch Punktwolken.
 
 ===== Anforderungsklassen
-====== OGC 3D Tiles Anforderungsklasse.
+====== OGC 3D Tiles Anforderungsklasse
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===

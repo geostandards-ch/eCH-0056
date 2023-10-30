@@ -25,7 +25,7 @@
 |===
 |*Classe d’exigences* |https://ech.ch/fr/0056/main/adr/req/basic-wfs
 |Type d’objectif |Web API
-|Dépendance |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 / Conformance Class: Basic WFS
+|Dépendance |https://docs.ogc.org/is/09-025r2/09-025r2.html[2.0.2, OpenGIS Web Feature Service 2.0 Interface Standard - With Corrigendum, July 2014 / Conformance Class: Basic WFS]
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
@@ -39,7 +39,7 @@
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Classe d’exigences* |https://ech.ch/fr/0056/main/adr/req/filter-enconding/minimum-standard-filter
+|*Classe d’exigences* |https://ech.ch/fr/0056/main/adr/req/filter-encoding/minimum-standard-filter
 |Type d’objectif |Web API
 |Dépendances |https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding 2.0 Encoding Standard / Conformance Classes: Minimum Standard Filter & Spatial filter]
 |===

@@ -100,13 +100,13 @@ https://www.fedlex.admin.ch/eli/cc/2008/388/fr[https://www.fedlex.admin.ch/eli/c
 Ordonnance du 26 mai 2008 de l'Office fédéral de topographie sur la géoinformation (OGéo-swisstopo), +
 https://www.fedlex.admin.ch/eli/cc/2008/390/fr[https://www.fedlex.admin.ch/eli/cc/2008/390/fr]
 |[3a]| CGC - BPUK, 2020 +
-Strategie Geoinformation Schweiz und Aktionsplan +
+Stratégie suisse pour la géoinformation et plans d'action +
 https://www.geo.admin.ch/fr/strategie-et-mise-en-oeuvre[https://www.geo.admin.ch/fr/strategie-et-mise-en-oeuvre/]
 |[4a]| Conseil fédéral suisse, 2008 +
 Ordonnance du 21 mai 2008 sur la géoinformation (OGéo),
 https://www.fedlex.admin.ch/eli/cc/2008/389/fr[https://www.fedlex.admin.ch/eli/cc/2008/389/fr]
 |[5a]| eCH, 2012 +
-eCH-0150 Change und Release Management von eCH-Standards V1.0 +
+Change & Release Management des normes eCH V1.0 + 
 https://www.ech.ch/fr/ech/ech-0150/1.0[https://www.ech.ch/fr/ech/ech-0150/1.0]
 |[6a]| Internet Engineering Task Force (IETF) - Network Working Group, 1997. +
 RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels +
