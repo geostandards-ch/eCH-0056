@@ -25,7 +25,7 @@
 |*Ersetzt Version* |3.0 – Major Change
 |*Voraussetzungen* |eCH-0056 3.0
 |*Beilagen* |
-|*Sprachen* |Deutsch (Original), Französisch (Übersetzung)
+|*Sprachen* |Deutsch (Original), Französisch (Original)
 |*Autoren*  |Beat Tschanz, swisstopo +
 Frank Gottsmann, swisstopo +       
 Jens Ingensand, HEIG-VD +
@@ -44,7 +44,7 @@ Maria Klonner, swisstopo +
 Michael Gysi, swisstopo +
 Peter Staub, Geostandards.ch, KGK +
 Pia Bereuter, FHNW +
-Raphaël Arnaud, swisstopo +
+Raphaëlle Arnaud, swisstopo +
 Raphaël Bovier, swisstopo +
 Zimil Bordoloi, Stadt Luzern
 |*Herausgeber / Vertrieb*| Verein eCH, Mainaustrasse 30, Postfach, 8034 Zürich +
@@ -270,6 +270,11 @@ erfüllt sein muss.
 |*SOLLTE* |Dieser Ausdruck bedeutet, dass unter Umständen gute Gründe existieren, diese Richtlinie nicht umzusetzen. Es müssen jedoch sämtliche Auswirkungen verstanden und sorgfältig abgewogen werden, bevor ein anderer Weg eingeschlagen wird.
 |===
 
+[#security]
+== Sicherheitsüberlegungen
+
+In diesem Dokument werden keine Anforderungen oder Empfehlungen ausgesprochen.
+
 [#guidelines]
 == Richtlinien und Empfehlungen
 [#general_rules]
@@ -319,13 +324,13 @@ Eine Ausnahme bilden nur Datums- und Zeitangaben in Vermerken, die ausschliessli
 |===
 
 [#language]
-=== Sprache
+==== Sprache
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
 |*Anforderungsklasse* |https://ech.ch/fr/0056/main/base/req/lang
 |Zieltyp |Web API
-| Abhängigkeiten |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+|Abhängigkeiten |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
 https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7[OGC API - Common - Part 1: Core (1.0.0) Core Requirements Class] 
 |===
 
@@ -340,7 +345,7 @@ https://docs.ogc.org/is/19-072/19-072.html#_98ff4350-10c4-454e-b5da-6802f1ad70d7
 |===
 
 [#metadata]
-=== Metadaten
+==== Metadaten
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
@@ -370,7 +375,7 @@ https://docs.ogc.org/is/19-072/19-072.html[OGC API - Common - Part 1: Core (1.0.
 Spezifische Richtlinien und Empfehlungen zu den Geometadaten folgen in den Abschnitten zu den einzelnen Geodiensten.
 
 [#crs]
-=== Koordinatensysteme
+==== Koordinatensysteme
 
 Das IOGP Geomatics Committee katalogisiert weltweit Koordinatensysteme und vergibt jeweils eindeutige Identifikationsnummern (die so genannten «EPSG-Codes»). Die EPSG-Datenbank [7a] dient als Standard für das Referenzieren von Koordinatenreferenzsystemen und Transformationen.
 
@@ -380,7 +385,7 @@ In der Schweiz ist der Bezugsrahmen CH1903+/LV95, der dem Code EPSG:2056 entspri
 |===
 |*Classe d'exigences* |https://ech.ch/fr/0056/main/base/req/crs
 |Type d'objectif |Web API
-|Dépendances |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
+|Abhängigkeit |https://portal.ogc.org/files/?artifact_id=14416[OGC Web Services Common Standard 2.0.0] +
 http://www.opengis.net/doc/IS/ogcapi-features-1/1.0[OGC API - Features - Part 1: Core 1.0] + 
 https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_reference_systems_by_reference[OGC API - Features - Part 2: Coordinate Reference Systems by Reference] 
 |===
@@ -399,7 +404,7 @@ https://docs.ogc.org/is/18-058r1/18-058r1.html#_requirements_class_coordinate_re
 |===
 
 [#tilematrixset]
-=== Schweizer CH1903+ Tile Matrix Set
+==== Schweizer CH1903+ Tile Matrix Set
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===

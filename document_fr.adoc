@@ -24,7 +24,7 @@
 |*Remplace* |3.0 – Major Change
 |*Conditions requises* |eCH-0056 3.0
 |*Annexes* |
-|*Langues* |Allemand (original), Français (traduction)
+|*Langues* |Allemand (original), Français (original)
 |*Auteurs* |Beat Tschanz, swisstopo +
 Frank Gottsmann, swisstopo +        
 Jens Ingensand, HEIG-VD +  
@@ -43,7 +43,7 @@ Maria Klonner, swisstopo +
 Michael Gysi, swisstopo +
 Peter Staub, Geostandards.ch, CGC +
 Pia Bereuter, FHNW +
-Raphaël Arnaud, swisstopo +
+Raphaëlle Arnaud, swisstopo +
 Raphaël Bovier, swisstopo +
 Zimil Bordoloi, Ville de Lucerne
 |*Editeur / distributeur*| Association eCH, Mainaustrasse 30, case postale, 8034 Zurich +
@@ -236,7 +236,7 @@ Les périodicités suivantes sont définies pour la mise à jour:
 * Révisions d'une certaine ampleur > 2 ans
 * Modifications de moindre portée < 2 ans
 
-Les demandes de modification (ou Change-Requests) peuvent être directement adressées au centre opérationnel e-geo.ch (info@e-geo.ch). 
+Les demandes de modification peuvent être envoyées directement à geostandards.ch. La procédure détaillée est décrite dans la norme eCH-0150 « Change & Release Management des standards eCH » [5a].
 
 [#conformance]
 === Conformité
@@ -265,6 +265,11 @@ La définition des classes d'exigences s'inspire du document: "The Specification
 |*DOIT* |Cette expression signifie que la directive doit être remplie dans tous les cas.
 |*DEVRAIT* |Ce terme signifie qu'il peut exister de bonnes raisons, dans certains cas, d'ignorer cette directive. Toutes les conséquences d'une telle décision doivent toutefois être mesurées et soigneusement soupesées avant d'emprunter cette voie.
 |===
+
+[#security]
+== Sécurité
+
+Aucune exigence ni aucune recommandation n'est formulée dans le présent document.
 
 [#guidelines]
 == Directives et recommandations normatives

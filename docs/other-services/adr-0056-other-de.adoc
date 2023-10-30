@@ -39,7 +39,7 @@ Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implemen
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Anforderungsklasse* |https://ech.ch/fr/0056/main/adr/req/filter-enonding/minimum-standard-filter
+|*Anforderungsklasse* |https://ech.ch/fr/0056/main/adr/req/filter-encoding/minimum-standard-filter
 |Zieltyp |Web API
 |https://docs.ogc.org/is/09-026r2/09-026r2.html[OGC Filter Encoding 2.0 Encoding Standard] / Conformance Classes: Minimum Standard Filter & Spatial filter.
 |===
