@@ -1,8 +1,7 @@
 ==== Download-Dienst auf Basis von Web Feature Service (WFS)
 ===== Einleitung
 
-Statt Geoinformationen auf Dateiebene auszutauschen, bietet der WFS einen direkten Zugriff auf Geodaten. der WFS bietet einen direkten und granularen Zugriff auf Geodaten.
-Informationen auf Merkmalsebene und Merkmalseigenschaften.
+Anstatt geografische Informationen auf Dateiebene auszutauschen, bietet der WFS einen direkten, feingranularen Zugriff auf geografische Informationen auf der Ebene von Merkmalen und Merkmalsei-genschaften.
 
 ===== Anforderungsklassen
 ====== Anforderungsklasse Einfacher WFS.

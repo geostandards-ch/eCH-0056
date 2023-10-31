@@ -17,7 +17,7 @@ Seules sont répertoriées ici des notions qui sont utilisées dans le texte ou 
 | HTTP                  | Hypertext Transfer Protocol
 | HTTPS                 | Hypertext Transfer Protocol Secure
 | IETF                  | Internet Engineering Task Force
-| INDG                  | Infrastructure nationale de donnéees géoographiques
+| INDG                  | Infrastructure nationale de données géographiques
 | INSPIRE               | Infrastructure for Spatial Information in the European Community
 | INTERLIS-GML          | Format de transfer GML pour INTERLIS 2
 | INTERLIS-XTF          | INTERLIS 2 format de transfer
@@ -28,7 +28,7 @@ Seules sont répertoriées ici des notions qui sont utilisées dans le texte ou 
 | LAEA                  | Lambert Azimuthal Equal Area
 | LCC                   | Lambert Conformal Conic
 | LGéo                  | Loi sur la géoinformation
-| MGDM                  | Modèles de géoodonnéees minimaux
+| MGDM                  | Modèles de géodonnées minimaux
 | MIME                  | Multipurpose Internet Mail Extensions
 | MN03                  | Mensuration nationale 1903 («ancienne mensuration nationale»)
 | MN95                  | Mensuration nationale 1995 («nouvelle mensuration nationale»)

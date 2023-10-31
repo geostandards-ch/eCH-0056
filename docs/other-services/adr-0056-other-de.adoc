@@ -46,12 +46,12 @@ Es gibt 2 Möglichkeiten, einen Geocoding & Reverse Geocoding Dienst zu implemen
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Richtlinie 3* |/req/adr/filter-enconding/minimum-standard-filter/propertyisequalto
+|*Richtlinie 3* |/req/adr/filter-encoding/minimum-standard-filter/propertyisequalto
 |A| Die Implementierung eines Adressdienstes *MUSS* den Parameter `PropertyIsEqualTo` des OGC Filter Encoding 2.0 Standards unterstützen.
 |===
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Richtlinie 4* |/req/adr/filter-enconding/spatial-filter/dwithin
+|*Richtlinie 4* |/req/adr/filter-encoding/spatial-filter/dwithin
 |A| Die Implementierung eines Adressdienstes *MUSS* den Parameter `DWithin` des OGC Filter Encoding 2.0 Standards unterstützen.
 |===
