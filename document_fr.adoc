@@ -35,7 +35,7 @@ Oliver Grimm, Geowerkstatt +
 Olivier Ertz, HEIG-VD +         
 Pasquale Di Donato, swisstopo +       
 Rémy Baud, swisstopo +
-Romedi Filli, Canton de Schaffouse +
+Romedi Filli, Canton de Schaffhouse +
 Stefan Ziegler, Canton de Soleure
 |*Autres participants*|Ken Kaufmann, Ruag +
 Luke Seelenbinder, Stadia Maps +

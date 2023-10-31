@@ -1,8 +1,7 @@
 ==== Service de téléchargement sur la base du Web Feature Service
 ===== Introduction
 
-Au lieu d'échanger des informations géographiques au niveau des fichiers, le WFS offre un accès direct aux données géographiques. le WFS offre un accès direct et granulaire aux données géographiques.
-informations au niveau des caractéristiques et des propriétés des caractéristiques.
+Au lieu d'échanger des informations géographiques au niveau des fichiers, le WFS offre un accès di-rect et à granularité fine aux informations géographiques au niveau des caractéristiques et des proprié-tés des caractéristiques.
 
 ===== Classes d'exgiences
 ====== Classe d’exigences Simple WFS

@@ -46,7 +46,7 @@
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Directive 3* |/req/adr/filter-enconding/minimum-standard-filter/propertyisequalto
+|*Directive 3* |/req/adr/filter-encoding/minimum-standard-filter/propertyisequalto
 |A| La mise en oeuvre d'un service d'adresses *DOIT* supporter le paramètre `PropertyIsEqualTo` du standard OGC Filter Encoding 2.0.
 |===
 
