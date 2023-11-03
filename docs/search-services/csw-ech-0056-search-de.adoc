@@ -16,6 +16,6 @@ https://docs.ogc.org/is/12-176r7/12-176r7.html[OGC Catalogue Services 3.0 Specif
 
 [width="100%",cols="24%,76%",options="noheader",]
 |===
-|*Anforderung 1* |/req/csw
+|*Richtlinie 1* |/req/csw
 |A (CS-01) | Die Umsetzung eines Suchdienstes *MUSS* dem OGC Catalogue Services 3.0 - General Model [13] und der OGC Catalogue Services 3.0 Specification [14] entsprechen.
 |===

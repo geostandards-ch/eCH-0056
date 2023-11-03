@@ -19,8 +19,6 @@ STAC API Foundation Specifications
 
 |===
 
-====== Classe d’exigences STAC
-
 [width="100%",cols="29%,71%",options="noheader",]
 |===
 |*Directive 1* |/req/stac
