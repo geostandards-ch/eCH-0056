@@ -16,8 +16,6 @@ Eine STAC-API ist eine dynamische Version von STAC und definiert darüber hinaus
 https://github.com/radiantearth/stac-api-spec[STAC API Foundation Specifications, version 1.0.0]
 |===
 
-====== STAC-Anforderungsklasse
-
 [width="100%",cols="29%,71%",options="noheader",]
 |===
 |*Richtlinie 1* |/req/stac
