@@ -2,7 +2,7 @@
 .Definition der TileMatrix "Swiss2DTMS" als XML Datei
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<TileMatrixSet id="Swiss2DTMS" xmlns="http://www.opengis.net/tms/2.0" xmlns:tmsc="http://www.opengis.net/tms/2.0/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<TileMatrixSet id="Swiss2DTMS" xmlns="http://www.opengis.net/tms/2.0" xmlns:tmsc="http://www.opengis.net/tms/2.0/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/tms/2.0 https://schemas.opengis.net/tms/2.0/xml/tilematrixset.xsd">
    <tmsc:Title>Switzerland 2D tile matrix set definition</tmsc:Title>
    <tmsc:Identifier>Swiss2DTMS</tmsc:Identifier>
    <uri>http://www.opengis.net/def/tilematrixset/OGC/1.0/Swiss2DTMS</uri>
@@ -14,7 +14,7 @@
       <tmsc:Identifier>0</tmsc:Identifier>
       <ScaleDenominator>14285714.285714284</ScaleDenominator>
       <CellSize>4000</CellSize>
-      <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+      <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
       <TileWidth>256</TileWidth>
       <TileHeight>256</TileHeight>
       <MatrixWidth>1</MatrixWidth>
@@ -24,7 +24,7 @@
     <tmsc:Identifier>1</tmsc:Identifier>
     <ScaleDenominator>7142857.142857142</ScaleDenominator>
     <CellSize>2000</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>1</MatrixWidth>
@@ -34,7 +34,7 @@
     <tmsc:Identifier>2</tmsc:Identifier>
     <ScaleDenominator>3571428.571428571</ScaleDenominator>
     <CellSize>1000</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>2</MatrixWidth>
@@ -44,7 +44,7 @@
     <tmsc:Identifier>3</tmsc:Identifier>
     <ScaleDenominator>1785714.2857142854</ScaleDenominator>
     <CellSize>500</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>4</MatrixWidth>
@@ -54,7 +54,7 @@
     <tmsc:Identifier>4</tmsc:Identifier>
     <ScaleDenominator>892857.1428571427</ScaleDenominator>
     <CellSize>250</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>8</MatrixWidth>
@@ -64,7 +64,7 @@
     <tmsc:Identifier>5</tmsc:Identifier>
     <ScaleDenominator>357142.8571428571</ScaleDenominator>
     <CellSize>100</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>19</MatrixWidth>
@@ -74,7 +74,7 @@
     <tmsc:Identifier>6</tmsc:Identifier>
     <ScaleDenominator>178571.42857142855</ScaleDenominator>
     <CellSize>50</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>38</MatrixWidth>
@@ -84,7 +84,7 @@
     <tmsc:Identifier>7</tmsc:Identifier>
     <ScaleDenominator>71428.57142857142</ScaleDenominator>
     <CellSize>20</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>94</MatrixWidth>
@@ -94,7 +94,7 @@
     <tmsc:Identifier>8</tmsc:Identifier>
     <ScaleDenominator>35714.28571428571</ScaleDenominator>
     <CellSize>10</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>188</MatrixWidth>
@@ -104,7 +104,7 @@
     <tmsc:Identifier>9</tmsc:Identifier>
     <ScaleDenominator>17857.142857142855</ScaleDenominator>
     <CellSize>5</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>375</MatrixWidth>
@@ -114,7 +114,7 @@
     <tmsc:Identifier>10</tmsc:Identifier>
     <ScaleDenominator>8928.571428571428</ScaleDenominator>
     <CellSize>2.5</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>750</MatrixWidth>
@@ -124,7 +124,7 @@
     <tmsc:Identifier>11</tmsc:Identifier>
     <ScaleDenominator>3571.428571428571</ScaleDenominator>
     <CellSize>1</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>1875</MatrixWidth>
@@ -134,7 +134,7 @@
     <tmsc:Identifier>12</tmsc:Identifier>
     <ScaleDenominator>1785.7142857142856</ScaleDenominator>
     <CellSize>0.5</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>3750</MatrixWidth>
@@ -144,7 +144,7 @@
     <tmsc:Identifier>13</tmsc:Identifier>
     <ScaleDenominator>892.8571428571428</ScaleDenominator>
     <CellSize>0.25</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>7500</MatrixWidth>
@@ -154,7 +154,7 @@
     <tmsc:Identifier>14</tmsc:Identifier>
     <ScaleDenominator>357.1428571428571</ScaleDenominator>
     <CellSize>0.1</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>18750</MatrixWidth>
@@ -164,14 +164,13 @@
     <tmsc:Identifier>15</tmsc:Identifier>
     <ScaleDenominator>178.57142857142856</ScaleDenominator>
     <CellSize>0.05</CellSize>
-    <PointOfOrigin>2419995.75, 1350004.29</PointOfOrigin>
+    <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
     <MatrixWidth>37500</MatrixWidth>
     <MatrixHeight>25000</MatrixHeight>
  </TileMatrix>
 </TileMatrixSet>
-
 ```
 === JSON-Datei
 ..Definition der TileMatrix "Swiss2DTMS" als JSON Datei
