@@ -420,7 +420,7 @@ Si elle n'est pas définie dans une norme spécifique, la taille des pixels est 
 |C |Un géoservice *DOIT* utiliser la définition du jeu de matrices de tuiles suisse ci-dessous. 
 |===
 
-:table-Swiss2DTMS: 
+:table-SwissLV95CellSizes: 
 .Définition du TileMatrixSet suisse CH1903+ / LV95
 [cols="a,a,a,a,a"]
 |===
