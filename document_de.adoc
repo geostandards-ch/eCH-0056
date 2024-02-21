@@ -424,7 +424,7 @@ Sofern nicht in einem spezifischen Standard definiert, gilt für die Pixelgröss
 |C |Ein Geodienst *MUSS* die untenstehende Definition der Schweizer CH1903+ Tile Matrix Set verwenden. 
 |===
 
-:table-Swiss2DTMS: 
+:table-SwissLV95CellSizes: 
 .Definition des Schweizer TileMatrixSet CH1903+ / LV95
 [cols="a,a,a,a,a"]
 |===
