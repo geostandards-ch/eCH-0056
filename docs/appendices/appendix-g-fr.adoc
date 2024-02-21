@@ -14,6 +14,7 @@
       <tmsc:Identifier>0</tmsc:Identifier>
       <ScaleDenominator>14285714.285714284</ScaleDenominator>
       <CellSize>4000</CellSize>
+      <CornerOfOrigin>topLeft</CornerOfOrigin>
       <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
       <TileWidth>256</TileWidth>
       <TileHeight>256</TileHeight>
@@ -24,6 +25,7 @@
     <tmsc:Identifier>1</tmsc:Identifier>
     <ScaleDenominator>7142857.142857142</ScaleDenominator>
     <CellSize>2000</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -34,6 +36,7 @@
     <tmsc:Identifier>2</tmsc:Identifier>
     <ScaleDenominator>3571428.571428571</ScaleDenominator>
     <CellSize>1000</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -44,6 +47,7 @@
     <tmsc:Identifier>3</tmsc:Identifier>
     <ScaleDenominator>1785714.2857142854</ScaleDenominator>
     <CellSize>500</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -54,6 +58,7 @@
     <tmsc:Identifier>4</tmsc:Identifier>
     <ScaleDenominator>892857.1428571427</ScaleDenominator>
     <CellSize>250</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -64,6 +69,7 @@
     <tmsc:Identifier>5</tmsc:Identifier>
     <ScaleDenominator>357142.8571428571</ScaleDenominator>
     <CellSize>100</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -74,6 +80,7 @@
     <tmsc:Identifier>6</tmsc:Identifier>
     <ScaleDenominator>178571.42857142855</ScaleDenominator>
     <CellSize>50</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -84,6 +91,7 @@
     <tmsc:Identifier>7</tmsc:Identifier>
     <ScaleDenominator>71428.57142857142</ScaleDenominator>
     <CellSize>20</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -94,6 +102,7 @@
     <tmsc:Identifier>8</tmsc:Identifier>
     <ScaleDenominator>35714.28571428571</ScaleDenominator>
     <CellSize>10</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -104,6 +113,7 @@
     <tmsc:Identifier>9</tmsc:Identifier>
     <ScaleDenominator>17857.142857142855</ScaleDenominator>
     <CellSize>5</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -114,6 +124,7 @@
     <tmsc:Identifier>10</tmsc:Identifier>
     <ScaleDenominator>8928.571428571428</ScaleDenominator>
     <CellSize>2.5</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -124,6 +135,7 @@
     <tmsc:Identifier>11</tmsc:Identifier>
     <ScaleDenominator>3571.428571428571</ScaleDenominator>
     <CellSize>1</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -134,6 +146,7 @@
     <tmsc:Identifier>12</tmsc:Identifier>
     <ScaleDenominator>1785.7142857142856</ScaleDenominator>
     <CellSize>0.5</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -144,6 +157,7 @@
     <tmsc:Identifier>13</tmsc:Identifier>
     <ScaleDenominator>892.8571428571428</ScaleDenominator>
     <CellSize>0.25</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -154,6 +168,7 @@
     <tmsc:Identifier>14</tmsc:Identifier>
     <ScaleDenominator>357.1428571428571</ScaleDenominator>
     <CellSize>0.1</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -164,6 +179,7 @@
     <tmsc:Identifier>15</tmsc:Identifier>
     <ScaleDenominator>178.57142857142856</ScaleDenominator>
     <CellSize>0.05</CellSize>
+    <CornerOfOrigin>topLeft</CornerOfOrigin>
     <PointOfOrigin>2419995.75 1350004.29</PointOfOrigin>
     <TileWidth>256</TileWidth>
     <TileHeight>256</TileHeight>
@@ -187,6 +203,7 @@
             "id": "0",
             "scaleDenominator": 14285714.285714284,
             "cellSize": 4000,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -197,6 +214,7 @@
             "id": "1",
             "scaleDenominator": 7142857.142857142,
             "cellSize": 2000,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -207,6 +225,7 @@
             "id": "2",
             "scaleDenominator": 3571428.571428571,
             "cellSize": 1000,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -217,6 +236,7 @@
             "id": "3",
             "scaleDenominator": 1785714.2857142854,
             "cellSize": 500,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -227,6 +247,7 @@
             "id": "4",
             "scaleDenominator": 892857.1428571427,
             "cellSize": 250,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -237,6 +258,7 @@
             "id": "5",
             "scaleDenominator": 357142.8571428571,
             "cellSize": 100,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -247,6 +269,7 @@
             "id": "6",
             "scaleDenominator": 178571.42857142855,
             "cellSize": 50,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -257,6 +280,7 @@
             "id": "7",
             "scaleDenominator": 71428.57142857142,
             "cellSize": 20,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -267,6 +291,7 @@
             "id": "8",
             "scaleDenominator": 35714.28571428571,
             "cellSize": 10,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -277,6 +302,7 @@
             "id": "9",
             "scaleDenominator": 17857.142857142855,
             "cellSize": 5,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -287,6 +313,7 @@
             "id": "10",
             "scaleDenominator": 8928.571428571428,
             "cellSize": 2.5,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -297,6 +324,7 @@
             "id": "11",
             "scaleDenominator": 3571.428571428571,
             "cellSize": 1,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -307,6 +335,7 @@
             "id": "12",
             "scaleDenominator": 1785.7142857142856,
             "cellSize": 0.5,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -317,6 +346,7 @@
             "id": "13",
             "scaleDenominator": 892.8571428571428,
             "cellSize": 0.25,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -327,6 +357,7 @@
             "id": "14",
             "scaleDenominator": 357.1428571428571,
             "cellSize": 0.1,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
@@ -337,6 +368,7 @@
             "id": "15",
             "scaleDenominator": 178.57142857142856,
             "cellSize": 0.05,
+            "cornerOfOrigin": "topLeft",
             "pointOfOrigin": [2419995.75, 1350004.29],
             "tileWidth": 256,
             "tileHeight": 256,
